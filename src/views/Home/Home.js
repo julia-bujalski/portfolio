@@ -50,21 +50,25 @@ const FeaturedWork = () => {
           medium="Branding & print design"
         />
         <ProjectPreview 
+          projectPath="/hausily"
           thumbnail={HausilyThumbnail}
           title="Hausily"
           medium="Branding & UI/UX design"
         />
         <ProjectPreview 
+          projectPath="/connections"
           thumbnail={ConnectionsThumbnail}
           title="Connection Exploration"
           medium="Watercolor & pen illustartion"
         />
         <ProjectPreview 
+          projectPath="/quickscope"
           thumbnail={QuickscopeThumbnail}
           title="Quickscocpe"
           medium="Email design & front end development"
         />
         <ProjectPreview 
+          projectPath="/introspection"
           thumbnail={IntrospectionThumbnail}
           title="Introspection"
           medium="Mixed media typographic sculpture"

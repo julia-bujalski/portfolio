@@ -6,7 +6,7 @@ export const BackLink = styled(Link)`
   margin-top: 25px;
   font-family: 'Playfair Display';
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   color: ${BLACK};
   padding-top: 25px;
 `;
