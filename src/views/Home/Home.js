@@ -14,7 +14,7 @@ const Hero = () => {
           hi! I'm julia bujalski, boston based web designer currently working at minerva analytics.
         </HeroTitle>
         <HeroSubtitle>
-          This site is currently under construction. Thanks for bearing with this creative vomit.
+          This site is under construction at the moment. Thanks for bearing with this creative vomit.
         </HeroSubtitle>
       </PageContentWrapper>
     </HeroWrapper>
