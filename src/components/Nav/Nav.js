@@ -10,9 +10,9 @@ export const Nav = () => {
     <NavWrapper>
       buj
       <NavLinks>
-        <NavLink>about me</NavLink>
+        <NavLink>about</NavLink>
         <NavLink>work</NavLink>
-        <NavLink>contact</NavLink>
+        <NavLink href="/#contact">contact</NavLink>
       </NavLinks>
     </NavWrapper>
   )

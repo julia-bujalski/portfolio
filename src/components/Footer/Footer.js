@@ -7,7 +7,7 @@ export const Footer= () => {
   return (
     <FooterWrapper>
       Julia Bujalski &#169; 2020 <br />
-      Made with Love and ReactJS
+      <a href="https://github.com/julia-bujalski/portfolio" target="_blank">Made with love and ReactJS</a>
     </FooterWrapper>
   )
 }
