@@ -15,13 +15,6 @@ import {
   HomeText,
   HeroContentWrapper,
   ProjectsGrid,
-  ContactEmph,
-  ContactInfo,
-  ResumePreview,
-  ContactWrapper,
-  ResumeWrapper,
-  ResumeText,
-  ResumeLink,
 } from './Home.styles'
 
 const Hero = () => {
@@ -42,14 +35,16 @@ const Hero = () => {
 const FeaturedWork = () => {
   return (
     <>
-      <SectionTitle>Featured Work</SectionTitle>
+      <SectionTitle id="work">Featured Work</SectionTitle>
       <ProjectsGrid>
         <ProjectPreview 
+          projectPath="/starlies"
           thumbnail={StarliesThumbnail}
           title="Starlies"
           medium="Product, marketing, and UX design"
         />
         <ProjectPreview 
+          projectPath="/spectra"
           thumbnail={SpectraThumbnail}
           title="Cogo Spectra"
           medium="Branding & print design"

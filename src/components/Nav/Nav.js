@@ -2,17 +2,21 @@ import React from 'react';
 import {
   NavWrapper,
   NavLink,
-  NavLinks
+  NavLinks,
+  HomeLink,
+  AnchorLink
 } from './Nav.styles';
 
 export const Nav = () => {
   return (
     <NavWrapper>
-      buj
+      <HomeLink to="/">
+        buj
+      </HomeLink>
       <NavLinks>
-        <NavLink>about</NavLink>
-        <NavLink>work</NavLink>
-        <NavLink href="/#contact">contact</NavLink>
+        <NavLink to="/about">about</NavLink>
+        <AnchorLink href="/#work">work</AnchorLink>
+        <AnchorLink href="/#contact">contact</AnchorLink>
       </NavLinks>
     </NavWrapper>
   )

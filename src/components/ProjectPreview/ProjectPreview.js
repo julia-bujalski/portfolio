@@ -11,7 +11,7 @@ import {
 
 export const ProjectPreview = (props) => {
   return (
-    <PreviewWrapper href={props.projectPath}>
+    <PreviewWrapper to={props.projectPath}>
       <Thumbnail src={props.thumbnail} />
       <Overlay>
         <PreviewText>

@@ -27,7 +27,6 @@ export const ResumePreview = styled.img`
 export const ContactWrapper = styled.div`
   display: flex;
   align-items: top;
-  justify-content: space-between;
   flex-direction: row;
 
   @media only screen and (max-width: 600px) {

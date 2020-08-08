@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import { BLACK, MOBILE, TABLET } from '../../theme';
 
 export const NavWrapper = styled.div`
@@ -20,7 +21,32 @@ export const NavWrapper = styled.div`
   }
 `;
 
-export const NavLink = styled.a`
+export const AnchorLink = styled.a`
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: 20px;
+  color: ${BLACK};
+  text-decoration: none;
+  box-sizing: border-box;
+
+  &:hover {
+    color: #5e478c;
+    font-weight: 700;
+  }
+
+  @media only screen and (max-width: ${TABLET}) {
+    font-size: 16px;
+  }
+
+  @media only screen and (max-width: ${MOBILE}) {
+    font-size: 14px;
+  }
+`;
+
+export const NavLink = styled(Link)`
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -29,6 +55,11 @@ export const NavLink = styled.a`
   padding-left: 20px;
   color: ${BLACK};
   text-decoration: none;
+
+  &:hover {
+    color: #5e478c;
+    font-weight: 700;
+  }
 
   @media only screen and (max-width: ${TABLET}) {
     font-size: 16px;
@@ -42,4 +73,15 @@ export const NavLink = styled.a`
 export const NavLinks = styled.div`
   display: flex;
   align-items: center;
+`;
+
+export const HomeLink = styled(Link)`
+  text-decoration: none;
+  color: ${BLACK};
+  transition: 500ms ease;
+
+  &:hover {
+    transform: scale(1.015);
+  }
+
 `;

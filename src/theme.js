@@ -30,6 +30,12 @@ export const ContentWrapper = styled.div`
   }
 `;
 
+export const PageWrapper = styled(ContentWrapper)`
+  margin-top: unset;
+  padding-top: 150px;
+  min-height: 50vh;
+`;
+
 export const BodyText = styled.div`
   color: ${BLACK};
   font-family: 'Open Sans';
@@ -38,4 +44,22 @@ export const BodyText = styled.div`
   line-height: 1.5;
   padding-top: 25px;
   text-align: left;
+`;
+
+export const PageHeadline = styled.div`
+  font-family: 'Playfair Display';
+  font-size: 58px;
+  line-height: 1.5;
+  margin: 0;
+  color: ${BLACK};
+  font-weight: 800;
+  text-align: left;
+
+  @media only screen and (max-width: ${TABLET}) {
+    font-size: 32px;
+  }
+
+  @media only screeen and (max-width: ${MOBILE}) {
+    font-size: 24px;
+  }
 `;

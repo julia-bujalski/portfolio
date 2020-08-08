@@ -15,7 +15,7 @@ export const Thumbnail = styled.img`
   }
 `;
 
-export const PreviewWrapper = styled.a`
+export const PreviewWrapper = styled(Link)`
   position: relative;
   width: 30%;
   margin-bottom: 50px;
