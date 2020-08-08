@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.91b32773.chunk.css",
-    "main.js": "/portfolio/static/js/main.2d538c15.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2d538c15.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.aca5453b.chunk.css",
+    "main.js": "/portfolio/static/js/main.b41f0079.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b41f0079.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.ddfca4e1.chunk.js": "/portfolio/static/js/2.ddfca4e1.chunk.js",
-    "static/js/2.ddfca4e1.chunk.js.map": "/portfolio/static/js/2.ddfca4e1.chunk.js.map",
+    "static/js/2.2c6ca61b.chunk.js": "/portfolio/static/js/2.2c6ca61b.chunk.js",
+    "static/js/2.2c6ca61b.chunk.js.map": "/portfolio/static/js/2.2c6ca61b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7255eff146403f44c239d94a63ed0468.js": "/portfolio/precache-manifest.7255eff146403f44c239d94a63ed0468.js",
+    "precache-manifest.afbbe9c4d9606c75bba49bcd34bafee8.js": "/portfolio/precache-manifest.afbbe9c4d9606c75bba49bcd34bafee8.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.91b32773.chunk.css.map": "/portfolio/static/css/main.91b32773.chunk.css.map",
-    "static/js/2.ddfca4e1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ddfca4e1.chunk.js.LICENSE.txt",
+    "static/css/main.aca5453b.chunk.css.map": "/portfolio/static/css/main.aca5453b.chunk.css.map",
+    "static/js/2.2c6ca61b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2c6ca61b.chunk.js.LICENSE.txt",
+    "static/media/hausily.png": "/portfolio/static/media/hausily.e453d244.png",
     "static/media/hero_bg.png": "/portfolio/static/media/hero_bg.a308ee13.png",
-    "static/media/logo.svg": "/portfolio/static/media/logo.5d5d9eef.svg"
+    "static/media/introspection.png": "/portfolio/static/media/introspection.9ece0b94.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.5d5d9eef.svg",
+    "static/media/quickscope_mockup.png": "/portfolio/static/media/quickscope_mockup.68a2797b.png",
+    "static/media/resume.png": "/portfolio/static/media/resume.dfa3af0b.png",
+    "static/media/sharpie_watercolor.png": "/portfolio/static/media/sharpie_watercolor.8225f6bc.png",
+    "static/media/spectra_banner.jpg": "/portfolio/static/media/spectra_banner.b781c91d.jpg",
+    "static/media/starlies.png": "/portfolio/static/media/starlies.7eda7eda.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.ddfca4e1.chunk.js",
-    "static/css/main.91b32773.chunk.css",
-    "static/js/main.2d538c15.chunk.js"
+    "static/js/2.2c6ca61b.chunk.js",
+    "static/css/main.aca5453b.chunk.css",
+    "static/js/main.b41f0079.chunk.js"
   ]
 }
