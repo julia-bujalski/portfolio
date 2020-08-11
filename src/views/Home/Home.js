@@ -1,5 +1,5 @@
 import React from 'react';
-import { Transition, TransitionGroup } from 'react-transition-group';
+import { Transition } from 'react-transition-group';
 
 import { ProjectPreview } from '../../components/ProjectPreview';
 import { Contact } from '../../components/Contact';
@@ -9,11 +9,10 @@ import HausilyThumbnail from '../../assets/hausily.png';
 import IntrospectionThumbnail from '../../assets/introspection.png';
 import ConnectionsThumbnail from '../../assets/sharpie_watercolor.png';
 import QuickscopeThumbnail from '../../assets/quickscope_mockup.png';
-import { SectionTitle, ContentWrapper, BodyText } from '../../theme';
+import { SectionTitle, ContentWrapper } from '../../theme';
 import {
   HeroTitle,
   HeroWrapper,
-  PageContentWrapper,
   HomeText,
   HeroContentWrapper,
   ProjectsGrid,

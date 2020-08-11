@@ -1,5 +1,4 @@
 import React from 'react';
-import StarliesThumbnail from '../../assets/starlies.png';
 import { 
   PreviewWrapper,
   Thumbnail,

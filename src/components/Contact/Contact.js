@@ -1,7 +1,6 @@
 import React from 'react';
 import Resume from '../../assets/resume.png';
 import { SectionTitle, BodyText } from '../../theme';
-import { HomeText } from '../../views/Home/Home.styles'
 import {
   ContactWrapper,
   ContactInfo,

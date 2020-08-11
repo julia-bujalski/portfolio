@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { TABLET } from '../../theme';
 
-import { ContentWrapper, BLACK } from '../../theme';
+import { BLACK } from '../../theme';
 
 export const Headshot = styled.img`
   width: 45%;

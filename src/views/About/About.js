@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageHeadline, BodyText, ContentWrapper, PageWrapper } from '../../theme';
+import { PageHeadline, BodyText, PageWrapper } from '../../theme';
 import {
   Headshot,
   AboutPageHero,
