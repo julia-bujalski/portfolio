@@ -10,12 +10,13 @@ import {
   ResumeText,
   ResumeLink,
   ResumePreview,
+  InfoWrapper,
 } from './Contact.styles';
 
 export const Contact = () => {
   return (
     <ContactWrapper>
-      <div>
+      <InfoWrapper>
         <SectionTitle id="contact">Get in touch</SectionTitle>
         <BodyText>
           I’m available for freelance projects! So hit me up if you want to talk design, Taylor Swift, or eat some won ton soup.
@@ -29,7 +30,7 @@ export const Contact = () => {
             linkedin.
           </ContactEmph>
         </ContactInfo>
-      </div>
+      </InfoWrapper>
       <ResumeWrapper>
         <ResumeText>
           Click here to view my resume

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Transition, TransitionGroup } from 'react-transition-group';
+
 import { ProjectPreview } from '../../components/ProjectPreview';
 import { Contact } from '../../components/Contact';
 import StarliesThumbnail from '../../assets/starlies.png';
@@ -78,20 +80,40 @@ const FeaturedWork = () => {
   )
 }
 
-export const Home = () => {
+const duration = 300;
+
+const defaultStyle = {
+  transition: `opacity ${duration}ms ease-in-out`,
+}
+
+const transitionStyles = {
+  entering: { opacity: 1 },
+};
+
+export const Home = ({ in: inProp }) => {
+  console.log(inProp);
   return (
-    <>
-      <Hero />
-      <ContentWrapper>
-        <FeaturedWork />
-      </ContentWrapper>
-      <ContentWrapper>
-        <Contact />
-      </ContentWrapper>
-      <ContentWrapper>
-        <SectionTitle>Cheers!</SectionTitle>
-      </ContentWrapper>
-    </>
+    <Transition in={inProp} timeout={duration}>
+      {(state) => {
+        return (
+          <div style={{
+            ...defaultStyle,
+            ...transitionStyles[state],
+          }}>
+            <Hero />
+            <ContentWrapper>
+              <FeaturedWork />
+            </ContentWrapper>
+            <ContentWrapper>
+              <Contact />
+            </ContentWrapper>
+            <ContentWrapper>
+              <SectionTitle>Cheers!</SectionTitle>
+            </ContentWrapper>
+          </div>
+        );
+      }}
+    </Transition>
   )
 }
 

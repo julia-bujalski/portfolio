@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import { BLACK, BodyText } from '../../theme';
 
+const CONTACT_TWO_COLUMN = `800px`;
+
 export const ContactEmph = styled.a`
   font-family: 'Playfair Display', serif;
   color: ${BLACK};
@@ -22,6 +24,11 @@ export const ResumePreview = styled.img`
   &:hover {
     transform: scale(1.02);
   }
+
+  @media only screen and (max-width: 950px) {
+    width: 250px;
+    height: auto;
+  }
 `;
 
 export const ContactWrapper = styled.div`
@@ -29,7 +36,7 @@ export const ContactWrapper = styled.div`
   align-items: top;
   flex-direction: row;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: ${CONTACT_TWO_COLUMN}) {
     flex-direction: column;
   }
 `;
@@ -40,6 +47,10 @@ export const ResumeWrapper = styled.div`
   flex-direction: column;
   text-align: center;
   margin-left: 30px;
+
+  @media only screen and (max-width: ${CONTACT_TWO_COLUMN}) {
+    margin-left: 0px;
+  }
 `;
 
 export const ResumeText = styled(BodyText)`
@@ -49,4 +60,8 @@ export const ResumeText = styled(BodyText)`
 `;
 
 export const ResumeLink = styled.a`
+`;
+
+export const InfoWrapper = styled.div`
+  max-width: 650px;
 `;

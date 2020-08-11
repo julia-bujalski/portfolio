@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { TABLET } from '../../theme';
 
 import { ContentWrapper, BLACK } from '../../theme';
 
@@ -6,11 +7,23 @@ export const Headshot = styled.img`
   width: 45%;
   margin-left: 35px;
   max-width: 450px;
+
+  @media only screen and (max-width: ${TABLET}) {
+    width: 100%;
+    max-width: unset;
+    margin-top: 50px;
+    margin-left: 0;
+  }
 `;
 
 export const AboutPageHero = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+
+  @media only screen and (max-width: ${TABLET}) {
+    flex-direction: column;
+  }
 `;
 
 export const AboutContent = styled.div`
