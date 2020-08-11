@@ -2,9 +2,15 @@
   margin: 40px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .App {
     margin: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .App {
+    margin: 0px;
   }
 }
 

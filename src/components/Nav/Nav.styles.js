@@ -19,6 +19,14 @@ export const NavWrapper = styled.div`
   @media only screen and (max-width: ${TABLET}) {
     padding: 20px;
   }
+
+  @media only screen and (max-width: 600px) {
+    width: calc(100% - 40px);
+  }
+
+  @media only screen and (max-width: 450px) {
+    width: 100%;
+  }
 `;
 
 export const AnchorLink = styled.a`

@@ -9,7 +9,6 @@ export const HeroTitle = styled.h1`
   margin: 0;
   color: ${BLACK};
   font-weight: 800;
-  text-align: left;
 
   @media only screen and (max-width: ${TABLET}) {
     font-size: 36px;
@@ -25,6 +24,11 @@ export const HomeText = styled(BodyText)`
   line-height: 1.5;
   font-size: 18px;
   max-width: 600px;
+  text-align: left;
+
+  @media only screen and (max-width: 450px) {
+    text-align: center;
+  }
 `;
 
 export const HeroWrapper = styled.div`
@@ -35,6 +39,11 @@ export const HeroWrapper = styled.div`
   display: flex;
   align-items: center;
   border: solid 1px rgba(45,52,53,.1);
+
+  @media only screen and (max-width: 450px) {
+    min-height: 100vh;
+    text-align: center;
+  }
 `;
 
 export const HeroContentWrapper = styled(ContentWrapper)`

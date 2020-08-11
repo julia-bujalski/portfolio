@@ -19,14 +19,10 @@ export const SectionTitle = styled.div`
 
 export const ContentWrapper = styled.div`
   width: 80%;
-  margin: 100px auto 0 auto;
+  margin: 50px auto 0 auto;
 
   @media only screen and (max-width: ${TABLET}) {
     width: 90%;
-  }
-
-  @media only screen and (max-width: ${MOBILE}) {
-    width: 100%;
   }
 `;
 

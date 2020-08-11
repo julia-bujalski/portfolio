@@ -1,6 +1,6 @@
 import React from 'react';
 import Resume from '../../assets/resume.png';
-import { SectionTitle } from '../../theme';
+import { SectionTitle, BodyText } from '../../theme';
 import { HomeText } from '../../views/Home/Home.styles'
 import {
   ContactWrapper,
@@ -17,9 +17,9 @@ export const Contact = () => {
     <ContactWrapper>
       <div>
         <SectionTitle id="contact">Get in touch</SectionTitle>
-        <HomeText>
+        <BodyText>
           I’m available for freelance projects! So hit me up if you want to talk design, Taylor Swift, or eat some won ton soup.
-        </HomeText>
+        </BodyText>
         <ContactInfo>
           <ContactEmph>
             julia.bujalski@gmail.com
