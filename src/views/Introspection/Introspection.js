@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ProjectWIP } from '../../components/ProjectWIP';
 import { PageHeadline, SectionTitle, BodyText } from '../../theme';
 import { FeaturedImage, FeaturedWrapper, ProjectPageWrapper, ProjectTitleWrapper } from './Introspection.styles';
 
 export const Introspection = () => {
+  useEffect(() => {
+    console.log("testing");
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <ProjectPageWrapper>
       <FeaturedWrapper>

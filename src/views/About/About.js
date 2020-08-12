@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { PageHeadline, BodyText, PageWrapper } from '../../theme';
 import {
   Headshot,
@@ -8,6 +8,10 @@ import {
 } from './About.styles'
 
 export const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <PageWrapper>
       <AboutPageHero>

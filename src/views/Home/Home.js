@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Transition } from 'react-transition-group';
+import { Link } from 'react-router-dom';
 
 import { ProjectPreview } from '../../components/ProjectPreview';
 import { Contact } from '../../components/Contact';
@@ -9,7 +10,7 @@ import HausilyThumbnail from '../../assets/hausily.png';
 import IntrospectionThumbnail from '../../assets/introspection.png';
 import ConnectionsThumbnail from '../../assets/sharpie_watercolor.png';
 import QuickscopeThumbnail from '../../assets/quickscope_mockup.png';
-import { SectionTitle, ContentWrapper } from '../../theme';
+import { SectionTitle, ContentWrapper, BodyText } from '../../theme';
 import {
   HeroTitle,
   HeroWrapper,
@@ -74,6 +75,11 @@ const FeaturedWork = () => {
           title="Introspection"
           medium="Mixed media typographic sculpture"
         />
+        <BodyText>
+          <Link to='/misfits'>
+            Check out the misfits >
+          </Link>
+        </BodyText>
       </ProjectsGrid>
     </>
   )
@@ -90,7 +96,10 @@ const transitionStyles = {
 };
 
 export const Home = ({ in: inProp }) => {
-  console.log(inProp);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Transition in={inProp} timeout={duration}>
       {(state) => {

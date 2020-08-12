@@ -11,10 +11,14 @@ export const SectionTitle = styled.div`
   font-family: 'Open Sans';
   text-transform: uppercase;
   color: ${BLACK};
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 5px;
   font-weight: 600;
   text-align: left;
+
+  @media only screen and (max-width: ${TABLET}) {
+    font-size: 18px;
+  }
 `;
 
 export const ContentWrapper = styled.div`
@@ -30,6 +34,10 @@ export const PageWrapper = styled(ContentWrapper)`
   margin-top: unset;
   padding-top: 150px;
   min-height: 50vh;
+
+  @media only screen and (max-width: ${TABLET}) {
+    padding-top: 75px;
+  }
 `;
 
 export const BodyText = styled.div`
@@ -44,6 +52,7 @@ export const BodyText = styled.div`
   a {
     font-weight: bold;
     text-decoration: underline;
+    color: ${BLACK};
   }
 `;
 
