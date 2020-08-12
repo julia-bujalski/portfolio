@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://julia-bujalski.github.io/portfolio",
+  "homepage": "http://juliabuj.com",
   "dependencies": {
     "@babel/core": "^7.11.1",
     "@testing-library/jest-dom": "^4.2.4",
