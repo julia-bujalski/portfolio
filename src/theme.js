@@ -40,6 +40,11 @@ export const BodyText = styled.div`
   line-height: 1.5;
   padding-top: 25px;
   text-align: left;
+
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
 `;
 
 export const PageHeadline = styled.div`

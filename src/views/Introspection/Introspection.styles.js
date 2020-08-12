@@ -3,6 +3,8 @@ import { PageWrapper, TABLET } from '../../theme';
 
 export const FeaturedImage = styled.img`
   width: 55%;
+  max-height: 500px;
+  object-fit: cover;
 
   @media only screen and (max-width: ${TABLET}) {
     margin-top: 50px;
@@ -26,4 +28,8 @@ export const ProjectPageWrapper = styled(PageWrapper)`
 
 export const ProjectTitleWrapper = styled.div`
   padding-right: 30px;
+`;
+
+export const ProjectText = styled.div`
+  max-width: 500px;
 `;
