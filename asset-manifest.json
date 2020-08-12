@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ba0857ef.chunk.css",
-    "main.js": "/static/js/main.118e2ff7.chunk.js",
-    "main.js.map": "/static/js/main.118e2ff7.chunk.js.map",
+    "main.js": "/static/js/main.e906cc27.chunk.js",
+    "main.js.map": "/static/js/main.e906cc27.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
-    "static/js/2.13168f43.chunk.js": "/static/js/2.13168f43.chunk.js",
-    "static/js/2.13168f43.chunk.js.map": "/static/js/2.13168f43.chunk.js.map",
+    "static/js/2.969c7578.chunk.js": "/static/js/2.969c7578.chunk.js",
+    "static/js/2.969c7578.chunk.js.map": "/static/js/2.969c7578.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d57a07ade575c7f5e4f6fe920c692fb3.js": "/precache-manifest.d57a07ade575c7f5e4f6fe920c692fb3.js",
+    "precache-manifest.58110785fef69d89ef0402140f512912.js": "/precache-manifest.58110785fef69d89ef0402140f512912.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ba0857ef.chunk.css.map": "/static/css/main.ba0857ef.chunk.css.map",
-    "static/js/2.13168f43.chunk.js.LICENSE.txt": "/static/js/2.13168f43.chunk.js.LICENSE.txt",
+    "static/js/2.969c7578.chunk.js.LICENSE.txt": "/static/js/2.969c7578.chunk.js.LICENSE.txt",
     "static/media/hausily.png": "/static/media/hausily.e453d244.png",
     "static/media/hero_bg.png": "/static/media/hero_bg.a308ee13.png",
     "static/media/introspection.png": "/static/media/introspection.9ece0b94.png",
@@ -19,12 +19,16 @@
     "static/media/resume.png": "/static/media/resume.dfa3af0b.png",
     "static/media/sharpie_watercolor.png": "/static/media/sharpie_watercolor.8225f6bc.png",
     "static/media/spectra_banner.jpg": "/static/media/spectra_banner.b781c91d.jpg",
+    "static/media/spectra_donation.png": "/static/media/spectra_donation.3e1ed341.png",
+    "static/media/spectra_halloween.png": "/static/media/spectra_halloween.c584423b.png",
+    "static/media/spectra_hat.png": "/static/media/spectra_hat.5b4dafd8.png",
+    "static/media/spectra_networking.png": "/static/media/spectra_networking.5fd4b89c.png",
     "static/media/starlies.png": "/static/media/starlies.7eda7eda.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ceaf4b5f.js",
-    "static/js/2.13168f43.chunk.js",
+    "static/js/2.969c7578.chunk.js",
     "static/css/main.ba0857ef.chunk.css",
-    "static/js/main.118e2ff7.chunk.js"
+    "static/js/main.e906cc27.chunk.js"
   ]
 }
