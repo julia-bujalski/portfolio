@@ -1,9 +1,21 @@
 import React, { useEffect } from 'react';
 import { PageHeadline, SectionTitle, BodyText } from '../../theme';
-import { FeaturedImage, FeaturedWrapper, ProjectPageWrapper, ProjectTitleWrapper, ProjectText } from '../Introspection/Introspection.styles';
-import ConnectionsFeaturedImage from '../../assets/sharpie_watercolor.png'
+import {
+  FeaturedImage,
+  FeaturedWrapper,
+  ProjectPageWrapper,
+  ProjectTitleWrapper,
+  ProjectText,
+  ProjectImagesWrapper,
+  ProjectImage,
+  PhotoRow,
+  ProjectImageB
+} from '../Introspection/Introspection.styles';
+import ConnectionsFeaturedImage from '../../assets/sharpie_watercolor.png';
+import SharpieFace from '../../assets/sharpie_face.png';
 import { ProjectWIP } from '../../components/ProjectWIP';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
+import ConnectionsA from '../../assets/sharpie_watercolor2.png';
 
 export const Connections = () => {
   useEffect(() => {
@@ -26,8 +38,14 @@ export const Connections = () => {
           </ProjectTitleWrapper>
           <FeaturedImage src={ConnectionsFeaturedImage} />
         </FeaturedWrapper>
-        <ProjectWIP />
       </ProjectPageWrapper>
+      <ProjectImagesWrapper>
+        <PhotoRow>
+          <ProjectImageB src={ConnectionsA} />
+          <ProjectImageB src={ConnectionsFeaturedImage} />
+          <ProjectImageB src={SharpieFace} />
+        </PhotoRow>
+      </ProjectImagesWrapper>
       <ViewMoreProjects />
     </>
   )
