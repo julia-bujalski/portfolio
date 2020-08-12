@@ -7,13 +7,11 @@ import {
   ProjectTitleWrapper,
   ProjectText,
   ProjectImagesWrapper,
-  ProjectImage,
   PhotoRow,
   ProjectImageB
 } from '../Introspection/Introspection.styles';
 import ConnectionsFeaturedImage from '../../assets/sharpie_watercolor.png';
 import SharpieFace from '../../assets/sharpie_face.png';
-import { ProjectWIP } from '../../components/ProjectWIP';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import ConnectionsA from '../../assets/sharpie_watercolor2.png';
 
