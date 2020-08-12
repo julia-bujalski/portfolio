@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ba0857ef.chunk.css",
-    "main.js": "/portfolio/static/js/main.d33f1c01.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d33f1c01.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
-    "static/js/2.1aef5e00.chunk.js": "/portfolio/static/js/2.1aef5e00.chunk.js",
-    "static/js/2.1aef5e00.chunk.js.map": "/portfolio/static/js/2.1aef5e00.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.51fdfa6177dcbff4f177e93f7f5aaeb7.js": "/portfolio/precache-manifest.51fdfa6177dcbff4f177e93f7f5aaeb7.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.ba0857ef.chunk.css.map": "/portfolio/static/css/main.ba0857ef.chunk.css.map",
-    "static/js/2.1aef5e00.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1aef5e00.chunk.js.LICENSE.txt",
-    "static/media/hausily.png": "/portfolio/static/media/hausily.e453d244.png",
-    "static/media/hero_bg.png": "/portfolio/static/media/hero_bg.a308ee13.png",
-    "static/media/introspection.png": "/portfolio/static/media/introspection.9ece0b94.png",
-    "static/media/quickscope_mockup.png": "/portfolio/static/media/quickscope_mockup.68a2797b.png",
-    "static/media/resume.png": "/portfolio/static/media/resume.dfa3af0b.png",
-    "static/media/sharpie_watercolor.png": "/portfolio/static/media/sharpie_watercolor.8225f6bc.png",
-    "static/media/spectra_banner.jpg": "/portfolio/static/media/spectra_banner.b781c91d.jpg",
-    "static/media/starlies.png": "/portfolio/static/media/starlies.7eda7eda.png"
+    "main.css": "/static/css/main.ba0857ef.chunk.css",
+    "main.js": "/static/js/main.bcb97821.chunk.js",
+    "main.js.map": "/static/js/main.bcb97821.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
+    "static/js/2.6a108248.chunk.js": "/static/js/2.6a108248.chunk.js",
+    "static/js/2.6a108248.chunk.js.map": "/static/js/2.6a108248.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.05578166abe3226ce3434c07fb08eb26.js": "/precache-manifest.05578166abe3226ce3434c07fb08eb26.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ba0857ef.chunk.css.map": "/static/css/main.ba0857ef.chunk.css.map",
+    "static/js/2.6a108248.chunk.js.LICENSE.txt": "/static/js/2.6a108248.chunk.js.LICENSE.txt",
+    "static/media/hausily.png": "/static/media/hausily.e453d244.png",
+    "static/media/hero_bg.png": "/static/media/hero_bg.a308ee13.png",
+    "static/media/introspection.png": "/static/media/introspection.9ece0b94.png",
+    "static/media/quickscope_mockup.png": "/static/media/quickscope_mockup.68a2797b.png",
+    "static/media/resume.png": "/static/media/resume.dfa3af0b.png",
+    "static/media/sharpie_watercolor.png": "/static/media/sharpie_watercolor.8225f6bc.png",
+    "static/media/spectra_banner.jpg": "/static/media/spectra_banner.b781c91d.jpg",
+    "static/media/starlies.png": "/static/media/starlies.7eda7eda.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.075c0788.js",
-    "static/js/2.1aef5e00.chunk.js",
+    "static/js/runtime-main.ceaf4b5f.js",
+    "static/js/2.6a108248.chunk.js",
     "static/css/main.ba0857ef.chunk.css",
-    "static/js/main.d33f1c01.chunk.js"
+    "static/js/main.bcb97821.chunk.js"
   ]
 }
