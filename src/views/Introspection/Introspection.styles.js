@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { PageWrapper, TABLET, MOBILE } from '../../theme';
+import { PageWrapper, TABLET, MOBILE, SectionTitle } from '../../theme';
 
 export const FeaturedImage = styled.img`
   width: 55%;
@@ -46,6 +46,7 @@ export const ProjectImage = styled.img`
   width: 100%;
   margin-bottom: 25px;
   object-fit: cover;
+  max-height: 80vh;
 `;
 
 export const ProjectImageB = styled(ProjectImage)`
@@ -69,4 +70,8 @@ export const PhotoRow = styled.div`
   @media only screen and (max-width: ${MOBILE}) {
     flex-direction: column;
   }
+`;
+
+export const ProjectSectionTitle = styled(SectionTitle)`
+  padding: 75px 0px 25px 0px;
 `;

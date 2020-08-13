@@ -14,6 +14,7 @@ import ConnectionsFeaturedImage from '../../assets/sharpie_watercolor.png';
 import SharpieFace from '../../assets/sharpie_face.png';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import ConnectionsA from '../../assets/sharpie_watercolor2.png';
+import ConnectionsB from '../../assets/sharpie_watercolor3.png';
 
 export const Connections = () => {
   useEffect(() => {
@@ -40,8 +41,8 @@ export const Connections = () => {
       <ProjectImagesWrapper>
         <PhotoRow>
           <ProjectImageB src={ConnectionsA} />
-          <ProjectImageB src={ConnectionsFeaturedImage} />
           <ProjectImageB src={SharpieFace} />
+          <ProjectImageB src={ConnectionsB} />
         </PhotoRow>
       </ProjectImagesWrapper>
       <ViewMoreProjects />
