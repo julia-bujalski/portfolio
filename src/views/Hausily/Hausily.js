@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { ProjectWIP } from '../../components/ProjectWIP';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import { PageHeadline, SectionTitle, BodyText } from '../../theme';
 import {

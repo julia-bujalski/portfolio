@@ -9,10 +9,8 @@ import {
   ProjectImagesWrapper,
   PhotoRow,
   ProjectImageB,
-  ProjectImage,
   ProjectSectionTitle
 } from '../Introspection/Introspection.styles';
-import { ProjectWIP } from '../../components/ProjectWIP';
 import QuickscopeFeaturedImage from '../../assets/quickscope_mockup.png';
 import QuickscopeArticleA from '../../assets/quickscope_articleA.png';
 import QuickscopeArticleB from '../../assets/quickscope_articleB.png';
