@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61e92de7653eca14ced0fae9c1176643",
+    "revision": "2362ed3b260452348cbae94b4eb0fed1",
     "url": "/index.html"
   },
   {
-    "revision": "01020805db9907ba187c",
+    "revision": "64eb10e6bc17b8efd2f6",
     "url": "/static/css/main.ba0857ef.chunk.css"
   },
   {
-    "revision": "defe5cba41f21bc2f0d2",
-    "url": "/static/js/2.04b41a29.chunk.js"
+    "revision": "b3b31aeafaffec0f4cb1",
+    "url": "/static/js/2.fe2cfa70.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.04b41a29.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.fe2cfa70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01020805db9907ba187c",
-    "url": "/static/js/main.8ded76fe.chunk.js"
+    "revision": "64eb10e6bc17b8efd2f6",
+    "url": "/static/js/main.30f688e8.chunk.js"
   },
   {
     "revision": "5284eec07972ace79c95",
@@ -34,6 +34,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9ece0b9497b56402b1539ef066e77363",
     "url": "/static/media/introspection.9ece0b94.png"
+  },
+  {
+    "revision": "dd5b0acfdad57618e461bb4507fcf6ad",
+    "url": "/static/media/mockup.dd5b0acf.png"
+  },
+  {
+    "revision": "55432a7b69a48a56483978328d723d8a",
+    "url": "/static/media/mockup_phone.55432a7b.png"
+  },
+  {
+    "revision": "b5dd9a22c788f461d677b2f176532d76",
+    "url": "/static/media/quickscope_articleA.b5dd9a22.png"
+  },
+  {
+    "revision": "0251bcd2cb9b918356d180d7fa709315",
+    "url": "/static/media/quickscope_articleB.0251bcd2.png"
+  },
+  {
+    "revision": "9ece04698eb0cc7476ece41a82c0aa5c",
+    "url": "/static/media/quickscope_facebook.9ece0469.png"
   },
   {
     "revision": "68a2797b066f9ded5e7a6e034207ef28",
@@ -54,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b51a95dbca1fe5586ec37ce467b7815",
     "url": "/static/media/sharpie_watercolor2.7b51a95d.png"
+  },
+  {
+    "revision": "8e894fc450ea2483b8991166c5effd51",
+    "url": "/static/media/sharpie_watercolor3.8e894fc4.png"
   },
   {
     "revision": "b781c91d2c44ac45e8f48ad828e9bcdb",

@@ -1,25 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.ba0857ef.chunk.css",
-    "main.js": "/static/js/main.8ded76fe.chunk.js",
-    "main.js.map": "/static/js/main.8ded76fe.chunk.js.map",
+    "main.js": "/static/js/main.30f688e8.chunk.js",
+    "main.js.map": "/static/js/main.30f688e8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
-    "static/js/2.04b41a29.chunk.js": "/static/js/2.04b41a29.chunk.js",
-    "static/js/2.04b41a29.chunk.js.map": "/static/js/2.04b41a29.chunk.js.map",
+    "static/js/2.fe2cfa70.chunk.js": "/static/js/2.fe2cfa70.chunk.js",
+    "static/js/2.fe2cfa70.chunk.js.map": "/static/js/2.fe2cfa70.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3cdd041bc65a78c863d0b4699a47c226.js": "/precache-manifest.3cdd041bc65a78c863d0b4699a47c226.js",
+    "precache-manifest.250f4c34437a6e75c399959de6bf788b.js": "/precache-manifest.250f4c34437a6e75c399959de6bf788b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ba0857ef.chunk.css.map": "/static/css/main.ba0857ef.chunk.css.map",
-    "static/js/2.04b41a29.chunk.js.LICENSE.txt": "/static/js/2.04b41a29.chunk.js.LICENSE.txt",
+    "static/js/2.fe2cfa70.chunk.js.LICENSE.txt": "/static/js/2.fe2cfa70.chunk.js.LICENSE.txt",
     "static/media/hausily.png": "/static/media/hausily.e453d244.png",
     "static/media/hero_bg.png": "/static/media/hero_bg.a308ee13.png",
     "static/media/introspection.png": "/static/media/introspection.9ece0b94.png",
+    "static/media/mockup.png": "/static/media/mockup.dd5b0acf.png",
+    "static/media/mockup_phone.png": "/static/media/mockup_phone.55432a7b.png",
+    "static/media/quickscope_articleA.png": "/static/media/quickscope_articleA.b5dd9a22.png",
+    "static/media/quickscope_articleB.png": "/static/media/quickscope_articleB.0251bcd2.png",
+    "static/media/quickscope_facebook.png": "/static/media/quickscope_facebook.9ece0469.png",
     "static/media/quickscope_mockup.png": "/static/media/quickscope_mockup.68a2797b.png",
     "static/media/resume.png": "/static/media/resume.dfa3af0b.png",
     "static/media/sharpie_face.png": "/static/media/sharpie_face.e3e2679d.png",
     "static/media/sharpie_watercolor.png": "/static/media/sharpie_watercolor.8225f6bc.png",
     "static/media/sharpie_watercolor2.png": "/static/media/sharpie_watercolor2.7b51a95d.png",
+    "static/media/sharpie_watercolor3.png": "/static/media/sharpie_watercolor3.8e894fc4.png",
     "static/media/spectra_banner.jpg": "/static/media/spectra_banner.b781c91d.jpg",
     "static/media/spectra_donation.png": "/static/media/spectra_donation.3e1ed341.png",
     "static/media/spectra_halloween.png": "/static/media/spectra_halloween.c584423b.png",
@@ -29,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ceaf4b5f.js",
-    "static/js/2.04b41a29.chunk.js",
+    "static/js/2.fe2cfa70.chunk.js",
     "static/css/main.ba0857ef.chunk.css",
-    "static/js/main.8ded76fe.chunk.js"
+    "static/js/main.30f688e8.chunk.js"
   ]
 }
