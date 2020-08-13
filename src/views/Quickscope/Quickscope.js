@@ -1,9 +1,24 @@
 import React, { useEffect } from 'react';
 import { PageHeadline, SectionTitle, BodyText } from '../../theme';
-import { FeaturedImage, FeaturedWrapper, ProjectPageWrapper, ProjectTitleWrapper, ProjectText } from '../Introspection/Introspection.styles';
+import {
+  FeaturedImage,
+  FeaturedWrapper,
+  ProjectPageWrapper,
+  ProjectTitleWrapper,
+  ProjectText,
+  ProjectImagesWrapper,
+  PhotoRow,
+  ProjectImageB,
+  ProjectImage,
+  ProjectSectionTitle
+} from '../Introspection/Introspection.styles';
 import { ProjectWIP } from '../../components/ProjectWIP';
 import QuickscopeFeaturedImage from '../../assets/quickscope_mockup.png';
+import QuickscopeArticleA from '../../assets/quickscope_articleA.png';
+import QuickscopeArticleB from '../../assets/quickscope_articleB.png';
+import QuickscopeFacebook from '../../assets/quickscope_facebook.png';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
+import { PhoneScrollMockUp } from '../../components/PhoneScrollMockUp';
 
 export const Quickscope = () => {
   useEffect(() => {
@@ -26,8 +41,17 @@ export const Quickscope = () => {
           </ProjectTitleWrapper>
           <FeaturedImage src={QuickscopeFeaturedImage} />
         </FeaturedWrapper>
-        <ProjectWIP />
       </ProjectPageWrapper>
+        <ProjectImagesWrapper>
+          <ProjectSectionTitle>Scroll through an issue of Quickscope</ProjectSectionTitle>
+          <PhoneScrollMockUp />
+          <ProjectSectionTitle>Ad Campaigns</ProjectSectionTitle>
+          <PhotoRow>
+            <ProjectImageB src={QuickscopeArticleA} />
+            <ProjectImageB src={QuickscopeArticleB} />
+            <ProjectImageB src={QuickscopeFacebook} />
+          </PhotoRow>
+      </ProjectImagesWrapper>
       <ViewMoreProjects />
     </>
   )

@@ -51,6 +51,7 @@ export const ProjectImage = styled.img`
 
 export const ProjectImageB = styled(ProjectImage)`
   width: 30%;
+  object-position: top;
 
   @media only screen and (max-width: ${TABLET}) {
     width: 45%;
