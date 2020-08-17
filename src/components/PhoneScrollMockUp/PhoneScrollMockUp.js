@@ -1,12 +1,11 @@
 import React from 'react';
-import NewsletterMockUp from '../../assets/mockup.png';
 import { PhoneContainer, NewsletterContainer, NewsletterPhoto } from './PhoneScrollMockUp.styles';
 
-export const PhoneScrollMockUp = () => {
+export const PhoneScrollMockUp = (props) => {
   return (
     <PhoneContainer>
       <NewsletterContainer>
-        <NewsletterPhoto src={NewsletterMockUp} alt="Newsletter Preview" />
+        <NewsletterPhoto src={props.mockup} alt="Newsletter Preview" />
       </NewsletterContainer>
     </PhoneContainer>
   )

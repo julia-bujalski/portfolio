@@ -16,6 +16,7 @@ import QuickscopeArticleA from '../../assets/quickscope_articleA.png';
 import QuickscopeArticleB from '../../assets/quickscope_articleB.png';
 import QuickscopeFacebook from '../../assets/quickscope_facebook.png';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
+import NewsletterMockUp from '../../assets/mockup.png';
 import { PhoneScrollMockUp } from '../../components/PhoneScrollMockUp';
 
 export const Quickscope = () => {
@@ -33,7 +34,7 @@ export const Quickscope = () => {
             <BodyText>Minerva Analytics <br /> January 2020 - Present</BodyText>
             <ProjectText>
               <BodyText>
-                I supported Quickscope, the daily video gaming newsletter, as a designer at Minerva Analytics. I created the email design, social graphics, and helped support development of the site with ReactJS styled components.
+                I supported Quickscope, the daily video gaming newsletter, as a designer at Minerva Analytics. I created the email design, social graphics, and helped support development of the site with ReactJS styled components. Check out the live site at <a href="https://thequickscope.com" target="_blank" rel="noopener noreferrer">thequickscope.com</a>
               </BodyText>
             </ProjectText>
           </ProjectTitleWrapper>
@@ -42,7 +43,7 @@ export const Quickscope = () => {
       </ProjectPageWrapper>
         <ProjectImagesWrapper>
           <ProjectSectionTitle>Scroll through an issue of Quickscope</ProjectSectionTitle>
-          <PhoneScrollMockUp />
+          <PhoneScrollMockUp mockup={NewsletterMockUp} />
           <ProjectSectionTitle>Ad Campaigns</ProjectSectionTitle>
           <PhotoRow>
             <ProjectImageB src={QuickscopeArticleA} />

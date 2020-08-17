@@ -67,6 +67,7 @@ export const PhotoRow = styled.div`
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
 
   @media only screen and (max-width: ${MOBILE}) {
     flex-direction: column;
