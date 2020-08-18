@@ -16,9 +16,11 @@ export const FeaturedWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 75px;
 
   @media only screen and (max-width: ${TABLET}) {
     flex-direction: column;
+    padding-bottom: 25px;
   }
 `;
 
@@ -62,6 +64,15 @@ export const ProjectImageB = styled(ProjectImage)`
   }
 `;
 
+export const ProjectImageC = styled(ProjectImage)`
+  width: 45%;
+  object-position: top;
+
+  @media only screen and (max-width: ${MOBILE}) {
+    width: 100%;
+  }
+`;
+
 export const PhotoRow = styled.div`
   display: flex;
   justify-content: space-between;
@@ -71,8 +82,10 @@ export const PhotoRow = styled.div`
 
   @media only screen and (max-width: ${MOBILE}) {
     flex-direction: column;
+    padding: 50px 0px;
   }
 `;
+
 
 export const ProjectSectionTitle = styled(SectionTitle)`
   padding: 75px 0px 25px 0px;
@@ -81,4 +94,12 @@ export const ProjectSectionTitle = styled(SectionTitle)`
 export const SubtitleText = styled(BodyText)`
   padding-top: 0px;
   font-style: italic;
+`;
+
+export const BookletWrapper = styled.div`
+  display: block;
+
+  @media (max-width: ${MOBILE}) {
+    display: none;
+  }
 `;

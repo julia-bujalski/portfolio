@@ -27,3 +27,7 @@ export const LinkWrapper = styled.div`
   margin-top: 25px;
   flex-wrap: wrap;
 `;
+
+export const ViewMoreWrapper = styled.div`
+  padding-top: 100px;
+`;

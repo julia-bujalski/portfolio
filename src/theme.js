@@ -11,13 +11,13 @@ export const SectionTitle = styled.div`
   font-family: 'Open Sans';
   text-transform: uppercase;
   color: ${BLACK};
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: 5px;
   font-weight: 600;
   text-align: left;
 
   @media only screen and (max-width: ${TABLET}) {
-    font-size: 18px;
+    font-size: 16px;
   }
 `;
 
@@ -45,7 +45,7 @@ export const BodyText = styled.div`
   font-family: 'Open Sans';
   font-weight: Light;
   letter-spacing: 1px;
-  line-height: 1.5;
+  line-height: 1.75;
   padding-top: 25px;
   text-align: left;
 
@@ -72,4 +72,8 @@ export const PageHeadline = styled.div`
   @media only screeen and (max-width: ${MOBILE}) {
     font-size: 24px;
   }
+`;
+
+export const ProjectBodyText = styled(BodyText)`
+  max-width: 600px;
 `;

@@ -26,35 +26,31 @@ export const Quickscope = () => {
   }, []);
 
   return (
-    <>
-      <ProjectPageWrapper>
-        <FeaturedWrapper>
-          <ProjectTitleWrapper>
-            <SectionTitle>Email design & front end development</SectionTitle>
-            <PageHeadline>Quickscope</PageHeadline>
-            <BodyText>Minerva Analytics <br /> January 2020 - Present</BodyText>
-            <ProjectText>
-              <BodyText>
-                I supported Quickscope, the daily video gaming newsletter, as a designer at Minerva Analytics. I created the email design, social graphics, and helped support development of the site with ReactJS styled components. Check out the live site at <a href="https://thequickscope.com" target="_blank" rel="noopener noreferrer">thequickscope.com</a>
-              </BodyText>
-            </ProjectText>
-          </ProjectTitleWrapper>
-          <FeaturedImage src={QuickscopeFeaturedImage} />
+    <ProjectPageWrapper>
+      <FeaturedWrapper>
+        <ProjectTitleWrapper>
+          <SectionTitle>Email design & front end development</SectionTitle>
+          <PageHeadline>Quickscope</PageHeadline>
+          <BodyText>Minerva Analytics <br /> January 2020 - Present</BodyText>
+          <ProjectText>
+            <BodyText>
+              I supported Quickscope, the daily video gaming newsletter, as a designer at Minerva Analytics. I created the email design, social graphics, and helped support development of the site with ReactJS styled components. Check out the live site at <a href="https://thequickscope.com" target="_blank" rel="noopener noreferrer">thequickscope.com</a>
+            </BodyText>
+          </ProjectText>
+        </ProjectTitleWrapper>
+        <FeaturedImage src={QuickscopeFeaturedImage} />
         </FeaturedWrapper>
-      </ProjectPageWrapper>
-        <ProjectImagesWrapper>
-          <ProjectSectionTitle>Newsletter Design</ProjectSectionTitle>
-          <SubtitleText>Scroll through an issue of <strong>Quickscope</strong></SubtitleText>
-          <PhoneScrollMockUp mockup={NewsletterMockUp} />
-          <ProjectSectionTitle>Ad Campaigns</ProjectSectionTitle>
-          <PhotoRow>
-            <ProjectImageB src={QuickscopeArticleA} />
-            <ProjectImageB src={QuickscopeArticleB} />
-            <ProjectImageB src={QuickscopeFacebook} />
-          </PhotoRow>
-      </ProjectImagesWrapper>
+        <ProjectSectionTitle>Newsletter Design</ProjectSectionTitle>
+        <SubtitleText>Scroll through an issue of <strong>Quickscope</strong></SubtitleText>
+        <PhoneScrollMockUp mockup={NewsletterMockUp} />
+        <ProjectSectionTitle>Ad Campaigns</ProjectSectionTitle>
+        <PhotoRow>
+          <ProjectImageB src={QuickscopeArticleA} />
+          <ProjectImageB src={QuickscopeArticleB} />
+          <ProjectImageB src={QuickscopeFacebook} />
+        </PhotoRow>
       <ViewMoreProjects />
-    </>
+    </ProjectPageWrapper>
   )
 }
 

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { PageHeadline, SectionTitle, BodyText } from '../../theme';
+import { PageHeadline, SectionTitle, BodyText, ProjectBodyText } from '../../theme';
 import {
   FeaturedImage,
   FeaturedWrapper,
@@ -28,7 +28,6 @@ export const Starlies = () => {
   }, []);
 
   return (
-    <>
       <ProjectPageWrapper>
         <FeaturedWrapper>
           <ProjectTitleWrapper>
@@ -43,26 +42,23 @@ export const Starlies = () => {
           </ProjectTitleWrapper>
           <FeaturedImage src={StarliesFeaturedImage} />
         </FeaturedWrapper>
-        <ProjectImagesWrapper>
-          <ProjectSectionTitle>Compatibility Calculator</ProjectSectionTitle>
-          <BodyText>This feature was added to Starlies in July 2020 with the goal of increasing time on site and daily active users. I was responsible for the design and development of this feature including structure and styling of the page and calling the API. <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer"> Click the mock up to visit the site and determine your compatibility! </a>
-          </BodyText>
-          <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer">
-            <PhoneScrollMockUp mockup={CompatibilityCalculatorMockup} />
-          </a>
-          <ProjectSectionTitle>Ad Campaigns </ProjectSectionTitle>
-          <PhotoRow>
-            <ProjectImageB src={CompatibilityCalculatorPromo} />
-            <ProjectImageB src={MoonQuote} />
-            <ProjectImageB src={SignSpecificAd} />
-          </PhotoRow>
-          <ProjectSectionTitle>Newsletter Mockup</ProjectSectionTitle>
-          <SubtitleText>Scroll through an edition of <strong>Starlies</strong></SubtitleText>
-          <PhoneScrollMockUp mockup={NewsletterMockUp} />
-        </ProjectImagesWrapper>
-      </ProjectPageWrapper>
+        <ProjectSectionTitle>Compatibility Calculator</ProjectSectionTitle>
+        <ProjectBodyText>This feature was added to Starlies in July 2020 with the goal of increasing time on site and daily active users. I was responsible for the design and development of this feature including structure and styling of the page and calling the API. <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer"> Click the mock up to visit the site and determine your compatibility! </a>
+        </ProjectBodyText>
+        <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer">
+          <PhoneScrollMockUp mockup={CompatibilityCalculatorMockup} />
+        </a>
+        <ProjectSectionTitle>Ad Campaigns </ProjectSectionTitle>
+        <PhotoRow>
+          <ProjectImageB src={CompatibilityCalculatorPromo} />
+          <ProjectImageB src={MoonQuote} />
+          <ProjectImageB src={SignSpecificAd} />
+        </PhotoRow>
+        <ProjectSectionTitle>Newsletter Mockup</ProjectSectionTitle>
+        <SubtitleText>Scroll through an edition of <strong>Starlies</strong></SubtitleText>
+        <PhoneScrollMockUp mockup={NewsletterMockUp} />
       <ViewMoreProjects />
-    </>
+    </ProjectPageWrapper>
   )
 }
 

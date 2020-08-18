@@ -1,10 +1,10 @@
 import React from 'react';
-import { SectionTitle, PageWrapper  } from '../../theme';
-import { ProjectLink, LinkWrapper } from './ViewMoreProjects.styles'
+import { SectionTitle  } from '../../theme';
+import { ProjectLink, LinkWrapper, ViewMoreWrapper } from './ViewMoreProjects.styles'
 
 export const ViewMoreProjects = () => {
   return (
-    <PageWrapper>
+    <ViewMoreWrapper>
       <SectionTitle>
         View more projects
       </SectionTitle>
@@ -16,7 +16,7 @@ export const ViewMoreProjects = () => {
         <ProjectLink to="/spectra">Spectra</ProjectLink>
         <ProjectLink to="/starlies">Starlies</ProjectLink>
       </LinkWrapper>
-    </PageWrapper>
+    </ViewMoreWrapper>
   )
 }
 
