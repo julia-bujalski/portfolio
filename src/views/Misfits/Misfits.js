@@ -5,6 +5,10 @@ import {
   ProjectImageB,
 } from '../Introspection/Introspection.styles';
 import ScribblesFramed from '../../assets/scribbles_framed.jpg';
+import EyeStretch from '../../assets/misfits/eye_lino.png';
+import FaceLitho from '../../assets/misfits/face_litho.png';
+import HandWoodcut from '../../assets/misfits/hand_woodcut.png';
+import HandFeetLino from '../../assets/misfits/handfeet_lino.png';
 
 export const Misfits = () => {
   useEffect(() => {
@@ -21,6 +25,12 @@ export const Misfits = () => {
       </BodyText>
       <PhotoRow>
         <ProjectImageB src={ScribblesFramed} />
+        <ProjectImageB src={FaceLitho} />
+        <ProjectImageB src={HandWoodcut} />
+      </PhotoRow>
+      <PhotoRow>
+        <ProjectImageB src={HandFeetLino} />
+        <ProjectImageB src={EyeStretch} />
       </PhotoRow>
     </PageWrapper>
   )
