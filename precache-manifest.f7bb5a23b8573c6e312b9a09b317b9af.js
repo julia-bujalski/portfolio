@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58f45e364636b553a1c6fa5f5366f143",
+    "revision": "ec31c55bd53d3c28ca9d4312d7e5ba30",
     "url": "/index.html"
   },
   {
-    "revision": "d04d1c57769ef807bcdc",
+    "revision": "3a6671e065837a91040b",
     "url": "/static/css/main.ba0857ef.chunk.css"
   },
   {
-    "revision": "781bf45cc4f90d4c1182",
-    "url": "/static/js/2.d960562b.chunk.js"
+    "revision": "b2ed0ca45e54c7ec7d27",
+    "url": "/static/js/2.c2478add.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.d960562b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c2478add.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d04d1c57769ef807bcdc",
-    "url": "/static/js/main.6a11afa1.chunk.js"
+    "revision": "3a6671e065837a91040b",
+    "url": "/static/js/main.3fd1f49a.chunk.js"
   },
   {
     "revision": "5284eec07972ace79c95",
@@ -50,6 +50,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "912a9ea2c3f212c4828cb2870ea28b3d",
     "url": "/static/media/hausily.912a9ea2.png"
+  },
+  {
+    "revision": "c488433da63bcf4308a4a4b48afdce5d",
+    "url": "/static/media/hausily_styleguide.c488433d.png"
+  },
+  {
+    "revision": "aac6a5ba062057826d794d9de6f40b5e",
+    "url": "/static/media/hausily_styleguide2.aac6a5ba.png"
   },
   {
     "revision": "e60c387aeb1922a361f51b617738c0d8",
