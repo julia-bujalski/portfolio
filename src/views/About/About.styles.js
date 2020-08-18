@@ -7,6 +7,8 @@ export const Headshot = styled.img`
   width: 45%;
   margin-left: 35px;
   max-width: 450px;
+  object-fit: contain;
+  object-position: top;
 
   @media only screen and (max-width: ${TABLET}) {
     width: 100%;
