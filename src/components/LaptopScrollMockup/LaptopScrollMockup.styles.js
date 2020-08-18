@@ -9,7 +9,7 @@ export const LaptopContainer = styled.div`
   background: url(${LaptopMockup}) no-repeat top;
   background-size: contain;
   width: 650px;
-  height: 450px; 
+  height: 385px; 
   position: relative;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@ export const LaptopContainer = styled.div`
 `;
 
 export const SiteContainer = styled.div`
-  height: 71%;
+  height: 80%;
   width: 76%;
   overflow: scroll;
   position: absolute;

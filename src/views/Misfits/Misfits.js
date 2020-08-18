@@ -1,5 +1,10 @@
 import React, { useEffect } from 'react';
 import { PageHeadline, BodyText, PageWrapper } from '../../theme';
+import {
+  PhotoRow,
+  ProjectImageB,
+} from '../Introspection/Introspection.styles';
+import ScribblesFramed from '../../assets/scribbles_framed.jpg';
 
 export const Misfits = () => {
   useEffect(() => {
@@ -11,9 +16,12 @@ export const Misfits = () => {
       <PageHeadline>
         Misfits
       </PageHeadline>
-      <BodyText>
+      <BodyText style={{paddingBottom: `25px`}}>
         Collection of sketches, creative vomit, and other odds & ends.
       </BodyText>
+      <PhotoRow>
+        <ProjectImageB src={ScribblesFramed} />
+      </PhotoRow>
     </PageWrapper>
   )
 }

@@ -75,7 +75,7 @@ const FeaturedWork = () => {
           title="Introspection"
           medium="Mixed media typographic sculpture"
         />
-        <BodyText>
+        <BodyText style={{paddingTop: `0px`, textAlign: `right`, width: `100%`}}>
           <Link to='/misfits'>
             Check out the misfits >
           </Link>

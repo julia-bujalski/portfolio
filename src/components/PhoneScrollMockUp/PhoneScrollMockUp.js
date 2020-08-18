@@ -3,7 +3,7 @@ import { PhoneContainer, NewsletterContainer, NewsletterPhoto } from './PhoneScr
 
 export const PhoneScrollMockUp = (props) => {
   return (
-    <PhoneContainer>
+    <PhoneContainer row={props.row}>
       <NewsletterContainer>
         <NewsletterPhoto src={props.mockup} alt="Newsletter Preview" />
       </NewsletterContainer>

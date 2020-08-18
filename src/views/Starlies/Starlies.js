@@ -1,9 +1,26 @@
 import React, { useEffect } from 'react';
 import { PageHeadline, SectionTitle, BodyText } from '../../theme';
-import { FeaturedImage, FeaturedWrapper, ProjectPageWrapper, ProjectTitleWrapper, ProjectText } from '../Introspection/Introspection.styles';
-import { ProjectWIP } from '../../components/ProjectWIP';
+import {
+  FeaturedImage,
+  FeaturedWrapper,
+  ProjectPageWrapper,
+  ProjectTitleWrapper,
+  ProjectText,
+  ProjectImagesWrapper,
+  PhotoRow,
+  ProjectImageB,
+  ProjectSectionTitle,
+  SubtitleText
+} from '../Introspection/Introspection.styles';
 import StarliesFeaturedImage from '../../assets/starlies.png';
+import CompatibilityCalculatorPromo from '../../assets/compcalc_promo.png';
+import CompatibilityCalculatorMockup from '../../assets/compatibility_calculator.png';
+import MoonQuote from '../../assets/moon_quote.png';
+import SignSpecificAd from '../../assets/signspecific_ad.png';
+import NewsletterMockUp from '../../assets/starlies_newslettermockup.png';
+
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
+import { PhoneScrollMockUp } from '../../components/PhoneScrollMockUp';
 
 export const Starlies = () => {
   useEffect(() => {
@@ -26,7 +43,23 @@ export const Starlies = () => {
           </ProjectTitleWrapper>
           <FeaturedImage src={StarliesFeaturedImage} />
         </FeaturedWrapper>
-        <ProjectWIP />
+        <ProjectImagesWrapper>
+          <ProjectSectionTitle>Compatibility Calculator</ProjectSectionTitle>
+          <BodyText>This feature was added to Starlies in July 2020 with the goal of increasing time on site and daily active users. I was responsible for the design and development of this feature including structure and styling of the page and calling the API. <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer"> Click the mock up to visit the site and determine your compatibility! </a>
+          </BodyText>
+          <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer">
+            <PhoneScrollMockUp mockup={CompatibilityCalculatorMockup} />
+          </a>
+          <ProjectSectionTitle>Ad Campaigns </ProjectSectionTitle>
+          <PhotoRow>
+            <ProjectImageB src={CompatibilityCalculatorPromo} />
+            <ProjectImageB src={MoonQuote} />
+            <ProjectImageB src={SignSpecificAd} />
+          </PhotoRow>
+          <ProjectSectionTitle>Newsletter Mockup</ProjectSectionTitle>
+          <SubtitleText>Scroll through an edition of <strong>Starlies</strong></SubtitleText>
+          <PhoneScrollMockUp mockup={NewsletterMockUp} />
+        </ProjectImagesWrapper>
       </ProjectPageWrapper>
       <ViewMoreProjects />
     </>

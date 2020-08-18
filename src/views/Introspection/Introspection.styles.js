@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { PageWrapper, TABLET, MOBILE, SectionTitle } from '../../theme';
+import { PageWrapper, TABLET, MOBILE, SectionTitle, BodyText } from '../../theme';
 
 export const FeaturedImage = styled.img`
   width: 55%;
@@ -76,4 +76,9 @@ export const PhotoRow = styled.div`
 
 export const ProjectSectionTitle = styled(SectionTitle)`
   padding: 75px 0px 25px 0px;
+`;
+
+export const SubtitleText = styled(BodyText)`
+  padding-top: 0px;
+  font-style: italic;
 `;

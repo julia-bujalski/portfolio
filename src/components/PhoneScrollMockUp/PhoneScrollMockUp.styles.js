@@ -20,7 +20,9 @@ export const PhoneContainer = styled.div`
     margin-bottom: 4rem;
   }
 
-  @media (max-width: ${DESKTOP}) {
+  ${(props) => (props.row ?
+
+  `@media (max-width: ${DESKTOP}) {
     width: 125px;
     height: 250px;
   }
@@ -33,7 +35,7 @@ export const PhoneContainer = styled.div`
   @media (max-width: ${MOBILE}) {
     width: 200px;
     height: 400px; 
-  }
+  }` : null )}
 
 `;
 
