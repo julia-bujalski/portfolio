@@ -6,7 +6,6 @@ import {
   ProjectPageWrapper,
   ProjectTitleWrapper,
   ProjectText,
-  ProjectImagesWrapper,
   PhotoRow,
   ProjectImageB
 } from '../Introspection/Introspection.styles';

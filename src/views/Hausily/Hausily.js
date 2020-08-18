@@ -9,11 +9,8 @@ import {
   ProjectPageWrapper,
   ProjectTitleWrapper,
   ProjectText,
-  ProjectImagesWrapper,
   PhotoRow,
-  ProjectImageB,
   ProjectImageC,
-  ProjectImage,
   ProjectSectionTitle,
   SubtitleText
 } from '../Introspection/Introspection.styles';

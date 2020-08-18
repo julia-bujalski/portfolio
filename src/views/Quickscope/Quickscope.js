@@ -6,7 +6,6 @@ import {
   ProjectPageWrapper,
   ProjectTitleWrapper,
   ProjectText,
-  ProjectImagesWrapper,
   PhotoRow,
   ProjectImageB,
   ProjectSectionTitle,

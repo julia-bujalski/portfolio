@@ -40,10 +40,6 @@ export const ProjectText = styled.div`
   max-width: 500px;
 `;
 
-export const ProjectImagesWrapper = styled(PageWrapper)`
-  
-`;
-
 export const ProjectImage = styled.img`
   width: 100%;
   margin-bottom: 25px;
