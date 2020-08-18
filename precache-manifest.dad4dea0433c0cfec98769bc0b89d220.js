@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13a3d1eb4f362e99199179b0a149629f",
+    "revision": "1447324d9e08b9bd6bf00e4376a5fce2",
     "url": "/index.html"
   },
   {
-    "revision": "b9320db20814c20d6315",
+    "revision": "859acc77fa20497d89de",
     "url": "/static/css/main.ba0857ef.chunk.css"
   },
   {
-    "revision": "3b4e8331ecb3821e83e8",
-    "url": "/static/js/2.4ba0c3bf.chunk.js"
+    "revision": "128eb592b5e34a85190f",
+    "url": "/static/js/2.dc957566.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.4ba0c3bf.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.dc957566.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9320db20814c20d6315",
-    "url": "/static/js/main.147b906d.chunk.js"
+    "revision": "859acc77fa20497d89de",
+    "url": "/static/js/main.9811a3ac.chunk.js"
   },
   {
     "revision": "5284eec07972ace79c95",
     "url": "/static/js/runtime-main.ceaf4b5f.js"
+  },
+  {
+    "revision": "189b9bf510adcd113dcd95dc3430ac59",
+    "url": "/static/media/compatibility_calculator.189b9bf5.png"
+  },
+  {
+    "revision": "18fb9b861f6b155e67bf71286d4846ea",
+    "url": "/static/media/compcalc_promo.18fb9b86.png"
   },
   {
     "revision": "912a9ea2c3f212c4828cb2870ea28b3d",
@@ -48,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mockup_phone.b1a3002f.png"
   },
   {
+    "revision": "63f2b21f7eadadde906dc0784cc80131",
+    "url": "/static/media/moon_quote.63f2b21f.png"
+  },
+  {
     "revision": "eff0d0ea98d2b819f8eec82d01ccf2af",
     "url": "/static/media/quickscope_articleA.eff0d0ea.png"
   },
@@ -68,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/resume.4995f6e1.png"
   },
   {
+    "revision": "904909963ccddda10d67b48ef92b1a46",
+    "url": "/static/media/scribbles_framed.90490996.jpg"
+  },
+  {
     "revision": "62469045024a55a46f41a38a18a30ffe",
     "url": "/static/media/sharpie_face.62469045.png"
   },
@@ -82,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c338b8d9f2f63ceb66512e9186a3d281",
     "url": "/static/media/sharpie_watercolor3.c338b8d9.png"
+  },
+  {
+    "revision": "b2d77d36ae4cc7076b4136706947370e",
+    "url": "/static/media/signspecific_ad.b2d77d36.png"
   },
   {
     "revision": "4001c597d090d1173db49221460ab633",
@@ -106,5 +126,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0c6226705575f19b8f91aedb2e021e4b",
     "url": "/static/media/starlies.0c622670.png"
+  },
+  {
+    "revision": "c1b758f55e56f148fe972cb66ff63cff",
+    "url": "/static/media/starlies_newslettermockup.c1b758f5.png"
   }
 ]);
