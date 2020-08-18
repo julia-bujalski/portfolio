@@ -12,7 +12,8 @@ import {
   PhotoRow,
   ProjectImageC,
   ProjectSectionTitle,
-  SubtitleText
+  SubtitleText,
+  MockupWrapper
 } from '../Introspection/Introspection.styles';
 import HausilyFeaturedImage from '../../assets/hausily.png';
 import HausilyStyleGuide from '../../assets/hausily_styleguide.png';
@@ -40,15 +41,19 @@ export const Hausily = () => {
       </FeaturedWrapper>
       <ProjectSectionTitle>Mockups</ProjectSectionTitle>
       <SubtitleText>Scroll through mock ups of the Hausily site</SubtitleText>
-      <PhotoRow>
-        <PhoneScrollMockUp row mockup="https://freight.cargo.site/w/500/q/75/i/9d7106c27f42f0216f189539d3d88a764d8d1299d9c3f69a3797e3fde552296d/Mobile_mockups.jpg" />
-        <LaptopScrollMockup mockup="https://freight.cargo.site/w/2000/q/75/i/dea183596282c676f8c5a27f2c18b10968f29d3916fbb83f868da926421f8d03/Desktop_mockupsasdfasdf.jpg" />
-      </PhotoRow>
+      <MockupWrapper>
+        <PhotoRow>
+          <PhoneScrollMockUp row mockup="https://freight.cargo.site/w/500/q/75/i/9d7106c27f42f0216f189539d3d88a764d8d1299d9c3f69a3797e3fde552296d/Mobile_mockups.jpg" />
+          <LaptopScrollMockup mockup="https://freight.cargo.site/w/2000/q/75/i/dea183596282c676f8c5a27f2c18b10968f29d3916fbb83f868da926421f8d03/Desktop_mockupsasdfasdf.jpg" />
+        </PhotoRow>
+      </MockupWrapper>
       <ProjectSectionTitle>Styleguide</ProjectSectionTitle>
-      <PhotoRow>
-        <ProjectImageC src={HausilyStyleGuide} />
-        <ProjectImageC src={HausilyStyleGuide2} />
-      </PhotoRow>
+      <MockupWrapper>
+        <PhotoRow>
+          <ProjectImageC src={HausilyStyleGuide} />
+          <ProjectImageC src={HausilyStyleGuide2} />
+        </PhotoRow>
+      </MockupWrapper>
     <ViewMoreProjects />
     </ProjectPageWrapper>
   )

@@ -36,7 +36,7 @@ export const PageWrapper = styled(ContentWrapper)`
   min-height: 50vh;
 
   @media only screen and (max-width: ${TABLET}) {
-    padding-top: 75px;
+    padding-top: 110px;
   }
 `;
 

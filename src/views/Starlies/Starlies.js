@@ -9,7 +9,8 @@ import {
   PhotoRow,
   ProjectImageB,
   ProjectSectionTitle,
-  SubtitleText
+  SubtitleText,
+  MockupWrapper
 } from '../Introspection/Introspection.styles';
 import StarliesFeaturedImage from '../../assets/starlies.png';
 import CompatibilityCalculatorPromo from '../../assets/compcalc_promo.png';
@@ -44,9 +45,11 @@ export const Starlies = () => {
         <ProjectSectionTitle>Compatibility Calculator</ProjectSectionTitle>
         <ProjectBodyText>This feature was added to Starlies in July 2020 with the goal of increasing time on site and daily active users. I was responsible for the design and development of this feature including structure and styling of the page and calling the API. <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer"> Click the mock up to visit the site and determine your compatibility! </a>
         </ProjectBodyText>
-        <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer">
-          <PhoneScrollMockUp mockup={CompatibilityCalculatorMockup} />
-        </a>
+        <MockupWrapper>
+          <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer">
+            <PhoneScrollMockUp mockup={CompatibilityCalculatorMockup} />
+          </a>
+        </MockupWrapper>
         <ProjectSectionTitle>Ad Campaigns </ProjectSectionTitle>
         <PhotoRow>
           <ProjectImageB src={CompatibilityCalculatorPromo} />
@@ -55,7 +58,9 @@ export const Starlies = () => {
         </PhotoRow>
         <ProjectSectionTitle>Newsletter Mockup</ProjectSectionTitle>
         <SubtitleText>Scroll through an edition of <strong>Starlies</strong></SubtitleText>
-        <PhoneScrollMockUp mockup={NewsletterMockUp} />
+        <MockupWrapper>
+          <PhoneScrollMockUp mockup={NewsletterMockUp} />
+        </MockupWrapper>
       <ViewMoreProjects />
     </ProjectPageWrapper>
   )

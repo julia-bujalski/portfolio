@@ -78,7 +78,6 @@ export const PhotoRow = styled.div`
 
   @media only screen and (max-width: ${MOBILE}) {
     flex-direction: column;
-    padding: 50px 0px;
   }
 `;
 
@@ -97,5 +96,17 @@ export const BookletWrapper = styled.div`
 
   @media (max-width: ${MOBILE}) {
     display: none;
+  }
+`;
+
+export const MockupWrapper = styled.div`
+  background-color: #F5F5F5;
+  margin-top: 15px;
+  padding: 35px 0px;
+
+  @media (max-width: ${MOBILE}) {
+    background-color: unset;
+    padding: unset;
+    margin: unset;
   }
 `;

@@ -10,6 +10,7 @@ import {
   ProjectImageB,
   ProjectSectionTitle,
   SubtitleText,
+  MockupWrapper
 } from '../Introspection/Introspection.styles';
 import QuickscopeFeaturedImage from '../../assets/quickscope_mockup.png';
 import QuickscopeArticleA from '../../assets/quickscope_articleA.png';
@@ -41,7 +42,9 @@ export const Quickscope = () => {
         </FeaturedWrapper>
         <ProjectSectionTitle>Newsletter Design</ProjectSectionTitle>
         <SubtitleText>Scroll through an issue of <strong>Quickscope</strong></SubtitleText>
-        <PhoneScrollMockUp mockup={NewsletterMockUp} />
+        <MockupWrapper>
+          <PhoneScrollMockUp mockup={NewsletterMockUp} />
+        </MockupWrapper>
         <ProjectSectionTitle>Ad Campaigns</ProjectSectionTitle>
         <PhotoRow>
           <ProjectImageB src={QuickscopeArticleA} />
