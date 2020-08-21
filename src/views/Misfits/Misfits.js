@@ -9,6 +9,7 @@ import EyeStretch from '../../assets/misfits/eye_lino.png';
 import FaceLitho from '../../assets/misfits/face_litho.png';
 import HandWoodcut from '../../assets/misfits/hand_woodcut.png';
 import HandFeetLino from '../../assets/misfits/handfeet_lino.png';
+import PurpleSquish from '../../assets/misfits/purple_squish.png';
 
 export const Misfits = () => {
   useEffect(() => {
@@ -31,6 +32,7 @@ export const Misfits = () => {
       <PhotoRow>
         <ProjectImageB src={HandFeetLino} />
         <ProjectImageB src={EyeStretch} />
+        <ProjectImageB src={PurpleSquish} />
       </PhotoRow>
     </PageWrapper>
   )

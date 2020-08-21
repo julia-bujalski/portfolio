@@ -25,7 +25,11 @@ export const FeaturedWrapper = styled.div`
 `;
 
 export const ProjectPageWrapper = styled(PageWrapper)`
-  width: 90%;
+  width: 80%;
+
+  @media only screen and (max-width: ${TABLET}) {
+    width: 90%;
+  }
 `;
 
 export const ProjectTitleWrapper = styled.div`
@@ -48,8 +52,10 @@ export const ProjectImage = styled.img`
 `;
 
 export const ProjectImageB = styled(ProjectImage)`
-  width: 30%;
   object-position: top;
+  width: 30%;
+  object-fit: cover;
+  height: 100%;
 
   @media only screen and (max-width: ${TABLET}) {
     width: 45%;
@@ -108,5 +114,14 @@ export const MockupWrapper = styled.div`
     background-color: unset;
     padding: unset;
     margin: unset;
+  }
+`;
+
+export const BookletSubtitle = styled(SubtitleText)`
+  display: none;
+  padding-bottom: 15px;
+
+  @media (max-width: ${MOBILE}) {
+    display: block;
   }
 `;

@@ -33,10 +33,10 @@ export const Connections = () => {
             </BodyText>
           </ProjectText>
         </ProjectTitleWrapper>
-        <FeaturedImage src={ConnectionsFeaturedImage} />
+        <FeaturedImage src={ConnectionsA} />
       </FeaturedWrapper>
       <PhotoRow>
-        <ProjectImageB src={ConnectionsA} />
+        <ProjectImageB src={ConnectionsFeaturedImage} />
         <ProjectImageB src={SharpieFace} />
         <ProjectImageB src={ConnectionsB} />
       </PhotoRow>
