@@ -1,21 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.ba0857ef.chunk.css",
-    "main.js": "/static/js/main.61233bbc.chunk.js",
-    "main.js.map": "/static/js/main.61233bbc.chunk.js.map",
+    "main.js": "/static/js/main.3c2a55ed.chunk.js",
+    "main.js.map": "/static/js/main.3c2a55ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.a3376c55.chunk.js": "/static/js/2.a3376c55.chunk.js",
-    "static/js/2.a3376c55.chunk.js.map": "/static/js/2.a3376c55.chunk.js.map",
+    "static/js/2.4d5b937d.chunk.js": "/static/js/2.4d5b937d.chunk.js",
+    "static/js/2.4d5b937d.chunk.js.map": "/static/js/2.4d5b937d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.97ec7c44e48a1bbdcde2ed2d20649889.js": "/precache-manifest.97ec7c44e48a1bbdcde2ed2d20649889.js",
+    "precache-manifest.a108d64ed3d1ee193a213aa64311e270.js": "/precache-manifest.a108d64ed3d1ee193a213aa64311e270.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ba0857ef.chunk.css.map": "/static/css/main.ba0857ef.chunk.css.map",
-    "static/js/2.a3376c55.chunk.js.LICENSE.txt": "/static/js/2.a3376c55.chunk.js.LICENSE.txt",
+    "static/js/2.4d5b937d.chunk.js.LICENSE.txt": "/static/js/2.4d5b937d.chunk.js.LICENSE.txt",
+    "static/media/booklets.png": "/static/media/booklets.5d565588.png",
+    "static/media/comfort1.png": "/static/media/comfort1.650ccf61.png",
     "static/media/compatibility_calculator.png": "/static/media/compatibility_calculator.189b9bf5.png",
     "static/media/compcalc_promo.png": "/static/media/compcalc_promo.18fb9b86.png",
+    "static/media/ecstasy1.png": "/static/media/ecstasy1.583e5f5e.png",
     "static/media/eye_lino.png": "/static/media/eye_lino.3fe4bf04.png",
     "static/media/face_litho.png": "/static/media/face_litho.dc59bb34.png",
+    "static/media/gallerybook.png": "/static/media/gallerybook.a2422fce.png",
     "static/media/hand_woodcut.png": "/static/media/hand_woodcut.a636c262.png",
     "static/media/handfeet_lino.png": "/static/media/handfeet_lino.f20ac803.png",
     "static/media/hausily.png": "/static/media/hausily.912a9ea2.png",
@@ -27,10 +31,13 @@
     "static/media/mockup_laptop.png": "/static/media/mockup_laptop.bb732aae.png",
     "static/media/mockup_phone.png": "/static/media/mockup_phone.b1a3002f.png",
     "static/media/moon_quote.png": "/static/media/moon_quote.63f2b21f.png",
+    "static/media/purple_squish.png": "/static/media/purple_squish.9cd0f372.png",
     "static/media/quickscope_articleA.png": "/static/media/quickscope_articleA.eff0d0ea.png",
     "static/media/quickscope_articleB.png": "/static/media/quickscope_articleB.4c266f92.png",
     "static/media/quickscope_facebook.png": "/static/media/quickscope_facebook.b000ec7c.png",
     "static/media/quickscope_mockup.png": "/static/media/quickscope_mockup.b5b294a1.png",
+    "static/media/rage1.png": "/static/media/rage1.63b90514.png",
+    "static/media/rage2.png": "/static/media/rage2.fc1e052d.png",
     "static/media/resume.png": "/static/media/resume.4995f6e1.png",
     "static/media/scribbles_framed.jpg": "/static/media/scribbles_framed.90490996.jpg",
     "static/media/sharpie_face.png": "/static/media/sharpie_face.62469045.png",
@@ -44,12 +51,13 @@
     "static/media/spectra_hat.png": "/static/media/spectra_hat.340411ba.png",
     "static/media/spectra_networking.png": "/static/media/spectra_networking.5667ba20.png",
     "static/media/starlies.png": "/static/media/starlies.0c622670.png",
-    "static/media/starlies_newslettermockup.png": "/static/media/starlies_newslettermockup.c1b758f5.png"
+    "static/media/starlies_newslettermockup.png": "/static/media/starlies_newslettermockup.c1b758f5.png",
+    "static/media/tension1.png": "/static/media/tension1.f38a0bce.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.a3376c55.chunk.js",
+    "static/js/2.4d5b937d.chunk.js",
     "static/css/main.ba0857ef.chunk.css",
-    "static/js/main.61233bbc.chunk.js"
+    "static/js/main.3c2a55ed.chunk.js"
   ]
 }
