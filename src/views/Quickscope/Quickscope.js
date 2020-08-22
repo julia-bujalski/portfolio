@@ -5,20 +5,23 @@ import {
   FeaturedWrapper,
   ProjectPageWrapper,
   ProjectTitleWrapper,
-  ProjectText,
   PhotoRow,
   ProjectImageB,
   ProjectSectionTitle,
   SubtitleText,
-  MockupWrapper
-} from '../Introspection/Introspection.styles';
-import QuickscopeFeaturedImage from '../../assets/quickscope_mockup.png';
-import QuickscopeArticleA from '../../assets/quickscope_articleA.png';
-import QuickscopeArticleB from '../../assets/quickscope_articleB.png';
-import QuickscopeFacebook from '../../assets/quickscope_facebook.png';
+  MockupWrapper,
+  ChallengeSolutionWrapper,
+  JourneyText,
+} from '../projectpage_theme.js';
+import QuickscopeArticleA from '../../assets/quickscope/quickscope_articleA.png';
+import QuickscopeArticleB from '../../assets/quickscope/quickscope_articleB.png';
+import QuickscopeFacebook from '../../assets/quickscope/quickscope_facebook.png';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import NewsletterMockUp from '../../assets/mockup.png';
 import { PhoneScrollMockUp } from '../../components/PhoneScrollMockUp';
+import ScreensMockup from '../../assets/quickscope/quickscope_screens_mockup.png';
+
+const GreenBackground = `#D5FCE2`;
 
 export const Quickscope = () => {
   useEffect(() => {
@@ -26,23 +29,38 @@ export const Quickscope = () => {
   }, []);
 
   return (
-    <ProjectPageWrapper>
-      <FeaturedWrapper>
+    <>
+      <FeaturedWrapper backgroundColor={GreenBackground}>
         <ProjectTitleWrapper>
           <SectionTitle>Email design & front end development</SectionTitle>
           <PageHeadline>Quickscope</PageHeadline>
           <BodyText>Minerva Analytics <br /> January 2020 - Present</BodyText>
-          <ProjectText>
-            <BodyText>
+          <BodyText>A daily gaming newsletter.</BodyText>
+        </ProjectTitleWrapper>
+        <FeaturedImage src={ScreensMockup} />
+        </FeaturedWrapper>
+      <ProjectPageWrapper>
+        <ProjectSectionTitle>Introduction</ProjectSectionTitle>
+        <BodyText>
               I supported Quickscope, the daily video gaming newsletter, as a designer at Minerva Analytics. I created the email design, social graphics, and helped support development of the site with ReactJS styled components. Check out the live site at <a href="https://thequickscope.com" target="_blank" rel="noopener noreferrer">thequickscope.com</a>
             </BodyText>
-          </ProjectText>
-        </ProjectTitleWrapper>
-        <FeaturedImage src={QuickscopeFeaturedImage} />
-        </FeaturedWrapper>
         <ProjectSectionTitle>Newsletter Design</ProjectSectionTitle>
+        <ChallengeSolutionWrapper>
+          <JourneyText>
+            <SectionTitle>Challenge</SectionTitle>
+            <BodyText>
+              The current newsletter is difficult to read, does not feel editorial, and doesn't feel cohesive with the current site branding.
+            </BodyText>
+          </JourneyText>
+          <JourneyText>
+            <SectionTitle>Solution</SectionTitle>
+            <BodyText>
+              Restructure the newsletter to go in order of interest based on user surveys and reduce decorative visual elements to help users digest their daily gaming news more easily and efficiently.
+            </BodyText>
+          </JourneyText>
+        </ChallengeSolutionWrapper>
         <SubtitleText>Scroll through an issue of <strong>Quickscope</strong></SubtitleText>
-        <MockupWrapper>
+        <MockupWrapper backgroundColor={GreenBackground}>
           <PhoneScrollMockUp mockup={NewsletterMockUp} />
         </MockupWrapper>
         <ProjectSectionTitle>Ad Campaigns</ProjectSectionTitle>
@@ -53,6 +71,7 @@ export const Quickscope = () => {
         </PhotoRow>
       <ViewMoreProjects />
     </ProjectPageWrapper>
+    </>
   )
 }
 

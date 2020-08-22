@@ -7,13 +7,14 @@ import {
   ProjectTitleWrapper,
   ProjectText,
   PhotoRow,
-  ProjectImageB
-} from '../Introspection/Introspection.styles';
-import ConnectionsFeaturedImage from '../../assets/sharpie_watercolor.png';
-import SharpieFace from '../../assets/sharpie_face.png';
+  ProjectImageB,
+  ProjectSectionTitle
+} from '../projectpage_theme.js';
+import ConnectionsFeaturedImage from '../../assets/connections/sharpie_watercolor.png';
+import SharpieFace from '../../assets/connections/sharpie_face.png';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
-import ConnectionsA from '../../assets/sharpie_watercolor2.png';
-import ConnectionsB from '../../assets/sharpie_watercolor3.png';
+import ConnectionsA from '../../assets/connections/sharpie_watercolor2.png';
+import ConnectionsB from '../../assets/connections/sharpie_watercolor3.png';
 
 export const Connections = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ export const Connections = () => {
   }, []);
 
   return (
-    <ProjectPageWrapper>
+    <>
       <FeaturedWrapper>
         <ProjectTitleWrapper>
           <SectionTitle>Illustration</SectionTitle>
@@ -35,13 +36,16 @@ export const Connections = () => {
         </ProjectTitleWrapper>
         <FeaturedImage src={ConnectionsA} />
       </FeaturedWrapper>
-      <PhotoRow>
+      <ProjectPageWrapper>
+      <ProjectSectionTitle>Illustrations</ProjectSectionTitle>
+      <PhotoRow style={{paddingTop: `35px`}}>
         <ProjectImageB src={ConnectionsFeaturedImage} />
         <ProjectImageB src={SharpieFace} />
         <ProjectImageB src={ConnectionsB} />
       </PhotoRow>
       <ViewMoreProjects />
     </ProjectPageWrapper>
+    </>
   )
 }
 

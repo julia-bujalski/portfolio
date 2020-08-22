@@ -11,7 +11,7 @@ import {
   ProjectSectionTitle,
   BookletWrapper,
   BookletSubtitle
-} from '../Introspection/Introspection.styles';
+} from '../projectpage_theme.js';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import Booklets from '../../assets/introspection/booklets.png';
 import Comfort1 from '../../assets/introspection/comfort1.png';
@@ -43,20 +43,27 @@ export const Introspection = () => {
   }, []);
 
   return (
-      <ProjectPageWrapper>
-        <FeaturedWrapper>
+      <>
+        <FeaturedWrapper backgroundColor="#f6f3f9">
           <ProjectTitleWrapper>
             <SectionTitle>Mixed media typography</SectionTitle>
             <PageHeadline>Introspection</PageHeadline>
             <BodyText>Emmanuel College Senior Thesis <br /> Sept 2017 - May 2018</BodyText>
             <ProjectText>
               <BodyText>
-                Introspection is a visual exploration in the communication of emotional experiences through common materials and experimental typography. <br /> <br />Through 15 in person interviews, I gathered quotes of peoples’ associations with five emotions: <strong>ecstasy, tension, rage, comfort, and grief.</strong> The overall goal is to get the viewer to understand these emotions and reflect on their own emotional experiences.
+                A visual exploration in the communication of emotional experiences through common materials and experimental typography.
               </BodyText>
             </ProjectText>
           </ProjectTitleWrapper>
           <FeaturedImage src="https://freight.cargo.site/w/1260/q/94/i/b69408e5823e0446764e93caefbe15b2a00cabe474d71a8dfc4008c5f2e2efb7/booklet.png" />
         </FeaturedWrapper>
+        <ProjectPageWrapper>
+        <ProjectSectionTitle>
+          Introduction
+        </ProjectSectionTitle>
+        <BodyText>
+        Through 15 in person interviews, I gathered quotes of peoples’ associations with five emotions: <strong>ecstasy, tension, rage, comfort, and grief.</strong> The overall goal is to get the viewer to understand these emotions and reflect on their own emotional experiences.
+        </BodyText>
         <PhotoRow>
           <ProjectImageB src="https://freight.cargo.site/w/840/q/94/i/5c6441166afd6ff826fd70a23504c8f4bbe734f4e30cd3d371013bb2047c38d7/booklets1.png" />
           <ProjectImageB src="https://freight.cargo.site/w/720/q/94/i/431708c63deedba18fe9f61d73df7122a01e76f5a18a9df84bf7b840b3c0f7c4/booklets2.png" />
@@ -104,6 +111,7 @@ export const Introspection = () => {
         <script src="https://players.yumpu.com/modules/embed/yp_r_iframe.js"></script>
       <ViewMoreProjects />
     </ProjectPageWrapper>
+    </>
   )
 }
 

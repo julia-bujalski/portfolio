@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 import { ProjectPreview } from '../../components/ProjectPreview';
 import { Contact } from '../../components/Contact';
-import StarliesThumbnail from '../../assets/starlies.png';
-import SpectraThumbnail from '../../assets/spectra_banner.jpg';
-import HausilyThumbnail from '../../assets/hausily.png';
-import IntrospectionThumbnail from '../../assets/introspection.png';
-import ConnectionsThumbnail from '../../assets/sharpie_watercolor.png';
-import QuickscopeThumbnail from '../../assets/quickscope_mockup.png';
+import StarliesThumbnail from '../../assets/starlies/starlies.png';
+import SpectraThumbnail from '../../assets/spectra/spectra_banner.jpg';
+import HausilyThumbnail from '../../assets/hausily/hausily.png';
+import IntrospectionThumbnail from '../../assets/introspection/introspection.png';
+import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.png';
+import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
 import { SectionTitle, ContentWrapper, BodyText } from '../../theme';
 import {
   HeroTitle,

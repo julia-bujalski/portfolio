@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { BLACK, MOBILE, TABLET } from '../../theme';
 
 export const NavWrapper = styled.div`
-  position: fixed;
-  width: calc(100% - 80px);
+  width: 100%;
+  background-color: #ffffff;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   text-align: left;
@@ -21,7 +21,6 @@ export const NavWrapper = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    width: calc(100% - 40px);
   }
 
   @media only screen and (max-width: 450px) {

@@ -6,16 +6,24 @@ import {
   ProjectPageWrapper,
   ProjectTitleWrapper,
   ProjectText,
-  ProjectImage,
   PhotoRow,
-  ProjectImageB
-} from '../Introspection/Introspection.styles';
+  ProjectImageB,
+  ProjectImageC,
+  ProjectSectionTitle,
+  ChallengeSolutionWrapper,
+  JourneyText,
+} from '../projectpage_theme.js';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
-import SpectraFeaturedImage from '../../assets/spectra_banner.jpg';
-import DonationGraphic from '../../assets/spectra_donation.png';
-import HalloweenGraphic from '../../assets/spectra_halloween.png';
-import NetworkingGraphic from '../../assets/spectra_networking.png';
-import SpectraHat from '../../assets/spectra_hat.png';
+import DonationGraphic from '../../assets/spectra/spectra_donation.png';
+import NetworkingGraphic from '../../assets/spectra/spectra_networking.png';
+import SpectraHat from '../../assets/spectra/spectra_hat.png';
+import LogoWordmark from '../../assets/spectra/logo_wordmark.png';
+import LogoIllustration from '../../assets/spectra/logo_illustration.png';
+import Product1 from '../../assets/spectra/product1.png';
+import Product2 from '../../assets/spectra/product2.png';
+import Product3 from '../../assets/spectra/product3.png';
+
+const PeaceBackgroundColor=`#fdd7d4`;
 
 export const Spectra = () => {
   useEffect(() => {
@@ -23,31 +31,60 @@ export const Spectra = () => {
   }, []);
 
   return (
-    <ProjectPageWrapper>
-      <FeaturedWrapper>
+    <>
+      <FeaturedWrapper backgroundColor={PeaceBackgroundColor}>
         <ProjectTitleWrapper>
           <SectionTitle>Branding & print design</SectionTitle>
           <PageHeadline>Cogo Spectra</PageHeadline>
           <BodyText>Cogo Labs <br />January 2019 - Present</BodyText>
           <ProjectText>
             <BodyText>
-              In July of 2018, Cogo Spectra established an LGBTQ+ affinity group with the goal of creating a welcoming environment for the LGBTQ+ community and allies. I created the branding, marketing materials for events, and materials for when we marched in Boston Pride, June 2019.
+              The Cogo Labs LGBTQ affinity group.
             </BodyText>
           </ProjectText>
         </ProjectTitleWrapper>
-        <FeaturedImage src={SpectraFeaturedImage} />
+        <FeaturedImage src="https://freight.cargo.site/w/1782/q/94/i/85e75e65bb835a0c2c708c34b22ab9b30c1048b94c3a6adc1c1d38e29e908cac/pride.jpg" width="100%" />
         </FeaturedWrapper>
+        <ProjectPageWrapper>
+        <ProjectSectionTitle>Introduction</ProjectSectionTitle>
+        <BodyText>In July of 2018, Cogo Spectra established an LGBTQ+ affinity group with the goal of creating a welcoming environment for the LGBTQ+ community and allies. I created the branding, marketing materials for events, and materials for when we marched in Boston Pride, June 2019.</BodyText>
+        <ProjectSectionTitle>Branding</ProjectSectionTitle>
+        <ChallengeSolutionWrapper>
+          <JourneyText>
+            <SectionTitle>Challenge</SectionTitle>
+            <BodyText>
+              How can I create a brand that doesn't feel like 'rainbow washing'? How can I create a logo mark that acknowledges and celebrates all genders and sexualities?
+            </BodyText>
+          </JourneyText>
+          <JourneyText>
+            <SectionTitle>Solution</SectionTitle>
+            <BodyText>
+              Interview members of Spectra to see what is important to them, use symbolism across the LGBTQ and gender spectrum.
+            </BodyText>
+          </JourneyText>
+        </ChallengeSolutionWrapper>
         <PhotoRow>
-          <ProjectImageB src="https://freight.cargo.site/w/432/q/94/i/24cb2095c090ff6a4c5250d1e96370797e15e05b2cfbaa41de7ebc543ce1ad29/postcard1.jpeg" />
-          <ProjectImageB src="https://freight.cargo.site/w/432/q/94/i/1db7960b073dd5a5433040892c1f21064208b2d8458d4844ebc930b1a6586dd0/post-card-2.jpeg" />
+          <ProjectImageC style={{width: `30%`}} src={LogoIllustration} />
+          <ProjectImageC src={LogoWordmark} style={{width: `65%`}}/>
+        </PhotoRow>
+        <BodyText>
+          These two graphics live separately depending on the product and purpose. The illustration plays off of the <a href="https://www.cogolabs.com">Cogo Labs</a> branding with the rocket but uses the LGBTQ flag to emphasize how we are powered by the beautiful, diverse community. I used the flag with the arrow within it to acknowledge the sexualities that were left out of the original pride flag. The word mark uses the same colors to evoke the LGBTQ flag but is decorated with deconstructed gender symbols to celebrate everyones gender identity and journey.
+        </BodyText>
+        <ProjectSectionTitle>Recruiting Materials </ProjectSectionTitle>
+        <PhotoRow>
+          <ProjectImageB src={Product1} />
+          <ProjectImageB src={Product2} />
+          <ProjectImageB src={Product3} />
+        </PhotoRow>
+        <ProjectSectionTitle>Additional Marketing Materials</ProjectSectionTitle>
+        <PhotoRow>
           <ProjectImageB src={DonationGraphic} />
-          <ProjectImageB src={HalloweenGraphic} />
           <ProjectImageB src={NetworkingGraphic} />
           <ProjectImageB src={SpectraHat} />
         </PhotoRow>
-        <ProjectImage src="https://freight.cargo.site/w/1782/q/94/i/85e75e65bb835a0c2c708c34b22ab9b30c1048b94c3a6adc1c1d38e29e908cac/pride.jpg" width="100%" />
       <ViewMoreProjects />
     </ProjectPageWrapper>
+    </>
   )
 }
 

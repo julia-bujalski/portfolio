@@ -1,10 +1,9 @@
 .App {
-  margin: 40px;
 }
 
 @media (max-width: 600px) {
   .App {
-    margin: 20px;
+    
   }
 }
 

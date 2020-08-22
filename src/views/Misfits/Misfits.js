@@ -3,7 +3,7 @@ import { PageHeadline, BodyText, PageWrapper } from '../../theme';
 import {
   PhotoRow,
   ProjectImageB,
-} from '../Introspection/Introspection.styles';
+} from '../projectpage_theme.js';
 import ScribblesFramed from '../../assets/scribbles_framed.jpg';
 import EyeStretch from '../../assets/misfits/eye_lino.png';
 import FaceLitho from '../../assets/misfits/face_litho.png';

@@ -39,7 +39,7 @@ export const Overlay = styled.div`
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: rgba(255, 255, 255, .85);
+  background-color: rgba(255, 255, 255, .95);
   cursor: pointer;
 
   &:hover {
@@ -60,16 +60,16 @@ export const PreviewText = styled.div`
   width: 80%;
 `;
 
-export const Title = styled.div`
+export const Title = styled.span`
   font-family: 'Open Sans', serif;
   line-height: 1.3;
   letter-spacing: 1;
   font-weight: bold;
   font-size: 22px;
-  margin-bottom: 5px;
 `;
 
 export const Medium = styled.div`
   font-family: 'Open Sans', serif;
   font-size: 12px;
+  margin-top: 15px;
 `;
