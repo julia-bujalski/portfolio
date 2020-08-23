@@ -70,13 +70,13 @@ export const Spectra = () => {
         <BodyText>
           These two graphics live separately depending on the product and purpose. The illustration plays off of the <a href="https://www.cogolabs.com">Cogo Labs</a> branding with the rocket but uses the LGBTQ flag to emphasize how we are powered by the beautiful, diverse community. I used the flag with the arrow within it to acknowledge the sexualities that were left out of the original pride flag. The word mark uses the same colors to evoke the LGBTQ flag but is decorated with deconstructed gender symbols to celebrate everyones gender identity and journey.
         </BodyText>
-        <ProjectSectionTitle>Recruiting Materials </ProjectSectionTitle>
+        <ProjectSectionTitle>Recruiting materials </ProjectSectionTitle>
         <PhotoRow>
           <ProjectImageB src={Product1} />
           <ProjectImageB src={Product2} />
           <ProjectImageB src={Product3} />
         </PhotoRow>
-        <ProjectSectionTitle>Additional Marketing Materials</ProjectSectionTitle>
+        <ProjectSectionTitle>Additional marketing materials</ProjectSectionTitle>
         <PhotoRow>
           <ProjectImageB src={DonationGraphic} />
           <ProjectImageB src={NetworkingGraphic} />

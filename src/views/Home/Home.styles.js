@@ -32,7 +32,7 @@ export const HomeText = styled(BodyText)`
 `;
 
 export const HeroWrapper = styled.div`
-  min-height: 70vh;
+  min-height: 50vh;
   background: url(${HeroBackground}) no-repeat top;
   background-size: cover;
   background-blend-mode: lighten;

@@ -43,7 +43,7 @@ export const Hausily = () => {
       <BodyText>
           As a designer on Core Cogo's Web Team, we work as resources for the rest of the company, including the incubating start ups that are small and do not have their own designer. I was tasked with creating the branding and site design for their early stage start up. This site's goal was to hire data-driven individuals that are interested in creating a web product in the home owner market. Visit <a href="http://www.hausily.com" target="_blank" rel="noopener noreferrer">hausily.com</a> to view the live site.
         </BodyText>
-      <ProjectSectionTitle>Site Design</ProjectSectionTitle>
+      <ProjectSectionTitle>Site design</ProjectSectionTitle>
       <ChallengeSolutionWrapper>
           <JourneyText>
             <SectionTitle>Challenge</SectionTitle>
@@ -65,7 +65,7 @@ export const Hausily = () => {
           <LaptopScrollMockup mockup="https://freight.cargo.site/w/2000/q/75/i/dea183596282c676f8c5a27f2c18b10968f29d3916fbb83f868da926421f8d03/Desktop_mockupsasdfasdf.jpg" />
         </PhotoRow>
       </MockupWrapper>
-      <ProjectSectionTitle>Styleguide</ProjectSectionTitle>
+      <ProjectSectionTitle>Style guide</ProjectSectionTitle>
       <MockupWrapper backgroundColor={BlueBackground}>
         <PhotoRow>
           <ProjectImageC src={HausilyStyleGuide} />

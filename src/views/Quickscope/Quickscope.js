@@ -44,7 +44,7 @@ export const Quickscope = () => {
         <BodyText>
               I supported Quickscope, the daily video gaming newsletter, as a designer at Minerva Analytics. I created the email design, social graphics, and helped support development of the site with ReactJS styled components. Check out the live site at <a href="https://thequickscope.com" target="_blank" rel="noopener noreferrer">thequickscope.com</a>
             </BodyText>
-        <ProjectSectionTitle>Newsletter Design</ProjectSectionTitle>
+        <ProjectSectionTitle>Newsletter design</ProjectSectionTitle>
         <ChallengeSolutionWrapper>
           <JourneyText>
             <SectionTitle>Challenge</SectionTitle>
@@ -63,7 +63,7 @@ export const Quickscope = () => {
         <MockupWrapper backgroundColor={GreenBackground}>
           <PhoneScrollMockUp mockup={NewsletterMockUp} />
         </MockupWrapper>
-        <ProjectSectionTitle>Ad Campaigns</ProjectSectionTitle>
+        <ProjectSectionTitle>Ad campaigns</ProjectSectionTitle>
         <PhotoRow>
           <ProjectImageB src={QuickscopeArticleA} />
           <ProjectImageB src={QuickscopeArticleB} />

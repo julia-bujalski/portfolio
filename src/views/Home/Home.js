@@ -1,15 +1,13 @@
 import React, { useEffect } from 'react';
 import { Transition } from 'react-transition-group';
 import { Link } from 'react-router-dom';
-
 import { ProjectPreview } from '../../components/ProjectPreview';
 import { Contact } from '../../components/Contact';
 import StarliesThumbnail from '../../assets/starlies/starlies.png';
-import SpectraThumbnail from '../../assets/spectra/spectra_banner.jpg';
 import HausilyThumbnail from '../../assets/hausily/hausily.png';
-import IntrospectionThumbnail from '../../assets/introspection/introspection.png';
 import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.png';
 import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
+import Product2 from '../../assets/spectra/product2.png';
 import { SectionTitle, ContentWrapper, BodyText } from '../../theme';
 import {
   HeroTitle,
@@ -27,7 +25,7 @@ const Hero = () => {
           hi! I'm julia bujalski
         </HeroTitle>
         <HomeText>
-          Cambridge, MA based web designer currently working at Minerva Analytics
+          I'm a UI/UX Designer at Minerva Analytics something about empathy and beauty.
         </HomeText>
       </HeroContentWrapper>
     </HeroWrapper>
@@ -40,6 +38,18 @@ const FeaturedWork = () => {
       <SectionTitle id="work">Featured Work</SectionTitle>
       <ProjectsGrid>
         <ProjectPreview 
+            projectPath="/hausily"
+            thumbnail={HausilyThumbnail}
+            title="Hausily"
+            medium="Branding & UI/UX design"
+          />
+        <ProjectPreview 
+          projectPath="/quickscope"
+          thumbnail={QuickscopeThumbnail}
+          title="Quickscocpe"
+          medium="Email design & front end development"
+        />
+        <ProjectPreview 
           projectPath="/starlies"
           thumbnail={StarliesThumbnail}
           title="Starlies"
@@ -47,15 +57,9 @@ const FeaturedWork = () => {
         />
         <ProjectPreview 
           projectPath="/spectra"
-          thumbnail={SpectraThumbnail}
+          thumbnail={Product2}
           title="Cogo Spectra"
           medium="Branding & print design"
-        />
-        <ProjectPreview 
-          projectPath="/hausily"
-          thumbnail={HausilyThumbnail}
-          title="Hausily"
-          medium="Branding & UI/UX design"
         />
         <ProjectPreview 
           projectPath="/connections"
@@ -64,20 +68,14 @@ const FeaturedWork = () => {
           medium="Watercolor & pen illustartion"
         />
         <ProjectPreview 
-          projectPath="/quickscope"
-          thumbnail={QuickscopeThumbnail}
-          title="Quickscocpe"
-          medium="Email design & front end development"
-        />
-        <ProjectPreview 
           projectPath="/introspection"
-          thumbnail={IntrospectionThumbnail}
+          thumbnail="https://freight.cargo.site/w/1260/q/94/i/b69408e5823e0446764e93caefbe15b2a00cabe474d71a8dfc4008c5f2e2efb7/booklet.png"
           title="Introspection"
           medium="Mixed media typographic sculpture"
         />
         <BodyText style={{paddingTop: `0px`, textAlign: `right`, width: `100%`}}>
           <Link to='/misfits'>
-            Check out the misfits >
+            Check out the rest of my work >
           </Link>
         </BodyText>
       </ProjectsGrid>

@@ -40,7 +40,6 @@ export const AnchorLink = styled.a`
   box-sizing: border-box;
 
   &:hover {
-    color: #5e478c;
     font-weight: 700;
   }
 
@@ -64,7 +63,6 @@ export const NavLink = styled(Link)`
   text-decoration: none;
 
   &:hover {
-    color: #5e478c;
     font-weight: 700;
   }
 

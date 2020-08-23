@@ -15,11 +15,20 @@ import {
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import Booklets from '../../assets/introspection/booklets.png';
 import Comfort1 from '../../assets/introspection/comfort1.png';
+import Comfort2 from '../../assets/introspection/comfort2.png';
+import Comfort3 from '../../assets/introspection/comfort3.png';
 import Ecstasy1 from '../../assets/introspection/ecstasy1.png';
+import Ecstasy2 from '../../assets/introspection/ecstasy2.png';
+import Ecstasy3 from '../../assets/introspection/ecstasy3.png';
+import Grief1 from '../../assets/introspection/grief1.png';
+import Grief2 from '../../assets/introspection/grief2.png';
 import GalleryBook from '../../assets/introspection/gallerybook.png';
 import Rage1 from '../../assets/introspection/rage1.png';
 import Rage2 from '../../assets/introspection/rage2.png';
+import Rage3 from '../../assets/introspection/rage3.png';
 import Tension1 from '../../assets/introspection/tension1.png';
+import Tension2 from '../../assets/introspection/tension2.png';
+import Tension3 from '../../assets/introspection/tension3.png';
 
 const Booklet = (props) => {
   return (
@@ -70,36 +79,40 @@ export const Introspection = () => {
           <ProjectImageB src={Booklets} />
         </PhotoRow>
         <ProjectSectionTitle>Comfort</ProjectSectionTitle>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/Bydj4TQlY6Ie90o7" />
         <PhotoRow>
-          <ProjectImageB src="https://freight.cargo.site/w/1054/q/94/i/77833e8c7e352aa3251457f69d397324cddb6c67729dc77621ccbbbc4f78b5fa/comfort.png" />
+          <ProjectImageB src={Comfort2} />
           <ProjectImageB src={Comfort1} />
+          <ProjectImageB src={Comfort3} />
         </PhotoRow>
+        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/Bydj4TQlY6Ie90o7" />
         <ProjectSectionTitle>Rage</ProjectSectionTitle>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/ksn8IMH39WjzdouV" />
         <PhotoRow>
-          <ProjectImageB src="https://freight.cargo.site/w/1000/q/94/i/a4b50386e93e7ca0ccff25288159663f47a4cd63a995100ae216e102404ac740/reckless.png" />
+          <ProjectImageB src={Rage3} />
           <ProjectImageB src={Rage1} />
           <ProjectImageB src={Rage2} />
         </PhotoRow>
+        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/ksn8IMH39WjzdouV" />
         <ProjectSectionTitle>Grief</ProjectSectionTitle>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/o7gvb8JNxzmciOKl" />
         <PhotoRow>
-          <ProjectImageB src="https://freight.cargo.site/w/1000/q/94/i/a147ca1070201a760ba1c0c966551730b1f66e917c5bc9385300201afb98e0cf/grief.png" />
+          <ProjectImageB src={Grief1} />
+          <ProjectImageB src={Grief2} />
         </PhotoRow>
+        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/o7gvb8JNxzmciOKl" />
         <ProjectSectionTitle>Ecstasy</ProjectSectionTitle>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/kSY12GZTKwhuFpt7" />
         <PhotoRow>
-          <ProjectImageB src="https://freight.cargo.site/w/1000/q/94/i/72fca17cfbbec1b1e988ac249941927a69953a0daad68da53dc435e270fd5200/ecstasy.png" />
+          <ProjectImageB src={Ecstasy3} />
+          <ProjectImageB src={Ecstasy2} />
           <ProjectImageB src={Ecstasy1} />
         </PhotoRow>
+        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/kSY12GZTKwhuFpt7" />
         <ProjectSectionTitle>Tension</ProjectSectionTitle>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/90fgl2JS1xaIZMmB" />
         <PhotoRow>
-          <ProjectImageB src="https://freight.cargo.site/w/2500/q/75/i/892adb913dfb7032af35617048ec94a4256d65fbd26daa5916f326db84f767df/tension.png" />
+          <ProjectImageB src={Tension3} />
           <ProjectImageB src={Tension1} />
+          <ProjectImageB src={Tension2} />
         </PhotoRow>
-        <ProjectSectionTitle>Gallery Book</ProjectSectionTitle>
+        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/90fgl2JS1xaIZMmB" />
+        <ProjectSectionTitle>Gallery book</ProjectSectionTitle>
         <PhotoRow>
           <ProjectImageB src="https://freight.cargo.site/w/600/q/94/i/9f7744c9294def8fc371f3495d68276befb71e8cfb50da86e07a607fe675e0ff/gallerybook1.png" />
           <ProjectImageB src="https://freight.cargo.site/w/600/q/94/i/28d0b420e722d4309f8c52e3d82fba27df7d78814922ea4fc2f5def840379762/gallerbook2.png" />
