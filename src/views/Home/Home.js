@@ -5,7 +5,6 @@ import { ProjectPreview } from '../../components/ProjectPreview';
 import { Contact } from '../../components/Contact';
 import StarliesThumbnail from '../../assets/starlies/starlies.png';
 import HausilyThumbnail from '../../assets/hausily/hausily.png';
-import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.png';
 import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
 import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import Product2 from '../../assets/spectra/product2.png';

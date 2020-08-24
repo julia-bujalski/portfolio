@@ -6,8 +6,6 @@ import {
   ProjectPageWrapper,
   ProjectTitleWrapper,
   ProjectText,
-  PhotoRow,
-  ProjectImageB,
   ProjectImage,
   ProjectSectionTitle,
   ChallengeSolutionWrapper,
@@ -17,6 +15,7 @@ import {
 import { StyleGuide } from './BackThenHistory.styles';
 import ScreensMockup from '../../assets/bth/bth.png';
 import StarterStyleGude from '../../assets/bth/starter_styleguide.png';
+import ResponsiveMockup from '../../assets/bth/responsive_mockup.png';
 
 const RedBackground = `#F7DEDF`;
 
@@ -64,6 +63,24 @@ export const BackThenHistory = () => {
         </ChallengeSolutionWrapper>
         <MockupWrapper backgroundColor={RedBackground}>
           <StyleGuide src={StarterStyleGude} />
+        </MockupWrapper>
+        <ProjectSectionTitle>Site design</ProjectSectionTitle>
+        <ChallengeSolutionWrapper>
+          <JourneyText>
+            <SectionTitle>Challenge</SectionTitle>
+            <BodyText>
+              How do we entice users to sign up for something that doesn't exist? How do we sell a product where the only details we know are that it will involve "history of everyday objects"? How do we do this as fast as possible?
+            </BodyText>
+          </JourneyText>
+          <JourneyText>
+            <SectionTitle>Solution</SectionTitle>
+            <BodyText>
+              Use language that connects with excited anticipation, show a potential mock up of the newsletter while keeping it general enough to pivot in both design and content, work with engineers to ensure that the design is straight forward and easy to develop based on in house bootstrap.
+            </BodyText>
+          </JourneyText>
+        </ChallengeSolutionWrapper>
+        <MockupWrapper backgroundColor={RedBackground}>
+          <ProjectImage src={ResponsiveMockup} />
         </MockupWrapper>
       </ProjectPageWrapper>
     </>

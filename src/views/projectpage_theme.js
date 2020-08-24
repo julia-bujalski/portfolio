@@ -39,12 +39,13 @@ export const ProjectPageWrapper = styled(PageWrapper)`
 export const ProjectTitleWrapper = styled.div`
   padding-right: 30px;
   padding-left: 7%;
-  padding-top: 75px;
+  padding-top: 55px;
   padding-bottom: 35px;
 
   @media only screen and (max-width: ${TABLET}) {
     width: 90%;
     margin: 0 auto;
+    padding: unset;
   }
 `;
 
