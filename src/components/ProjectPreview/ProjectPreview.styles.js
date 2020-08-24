@@ -20,6 +20,7 @@ export const PreviewWrapper = styled(Link)`
   width: 30%;
   margin-bottom: 50px;
   color: ${BLACK};
+  cursor: pointer;
 
   &:hover img {
     transform: scale (1.3);

@@ -11,6 +11,7 @@ import Connections from './views/Connections';
 import Quickscope from './views/Quickscope';
 import Introspection from './views/Introspection';
 import Misfits from './views/Misfits';
+import BackThenHistory from './views/BackThenHistory'
 
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/connections" component={Connections} />
         <Route exact path="/quickscope" component={Quickscope} />
         <Route exact path="/introspection" component={Introspection} />
+        <Route exact path="/backthenhistory" component={BackThenHistory} />
         <Route exact path="/misfits" component={Misfits} />
         <Route path="/" component={Home} />
       </Switch>

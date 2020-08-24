@@ -7,6 +7,7 @@ import StarliesThumbnail from '../../assets/starlies/starlies.png';
 import HausilyThumbnail from '../../assets/hausily/hausily.png';
 import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.png';
 import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
+import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import Product2 from '../../assets/spectra/product2.png';
 import { SectionTitle, ContentWrapper, BodyText } from '../../theme';
 import {
@@ -53,7 +54,7 @@ const FeaturedWork = () => {
           projectPath="/starlies"
           thumbnail={StarliesThumbnail}
           title="Starlies"
-          medium="Product, marketing, and UX design"
+          medium="Product, marketing, & UX design"
         />
         <ProjectPreview 
           projectPath="/spectra"
@@ -62,10 +63,10 @@ const FeaturedWork = () => {
           medium="Branding & print design"
         />
         <ProjectPreview 
-          projectPath="/connections"
-          thumbnail={ConnectionsThumbnail}
-          title="Connection Exploration"
-          medium="Watercolor & pen illustartion"
+          projectPath="/backthenhistory"
+          thumbnail={BackThenHistoryThumbnail}
+          title="Back Then History"
+          medium="Branding, site, marketing, & email design"
         />
         <ProjectPreview 
           projectPath="/introspection"
