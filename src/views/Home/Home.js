@@ -44,10 +44,22 @@ const FeaturedWork = () => {
             medium="Branding & UI/UX design"
           />
         <ProjectPreview 
+          projectPath="/spectra"
+          thumbnail={Product2}
+          title="Cogo Spectra"
+          medium="Branding & print design"
+        />
+        <ProjectPreview 
           projectPath="/quickscope"
           thumbnail={QuickscopeThumbnail}
           title="Quickscocpe"
           medium="Email design & front end development"
+        />
+        <ProjectPreview 
+          projectPath="/introspection"
+          thumbnail="https://freight.cargo.site/w/1260/q/94/i/b69408e5823e0446764e93caefbe15b2a00cabe474d71a8dfc4008c5f2e2efb7/booklet.png"
+          title="Introspection"
+          medium="Mixed media typographic sculpture"
         />
         <ProjectPreview 
           projectPath="/starlies"
@@ -56,22 +68,10 @@ const FeaturedWork = () => {
           medium="Product, marketing, & UX design"
         />
         <ProjectPreview 
-          projectPath="/spectra"
-          thumbnail={Product2}
-          title="Cogo Spectra"
-          medium="Branding & print design"
-        />
-        <ProjectPreview 
           projectPath="/backthenhistory"
           thumbnail={BackThenHistoryThumbnail}
-          title="Back Then History"
+          title="BackThenHistory"
           medium="Branding, site, marketing, & email design"
-        />
-        <ProjectPreview 
-          projectPath="/introspection"
-          thumbnail="https://freight.cargo.site/w/1260/q/94/i/b69408e5823e0446764e93caefbe15b2a00cabe474d71a8dfc4008c5f2e2efb7/booklet.png"
-          title="Introspection"
-          medium="Mixed media typographic sculpture"
         />
         <BodyText style={{paddingTop: `0px`, textAlign: `right`, width: `100%`}}>
           <Link to='/misfits'>

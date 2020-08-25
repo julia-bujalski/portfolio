@@ -12,10 +12,12 @@ import {
   JourneyText,
   MockupWrapper
 } from '../projectpage_theme.js';
+import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import { StyleGuide } from './BackThenHistory.styles';
 import ScreensMockup from '../../assets/bth/bth.png';
 import StarterStyleGude from '../../assets/bth/starter_styleguide.png';
 import ResponsiveMockup from '../../assets/bth/responsive_mockup.png';
+import FacebookCreative from '../../assets/bth/facebook_creative.png';
 
 const RedBackground = `#F7DEDF`;
 
@@ -42,7 +44,7 @@ export const BackThenHistory = () => {
       <ProjectPageWrapper>
         <ProjectSectionTitle>Introduction</ProjectSectionTitle>
         <BodyText>
-          At Minerva Analytics, I worked closesly with analysts to test media products within identified high value and high growth markets. With this product, History was the identified market and we wanted to test rapidly test 3 types of history content to determine user interest before investing too much design, engineering, or product efforts.
+          At Minerva Analytics, I work closesly with analysts to test digital media products within identified high value and high growth markets. With this effort, History was the identified market and we wanted to rapidly test 3 different types of history content to determine user interest before investing too much design, engineering, or product efforts. The goal was to create a brand and styling system that could be applied to 3 different names and history content types easily and efficiently. 
         </BodyText>
         <ProjectSectionTitle>
           Branding
@@ -82,6 +84,25 @@ export const BackThenHistory = () => {
         <MockupWrapper backgroundColor={RedBackground}>
           <ProjectImage src={ResponsiveMockup} />
         </MockupWrapper>
+        <ProjectSectionTitle>Paid social creatives</ProjectSectionTitle>
+        <ChallengeSolutionWrapper>
+          <JourneyText>
+            <SectionTitle>Challenge</SectionTitle>
+            <BodyText>
+              How do we drive traffic to a site that has no content? What channels do we have access to that will let us target users that we know are interested in the history market? What language and graphics can we use to entice users?
+            </BodyText>
+          </JourneyText>
+          <JourneyText>
+            <SectionTitle>Solution</SectionTitle>
+            <BodyText>
+              User paid Facebook marketing, a very familiar user acquisition channel at Minerva. User punchy language that gives a clear view as to what the product could be. Utilize similar graphics that are on the site to expedite the process.
+            </BodyText>
+          </JourneyText>
+        </ChallengeSolutionWrapper>
+        <MockupWrapper backgroundColor={RedBackground}>
+          <StyleGuide style={{maxWidth: `500px`}} src={FacebookCreative} />
+        </MockupWrapper>
+        <ViewMoreProjects />
       </ProjectPageWrapper>
     </>
   )

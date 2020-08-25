@@ -9,6 +9,7 @@ export const ViewMoreProjects = () => {
         View more projects
       </SectionTitle>
       <LinkWrapper>
+        <ProjectLink to="/backthenhistory">Back Then History</ProjectLink>
         <ProjectLink to="/connections">Connections</ProjectLink>
         <ProjectLink to="/hausily">Hausily</ProjectLink>
         <ProjectLink to="/introspection">Introspection</ProjectLink>

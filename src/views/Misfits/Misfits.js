@@ -6,7 +6,7 @@ import {
   ProjectSectionTitle,
   ProjectPageWrapper
 } from '../projectpage_theme.js';
-import ScribblesFramed from '../../assets/scribbles_framed.jpg';
+import ScribblesFramed from '../../assets/scribbles_framed.png';
 import EyeStretch from '../../assets/misfits/eye_lino.png';
 import FaceLitho from '../../assets/misfits/face_litho.png';
 import HandWoodcut from '../../assets/misfits/hand_woodcut.png';
@@ -21,7 +21,7 @@ export const Misfits = () => {
   return (
     <ProjectPageWrapper>
       <PageHeadline>
-        Work
+        Further work
       </PageHeadline>
       <BodyText style={{paddingBottom: `25px`}}>
         Collection of logos, sketches, and other projets made along the way.
@@ -35,12 +35,12 @@ export const Misfits = () => {
       <ProjectSectionTitle>Studio pieces</ProjectSectionTitle>
       <PhotoRow>
         <ProjectImageB src={ScribblesFramed} />
-        <ProjectImageB src={FaceLitho} />
-        <ProjectImageB src={HandWoodcut} />
-      </PhotoRow>
-      <PhotoRow>
         <ProjectImageB src={HandFeetLino} />
         <ProjectImageB src={EyeStretch} />
+      </PhotoRow>
+      <PhotoRow>
+        <ProjectImageB src={FaceLitho} />
+        <ProjectImageB src={HandWoodcut} />
         <ProjectImageB src={PurpleSquish} />
       </PhotoRow>
       <ProjectSectionTitle>Print materials</ProjectSectionTitle>
