@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { PageHeadline, SectionTitle, BodyText } from '../../theme';
+import { Transition, TransitionGroup } from 'react-transition-group';
+import { PageHeadline, SectionTitle, BodyText, PageTransition } from '../../theme';
 import {
   FeaturedImage,
   FeaturedWrapper,
@@ -8,7 +9,7 @@ import {
   ProjectText,
   PhotoRow,
   ProjectImageB,
-  ProjectSectionTitle
+  ProjectSectionTitle,
 } from '../projectpage_theme.js';
 import ConnectionsFeaturedImage from '../../assets/connections/sharpie_watercolor.png';
 import SharpieFace from '../../assets/connections/sharpie_face.png';
@@ -22,30 +23,38 @@ export const Connections = () => {
   }, []);
 
   return (
-    <>
-      <FeaturedWrapper>
-        <ProjectTitleWrapper>
-          <SectionTitle>Illustration</SectionTitle>
-          <PageHeadline>Connections</PageHeadline>
-          <BodyText>Personal project <br /> April 2020 - Present</BodyText>
-          <ProjectText>
-            <BodyText>
-              While in quarantine, I began using art and illustration to explore the connections that I have with myself, with other people, and with the world. These pieces consider feelings, emotions, and overall connection to the world around me.
-            </BodyText>
-          </ProjectText>
-        </ProjectTitleWrapper>
-        <FeaturedImage src={ConnectionsA} />
-      </FeaturedWrapper>
-      <ProjectPageWrapper>
-      <ProjectSectionTitle>Illustrations</ProjectSectionTitle>
-      <PhotoRow style={{paddingTop: `35px`}}>
-        <ProjectImageB src={ConnectionsFeaturedImage} />
-        <ProjectImageB src={SharpieFace} />
-        <ProjectImageB src={ConnectionsB} />
-      </PhotoRow>
-      <ViewMoreProjects />
-    </ProjectPageWrapper>
-    </>
+    <TransitionGroup appear exit={false}>
+      <Transition>
+      {(state) => {
+        return (
+          <PageTransition state={state}>
+            <FeaturedWrapper>
+              <ProjectTitleWrapper>
+                <SectionTitle>Illustration</SectionTitle>
+                <PageHeadline>Connections</PageHeadline>
+                <BodyText>Personal project <br /> April 2020 - Present</BodyText>
+                <ProjectText>
+                  <BodyText>
+                    While in quarantine, I began using art and illustration to explore the connections that I have with myself, with other people, and with the world. These pieces consider feelings, emotions, and overall connection to the world around me.
+                  </BodyText>
+                </ProjectText>
+              </ProjectTitleWrapper>
+              <FeaturedImage src={ConnectionsA} />
+            </FeaturedWrapper>
+            <ProjectPageWrapper>
+            <ProjectSectionTitle>Illustrations</ProjectSectionTitle>
+            <PhotoRow style={{paddingTop: `35px`}}>
+              <ProjectImageB src={ConnectionsFeaturedImage} />
+              <ProjectImageB src={SharpieFace} />
+              <ProjectImageB src={ConnectionsB} />
+            </PhotoRow>
+            <ViewMoreProjects />
+          </ProjectPageWrapper>
+          </PageTransition>
+        )
+      }}
+      </Transition>
+    </TransitionGroup>
   )
 }
 

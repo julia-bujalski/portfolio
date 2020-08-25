@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { PageHeadline, SectionTitle, BodyText } from '../../theme';
+import { Transition, TransitionGroup } from 'react-transition-group';
+import { PageHeadline, SectionTitle, BodyText, PageTransition } from '../../theme';
 import {
   FeaturedImage,
   FeaturedWrapper,
@@ -27,84 +28,92 @@ export const BackThenHistory = () => {
   }, []);
 
   return (
-    <>
-      <FeaturedWrapper backgroundColor={RedBackground}>
-        <ProjectTitleWrapper>
-          <SectionTitle>Branding, site, marketing, & email design</SectionTitle>
-          <PageHeadline>Back Then History</PageHeadline>
-          <BodyText>Minerva Analytics <br />August 2020</BodyText>
-          <ProjectText>
+    <TransitionGroup appear exit={false}>
+      <Transition>
+      {(state) => {
+        return (
+          <PageTransition state={state}>
+          <FeaturedWrapper backgroundColor={RedBackground}>
+            <ProjectTitleWrapper>
+              <SectionTitle>Branding, site, marketing, & email design</SectionTitle>
+              <PageHeadline>Back Then History</PageHeadline>
+              <BodyText>Minerva Analytics <br />August 2020</BodyText>
+              <ProjectText>
+                <BodyText>
+                  An unusual history newsletter test site.
+                </BodyText>
+              </ProjectText>
+            </ProjectTitleWrapper>
+            <FeaturedImage src={ScreensMockup} />
+          </FeaturedWrapper>
+          <ProjectPageWrapper>
+            <ProjectSectionTitle>Introduction</ProjectSectionTitle>
             <BodyText>
-              An unusual history newsletter test site.
+              At Minerva Analytics, I work closesly with analysts to test digital media products within identified high value and high growth markets. With this effort, History was the identified market and we wanted to rapidly test 3 different types of history content to determine user interest before investing too much design, engineering, or product efforts. The goal was to create a brand and styling system that could be applied to 3 different names and history content types easily and efficiently. 
             </BodyText>
-          </ProjectText>
-        </ProjectTitleWrapper>
-        <FeaturedImage src={ScreensMockup} />
-      </FeaturedWrapper>
-      <ProjectPageWrapper>
-        <ProjectSectionTitle>Introduction</ProjectSectionTitle>
-        <BodyText>
-          At Minerva Analytics, I work closesly with analysts to test digital media products within identified high value and high growth markets. With this effort, History was the identified market and we wanted to rapidly test 3 different types of history content to determine user interest before investing too much design, engineering, or product efforts. The goal was to create a brand and styling system that could be applied to 3 different names and history content types easily and efficiently. 
-        </BodyText>
-        <ProjectSectionTitle>
-          Branding
-        </ProjectSectionTitle>
-        <ChallengeSolutionWrapper>
-          <JourneyText>
-            <SectionTitle>Challenge</SectionTitle>
-            <BodyText>
-              How can we create a brand that is applicable to almost any content within the history market? How can we create a site that is engaging without a clear understanding of what the product will be yet?
-            </BodyText>
-          </JourneyText>
-          <JourneyText>
-            <SectionTitle>Solution</SectionTitle>
-            <BodyText>
-              Pull branding inspiration from other web products in the history market while creating a fresh, memorable vibe. Focus on the general idea of "history of everyday objects" with small glimpses into content but still general for the ability to pivot if product failure.
-            </BodyText>
-          </JourneyText>
-        </ChallengeSolutionWrapper>
-        <MockupWrapper backgroundColor={RedBackground}>
-          <StyleGuide src={StarterStyleGude} />
-        </MockupWrapper>
-        <ProjectSectionTitle>Site design</ProjectSectionTitle>
-        <ChallengeSolutionWrapper>
-          <JourneyText>
-            <SectionTitle>Challenge</SectionTitle>
-            <BodyText>
-              How do we entice users to sign up for something that doesn't exist? How do we sell a product where the only details we know are that it will involve "history of everyday objects"? How do we do this as fast as possible?
-            </BodyText>
-          </JourneyText>
-          <JourneyText>
-            <SectionTitle>Solution</SectionTitle>
-            <BodyText>
-              Use language that connects with excited anticipation, show a potential mock up of the newsletter while keeping it general enough to pivot in both design and content, work with engineers to ensure that the design is straight forward and easy to develop based on in house bootstrap.
-            </BodyText>
-          </JourneyText>
-        </ChallengeSolutionWrapper>
-        <MockupWrapper backgroundColor={RedBackground}>
-          <ProjectImage src={ResponsiveMockup} />
-        </MockupWrapper>
-        <ProjectSectionTitle>Paid social creatives</ProjectSectionTitle>
-        <ChallengeSolutionWrapper>
-          <JourneyText>
-            <SectionTitle>Challenge</SectionTitle>
-            <BodyText>
-              How do we drive traffic to a site that has no content? What channels do we have access to that will let us target users that we know are interested in the history market? What language and graphics can we use to entice users?
-            </BodyText>
-          </JourneyText>
-          <JourneyText>
-            <SectionTitle>Solution</SectionTitle>
-            <BodyText>
-              User paid Facebook marketing, a very familiar user acquisition channel at Minerva. User punchy language that gives a clear view as to what the product could be. Utilize similar graphics that are on the site to expedite the process.
-            </BodyText>
-          </JourneyText>
-        </ChallengeSolutionWrapper>
-        <MockupWrapper backgroundColor={RedBackground}>
-          <StyleGuide style={{maxWidth: `500px`}} src={FacebookCreative} />
-        </MockupWrapper>
-        <ViewMoreProjects />
-      </ProjectPageWrapper>
-    </>
+            <ProjectSectionTitle>
+              Branding
+            </ProjectSectionTitle>
+            <ChallengeSolutionWrapper>
+              <JourneyText>
+                <SectionTitle>Challenge</SectionTitle>
+                <BodyText>
+                  How can we create a brand that is applicable to almost any content within the history market? How can we create a site that is engaging without a clear understanding of what the product will be yet?
+                </BodyText>
+              </JourneyText>
+              <JourneyText>
+                <SectionTitle>Solution</SectionTitle>
+                <BodyText>
+                  Pull branding inspiration from other web products in the history market while creating a fresh, memorable vibe. Focus on the general idea of "history of everyday objects" with small glimpses into content but still general for the ability to pivot if product failure.
+                </BodyText>
+              </JourneyText>
+            </ChallengeSolutionWrapper>
+            <MockupWrapper backgroundColor={RedBackground}>
+              <StyleGuide src={StarterStyleGude} />
+            </MockupWrapper>
+            <ProjectSectionTitle>Site design</ProjectSectionTitle>
+            <ChallengeSolutionWrapper>
+              <JourneyText>
+                <SectionTitle>Challenge</SectionTitle>
+                <BodyText>
+                  How do we entice users to sign up for something that doesn't exist? How do we sell a product where the only details we know are that it will involve "history of everyday objects"? How do we do this as fast as possible?
+                </BodyText>
+              </JourneyText>
+              <JourneyText>
+                <SectionTitle>Solution</SectionTitle>
+                <BodyText>
+                  Use language that connects with excited anticipation, show a potential mock up of the newsletter while keeping it general enough to pivot in both design and content, work with engineers to ensure that the design is straight forward and easy to develop based on in house bootstrap.
+                </BodyText>
+              </JourneyText>
+            </ChallengeSolutionWrapper>
+            <MockupWrapper backgroundColor={RedBackground}>
+              <ProjectImage src={ResponsiveMockup} />
+            </MockupWrapper>
+            <ProjectSectionTitle>Paid social creatives</ProjectSectionTitle>
+            <ChallengeSolutionWrapper>
+              <JourneyText>
+                <SectionTitle>Challenge</SectionTitle>
+                <BodyText>
+                  How do we drive traffic to a site that has no content? What channels do we have access to that will let us target users that we know are interested in the history market? What language and graphics can we use to entice users?
+                </BodyText>
+              </JourneyText>
+              <JourneyText>
+                <SectionTitle>Solution</SectionTitle>
+                <BodyText>
+                  User paid Facebook marketing, a very familiar user acquisition channel at Minerva. User punchy language that gives a clear view as to what the product could be. Utilize similar graphics that are on the site to expedite the process.
+                </BodyText>
+              </JourneyText>
+            </ChallengeSolutionWrapper>
+            <MockupWrapper backgroundColor={RedBackground}>
+              <StyleGuide style={{maxWidth: `500px`}} src={FacebookCreative} />
+            </MockupWrapper>
+            <ViewMoreProjects />
+          </ProjectPageWrapper>
+          </PageTransition>
+          )
+      }}
+    </Transition>
+  </TransitionGroup>
   )
 }
 

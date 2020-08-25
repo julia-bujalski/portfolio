@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { PageHeadline, BodyText, SectionTitle } from '../../theme';
+import { Transition, TransitionGroup } from 'react-transition-group';
+import { PageHeadline, BodyText, SectionTitle, PageTransition } from '../../theme';
 import {
   FeaturedImage,
   FeaturedWrapper,
@@ -52,79 +53,87 @@ export const Introspection = () => {
   }, []);
 
   return (
-      <>
-        <FeaturedWrapper backgroundColor="#f6f3f9">
-          <ProjectTitleWrapper>
-            <SectionTitle>Mixed media typography</SectionTitle>
-            <PageHeadline>Introspection</PageHeadline>
-            <BodyText>Emmanuel College Senior Thesis <br /> Sept 2017 - May 2018</BodyText>
-            <ProjectText>
-              <BodyText>
-                A visual exploration in the communication of emotional experiences through common materials and experimental typography.
-              </BodyText>
-            </ProjectText>
-          </ProjectTitleWrapper>
-          <FeaturedImage src="https://freight.cargo.site/w/1260/q/94/i/b69408e5823e0446764e93caefbe15b2a00cabe474d71a8dfc4008c5f2e2efb7/booklet.png" />
-        </FeaturedWrapper>
-        <ProjectPageWrapper>
-        <ProjectSectionTitle>
-          Introduction
-        </ProjectSectionTitle>
-        <BodyText>
-        Through 15 in person interviews, I gathered quotes of peoples’ associations with five emotions: <strong>ecstasy, tension, rage, comfort, and grief.</strong> The overall goal is to get the viewer to understand these emotions and reflect on their own emotional experiences.
-        </BodyText>
-        <PhotoRow>
-          <ProjectImageB src="https://freight.cargo.site/w/840/q/94/i/5c6441166afd6ff826fd70a23504c8f4bbe734f4e30cd3d371013bb2047c38d7/booklets1.png" />
-          <ProjectImageB src="https://freight.cargo.site/w/720/q/94/i/431708c63deedba18fe9f61d73df7122a01e76f5a18a9df84bf7b840b3c0f7c4/booklets2.png" />
-          <ProjectImageB src={Booklets} />
-        </PhotoRow>
-        <ProjectSectionTitle>Comfort</ProjectSectionTitle>
-        <PhotoRow>
-          <ProjectImageB src={Comfort2} />
-          <ProjectImageB src={Comfort1} />
-          <ProjectImageB src={Comfort3} />
-        </PhotoRow>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/Bydj4TQlY6Ie90o7" />
-        <ProjectSectionTitle>Rage</ProjectSectionTitle>
-        <PhotoRow>
-          <ProjectImageB src={Rage3} />
-          <ProjectImageB src={Rage1} />
-          <ProjectImageB src={Rage2} />
-        </PhotoRow>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/ksn8IMH39WjzdouV" />
-        <ProjectSectionTitle>Grief</ProjectSectionTitle>
-        <PhotoRow>
-          <ProjectImageB src={Grief1} />
-          <ProjectImageB src={Grief2} />
-        </PhotoRow>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/o7gvb8JNxzmciOKl" />
-        <ProjectSectionTitle>Ecstasy</ProjectSectionTitle>
-        <PhotoRow>
-          <ProjectImageB src={Ecstasy3} />
-          <ProjectImageB src={Ecstasy2} />
-          <ProjectImageB src={Ecstasy1} />
-        </PhotoRow>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/kSY12GZTKwhuFpt7" />
-        <ProjectSectionTitle>Tension</ProjectSectionTitle>
-        <PhotoRow>
-          <ProjectImageB src={Tension3} />
-          <ProjectImageB src={Tension1} />
-          <ProjectImageB src={Tension2} />
-        </PhotoRow>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/90fgl2JS1xaIZMmB" />
-        <ProjectSectionTitle>Gallery book</ProjectSectionTitle>
-        <PhotoRow>
-          <ProjectImageB src="https://freight.cargo.site/w/600/q/94/i/9f7744c9294def8fc371f3495d68276befb71e8cfb50da86e07a607fe675e0ff/gallerybook1.png" />
-          <ProjectImageB src="https://freight.cargo.site/w/600/q/94/i/28d0b420e722d4309f8c52e3d82fba27df7d78814922ea4fc2f5def840379762/gallerbook2.png" />
-          <ProjectImageB src={GalleryBook} />
-        </PhotoRow>
-        <Booklet bookletLink ="https://www.yumpu.com/xx/embed/view/c1ObFENmkyMCQq0v" />
-        <ProjectSectionTitle>Process</ProjectSectionTitle>
-        <Booklet bookletLink="https://www.yumpu.com/en/embed/view/H2UtYDFj0TfdnOP1" />
-        <script src="https://players.yumpu.com/modules/embed/yp_r_iframe.js"></script>
-      <ViewMoreProjects />
-    </ProjectPageWrapper>
-    </>
+    <TransitionGroup appear exit={false}>
+      <Transition>
+      {(state) => {
+        return (
+          <PageTransition state={state}>
+            <FeaturedWrapper backgroundColor="#f6f3f9">
+              <ProjectTitleWrapper>
+                <SectionTitle>Mixed media typography</SectionTitle>
+                <PageHeadline>Introspection</PageHeadline>
+                <BodyText>Emmanuel College Senior Thesis <br /> Sept 2017 - May 2018</BodyText>
+                <ProjectText>
+                  <BodyText>
+                    A visual exploration in the communication of emotional experiences through common materials and experimental typography.
+                  </BodyText>
+                </ProjectText>
+              </ProjectTitleWrapper>
+              <FeaturedImage src="https://freight.cargo.site/w/1260/q/94/i/b69408e5823e0446764e93caefbe15b2a00cabe474d71a8dfc4008c5f2e2efb7/booklet.png" />
+            </FeaturedWrapper>
+            <ProjectPageWrapper>
+            <ProjectSectionTitle>
+              Introduction
+            </ProjectSectionTitle>
+            <BodyText>
+            Through 15 in person interviews, I gathered quotes of peoples’ associations with five emotions: <strong>ecstasy, tension, rage, comfort, and grief.</strong> The overall goal is to get the viewer to understand these emotions and reflect on their own emotional experiences.
+            </BodyText>
+            <PhotoRow>
+              <ProjectImageB src="https://freight.cargo.site/w/840/q/94/i/5c6441166afd6ff826fd70a23504c8f4bbe734f4e30cd3d371013bb2047c38d7/booklets1.png" />
+              <ProjectImageB src="https://freight.cargo.site/w/720/q/94/i/431708c63deedba18fe9f61d73df7122a01e76f5a18a9df84bf7b840b3c0f7c4/booklets2.png" />
+              <ProjectImageB src={Booklets} />
+            </PhotoRow>
+            <ProjectSectionTitle>Comfort</ProjectSectionTitle>
+            <PhotoRow>
+              <ProjectImageB src={Comfort2} />
+              <ProjectImageB src={Comfort1} />
+              <ProjectImageB src={Comfort3} />
+            </PhotoRow>
+            <Booklet bookletLink="https://www.yumpu.com/en/embed/view/Bydj4TQlY6Ie90o7" />
+            <ProjectSectionTitle>Rage</ProjectSectionTitle>
+            <PhotoRow>
+              <ProjectImageB src={Rage3} />
+              <ProjectImageB src={Rage1} />
+              <ProjectImageB src={Rage2} />
+            </PhotoRow>
+            <Booklet bookletLink="https://www.yumpu.com/en/embed/view/ksn8IMH39WjzdouV" />
+            <ProjectSectionTitle>Grief</ProjectSectionTitle>
+            <PhotoRow>
+              <ProjectImageB src={Grief1} />
+              <ProjectImageB src={Grief2} />
+            </PhotoRow>
+            <Booklet bookletLink="https://www.yumpu.com/en/embed/view/o7gvb8JNxzmciOKl" />
+            <ProjectSectionTitle>Ecstasy</ProjectSectionTitle>
+            <PhotoRow>
+              <ProjectImageB src={Ecstasy3} />
+              <ProjectImageB src={Ecstasy2} />
+              <ProjectImageB src={Ecstasy1} />
+            </PhotoRow>
+            <Booklet bookletLink="https://www.yumpu.com/en/embed/view/kSY12GZTKwhuFpt7" />
+            <ProjectSectionTitle>Tension</ProjectSectionTitle>
+            <PhotoRow>
+              <ProjectImageB src={Tension3} />
+              <ProjectImageB src={Tension1} />
+              <ProjectImageB src={Tension2} />
+            </PhotoRow>
+            <Booklet bookletLink="https://www.yumpu.com/en/embed/view/90fgl2JS1xaIZMmB" />
+            <ProjectSectionTitle>Gallery book</ProjectSectionTitle>
+            <PhotoRow>
+              <ProjectImageB src="https://freight.cargo.site/w/600/q/94/i/9f7744c9294def8fc371f3495d68276befb71e8cfb50da86e07a607fe675e0ff/gallerybook1.png" />
+              <ProjectImageB src="https://freight.cargo.site/w/600/q/94/i/28d0b420e722d4309f8c52e3d82fba27df7d78814922ea4fc2f5def840379762/gallerbook2.png" />
+              <ProjectImageB src={GalleryBook} />
+            </PhotoRow>
+            <Booklet bookletLink ="https://www.yumpu.com/xx/embed/view/c1ObFENmkyMCQq0v" />
+            <ProjectSectionTitle>Process</ProjectSectionTitle>
+            <Booklet bookletLink="https://www.yumpu.com/en/embed/view/H2UtYDFj0TfdnOP1" />
+            <script src="https://players.yumpu.com/modules/embed/yp_r_iframe.js"></script>
+          <ViewMoreProjects />
+        </ProjectPageWrapper>
+        </PageTransition>
+      )
+    }}
+    </Transition>
+    </TransitionGroup>
   )
 }
 

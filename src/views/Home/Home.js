@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Transition } from 'react-transition-group';
+import { Transition, TransitionGroup } from 'react-transition-group';
 import { Link } from 'react-router-dom';
 import { ProjectPreview } from '../../components/ProjectPreview';
 import { Contact } from '../../components/Contact';
@@ -8,7 +8,7 @@ import HausilyThumbnail from '../../assets/hausily/hausily.png';
 import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
 import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import Product2 from '../../assets/spectra/product2.png';
-import { SectionTitle, ContentWrapper, BodyText } from '../../theme';
+import { SectionTitle, ContentWrapper, BodyText, PageTransition } from '../../theme';
 import {
   HeroTitle,
   HeroWrapper,
@@ -17,7 +17,7 @@ import {
   ProjectsGrid,
 } from './Home.styles'
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <HeroWrapper>
       <HeroContentWrapper>
@@ -83,43 +83,32 @@ const FeaturedWork = () => {
   )
 }
 
-const duration = 300;
-
-const defaultStyle = {
-  transition: `opacity ${duration}ms ease-in-out`,
-}
-
-const transitionStyles = {
-  entering: { opacity: 1 },
-};
-
 export const Home = ({ in: inProp }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <Transition in={inProp} timeout={duration}>
-      {(state) => {
-        return (
-          <div style={{
-            ...defaultStyle,
-            ...transitionStyles[state],
-          }}>
-            <Hero />
-            <ContentWrapper>
-              <FeaturedWork />
-            </ContentWrapper>
-            <ContentWrapper>
-              <Contact />
-            </ContentWrapper>
-            <ContentWrapper>
-              <SectionTitle>Cheers!</SectionTitle>
-            </ContentWrapper>
-          </div>
-        );
-      }}
+  <TransitionGroup appear exit={false}>
+    <Transition>
+    {(state) => {
+      return (
+        <PageTransition state={state}>
+          <Hero/>
+          <ContentWrapper>
+            <FeaturedWork />
+          </ContentWrapper>
+          <ContentWrapper>
+            <Contact />
+          </ContentWrapper>
+          <ContentWrapper>
+            <SectionTitle>Cheers!</SectionTitle>
+          </ContentWrapper>
+        </PageTransition>
+      )
+    }}
     </Transition>
+    </TransitionGroup>
   )
 }
 

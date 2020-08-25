@@ -39,7 +39,7 @@ export const Overlay = styled.div`
   height: 250px;
   width: 100%;
   opacity: 0;
-  transition: .3s ease;
+  transition: .5s ease;
   background-color: rgba(255, 255, 255, .95);
   cursor: pointer;
 
