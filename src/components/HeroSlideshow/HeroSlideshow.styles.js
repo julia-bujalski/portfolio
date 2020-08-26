@@ -12,7 +12,7 @@ export const SlideshowImage = styled.img`
   }
 
   @media only screen and (max-width: ${MOBILE}) {
-    height: 55vh;
+    height: 45vh;
   }
 `;
 
@@ -71,10 +71,6 @@ export const HeroText = styled(BodyText)`
   font-size: 18px;
   max-width: 600px;
   text-align: left;
-
-  @media only screen and (max-width: 450px) {
-    text-align: center;
-  }
 `;
 
 export const HeroTitle = styled.h1`
