@@ -3,34 +3,21 @@ import { Transition, TransitionGroup } from 'react-transition-group';
 import { Link } from 'react-router-dom';
 import { ProjectPreview } from '../../components/ProjectPreview';
 import { Contact } from '../../components/Contact';
+import { HeroSlideshow } from '../../components/HeroSlideshow';
+
 import StarliesThumbnail from '../../assets/starlies/starlies.png';
 import HausilyThumbnail from '../../assets/hausily/hausily.png';
 import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
 import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import Product2 from '../../assets/spectra/product2.png';
-import { SectionTitle, ContentWrapper, BodyText, PageTransition } from '../../theme';
-import {
-  HeroTitle,
-  HeroWrapper,
-  HomeText,
-  HeroContentWrapper,
-  ProjectsGrid,
-} from './Home.styles'
 
-const Hero = (props) => {
-  return (
-    <HeroWrapper>
-      <HeroContentWrapper>
-        <HeroTitle>
-          hi! I'm julia bujalski
-        </HeroTitle>
-        <HomeText>
-          I'm a UI/UX Designer at Minerva Analytics something about empathy and beauty.
-        </HomeText>
-      </HeroContentWrapper>
-    </HeroWrapper>
-  )
-}
+import { ProjectsGrid } from './Home.styles';
+import {
+  SectionTitle,
+  ContentWrapper,
+  BodyText,
+  PageTransition
+} from '../../theme';
 
 const FeaturedWork = () => {
   return (
@@ -94,7 +81,7 @@ export const Home = ({ in: inProp }) => {
     {(state) => {
       return (
         <PageTransition state={state}>
-          <Hero/>
+          <HeroSlideshow />
           <ContentWrapper>
             <FeaturedWork />
           </ContentWrapper>

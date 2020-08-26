@@ -4,7 +4,7 @@ import { BLACK, MOBILE, TABLET } from '../../theme';
 
 export const NavWrapper = styled.div`
   width: 100%;
-  background-color: #ffffff;
+  position: relative;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   text-align: left;
