@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.9077a0a5.chunk.css",
-    "main.js": "/static/js/main.f576a526.chunk.js",
-    "main.js.map": "/static/js/main.f576a526.chunk.js.map",
+    "main.js": "/static/js/main.687a4591.chunk.js",
+    "main.js.map": "/static/js/main.687a4591.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.69507427.chunk.css": "/static/css/2.69507427.chunk.css",
-    "static/js/2.e3d27882.chunk.js": "/static/js/2.e3d27882.chunk.js",
-    "static/js/2.e3d27882.chunk.js.map": "/static/js/2.e3d27882.chunk.js.map",
+    "static/js/2.892d688b.chunk.js": "/static/js/2.892d688b.chunk.js",
+    "static/js/2.892d688b.chunk.js.map": "/static/js/2.892d688b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6c07b10264998cc887a78d9019449a41.js": "/precache-manifest.6c07b10264998cc887a78d9019449a41.js",
+    "precache-manifest.3b167ec284beed16729169ebda49817d.js": "/precache-manifest.3b167ec284beed16729169ebda49817d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69507427.chunk.css.map": "/static/css/2.69507427.chunk.css.map",
     "static/css/main.9077a0a5.chunk.css.map": "/static/css/main.9077a0a5.chunk.css.map",
-    "static/js/2.e3d27882.chunk.js.LICENSE.txt": "/static/js/2.e3d27882.chunk.js.LICENSE.txt",
+    "static/js/2.892d688b.chunk.js.LICENSE.txt": "/static/js/2.892d688b.chunk.js.LICENSE.txt",
+    "static/media/about_photo.png": "/static/media/about_photo.a7017443.png",
+    "static/media/berkshire_project_logo.png": "/static/media/berkshire_project_logo.97fb8617.png",
     "static/media/booklets.png": "/static/media/booklets.5d565588.png",
     "static/media/bth.png": "/static/media/bth.7d05ee49.png",
     "static/media/comfort1.png": "/static/media/comfort1.207796d3.png",
@@ -28,6 +30,7 @@
     "static/media/face_litho.png": "/static/media/face_litho.f0ee54e9.png",
     "static/media/facebook_creative.png": "/static/media/facebook_creative.2cefb70f.png",
     "static/media/gallerybook.png": "/static/media/gallerybook.a2422fce.png",
+    "static/media/gallerybook_booklets.png": "/static/media/gallerybook_booklets.6cecd56a.png",
     "static/media/grief1.png": "/static/media/grief1.0c5e9d33.png",
     "static/media/grief2.png": "/static/media/grief2.f352c676.png",
     "static/media/hand_woodcut.png": "/static/media/hand_woodcut.a7e75397.png",
@@ -40,7 +43,9 @@
     "static/media/logo_illustration.png": "/static/media/logo_illustration.bd93107c.png",
     "static/media/logo_wordmark.png": "/static/media/logo_wordmark.6000527b.png",
     "static/media/mockup.png": "/static/media/mockup.4420a821.png",
+    "static/media/mockup_desktop.png": "/static/media/mockup_desktop.49bd2352.png",
     "static/media/mockup_laptop.png": "/static/media/mockup_laptop.bb732aae.png",
+    "static/media/mockup_mobile.png": "/static/media/mockup_mobile.58b21861.png",
     "static/media/mockup_phone.png": "/static/media/mockup_phone.b1a3002f.png",
     "static/media/moon_quote.png": "/static/media/moon_quote.63f2b21f.png",
     "static/media/navigation_desktop.png": "/static/media/navigation_desktop.86042ea8.png",
@@ -65,6 +70,7 @@
     "static/media/sharpie_watercolor2.png": "/static/media/sharpie_watercolor2.d2f8f1c2.png",
     "static/media/sharpie_watercolor3.png": "/static/media/sharpie_watercolor3.c338b8d9.png",
     "static/media/signspecific_ad.png": "/static/media/signspecific_ad.b2d77d36.png",
+    "static/media/spectra_banner.png": "/static/media/spectra_banner.d356f623.png",
     "static/media/spectra_donation.png": "/static/media/spectra_donation.e3f6f5fc.png",
     "static/media/spectra_hat.png": "/static/media/spectra_hat.340411ba.png",
     "static/media/spectra_networking.png": "/static/media/spectra_networking.5667ba20.png",
@@ -74,13 +80,14 @@
     "static/media/starter_styleguide.png": "/static/media/starter_styleguide.650d2b4d.png",
     "static/media/tension1.png": "/static/media/tension1.e09dbe08.png",
     "static/media/tension2.png": "/static/media/tension2.27d6bb91.png",
-    "static/media/tension3.png": "/static/media/tension3.978149dc.png"
+    "static/media/tension3.png": "/static/media/tension3.978149dc.png",
+    "static/media/wireframes.png": "/static/media/wireframes.deb14bd9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.69507427.chunk.css",
-    "static/js/2.e3d27882.chunk.js",
+    "static/js/2.892d688b.chunk.js",
     "static/css/main.9077a0a5.chunk.css",
-    "static/js/main.f576a526.chunk.js"
+    "static/js/main.687a4591.chunk.js"
   ]
 }

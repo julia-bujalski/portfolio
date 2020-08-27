@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3feb35536817b380f5bf503ee6108d0a",
+    "revision": "2ac06464e775ca512063793cca971176",
     "url": "/index.html"
   },
   {
-    "revision": "dfa89b14782b7a78562d",
+    "revision": "f4741a8eef83bd53aaf8",
     "url": "/static/css/2.69507427.chunk.css"
   },
   {
-    "revision": "a4168e546b337d1b84f0",
+    "revision": "9f24abde24256e005392",
     "url": "/static/css/main.9077a0a5.chunk.css"
   },
   {
-    "revision": "dfa89b14782b7a78562d",
-    "url": "/static/js/2.e3d27882.chunk.js"
+    "revision": "f4741a8eef83bd53aaf8",
+    "url": "/static/js/2.892d688b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.e3d27882.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.892d688b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4168e546b337d1b84f0",
-    "url": "/static/js/main.f576a526.chunk.js"
+    "revision": "9f24abde24256e005392",
+    "url": "/static/js/main.687a4591.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
     "url": "/static/js/runtime-main.19ccc7f6.js"
+  },
+  {
+    "revision": "a7017443a3d22e22a462e6231c3c2875",
+    "url": "/static/media/about_photo.a7017443.png"
+  },
+  {
+    "revision": "97fb86174fc2a76905b4d4c38dc7e667",
+    "url": "/static/media/berkshire_project_logo.97fb8617.png"
   },
   {
     "revision": "5d5655887511b9791eef22b6e6f520fd",
@@ -84,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gallerybook.a2422fce.png"
   },
   {
+    "revision": "6cecd56ae953d6be9f9399927a53e807",
+    "url": "/static/media/gallerybook_booklets.6cecd56a.png"
+  },
+  {
     "revision": "0c5e9d331d25e3cec189ec37bfc74525",
     "url": "/static/media/grief1.0c5e9d33.png"
   },
@@ -132,8 +144,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mockup.4420a821.png"
   },
   {
+    "revision": "49bd235229fd653b9a491dc297f9e2df",
+    "url": "/static/media/mockup_desktop.49bd2352.png"
+  },
+  {
     "revision": "bb732aaeb28c96abcc4585495b8b0aa7",
     "url": "/static/media/mockup_laptop.bb732aae.png"
+  },
+  {
+    "revision": "58b218616d35fc77f67b0ee817d86095",
+    "url": "/static/media/mockup_mobile.58b21861.png"
   },
   {
     "revision": "b1a3002f331efbce21c2038b4040d8be",
@@ -232,6 +252,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/signspecific_ad.b2d77d36.png"
   },
   {
+    "revision": "d356f6234db5d0711c6f9d064f793c63",
+    "url": "/static/media/spectra_banner.d356f623.png"
+  },
+  {
     "revision": "e3f6f5fc236cf49c1bb8193b1cdfd909",
     "url": "/static/media/spectra_donation.e3f6f5fc.png"
   },
@@ -270,5 +294,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "978149dc97b8612e50e46ce1d78c2624",
     "url": "/static/media/tension3.978149dc.png"
+  },
+  {
+    "revision": "deb14bd921d8b2328ae0a430b1fceffb",
+    "url": "/static/media/wireframes.deb14bd9.png"
   }
 ]);
