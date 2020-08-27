@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Transition, TransitionGroup } from 'react-transition-group';
 import { Contact } from '../../components/Contact';
 import { PageHeadline, BodyText, PageTransition } from '../../theme';
+import AboutHeadshot from '../../assets/about_photo.png';
 import {
   Headshot,
   AboutPageHero,
@@ -23,7 +24,7 @@ export const About = () => {
           <AboutPageWrapper>
             <PageHeadline>cheers!</PageHeadline>
             <AboutPageHero>
-              <Headshot src="https://freight.cargo.site/w/698/q/94/i/1aefa034fe9721f660ad715df778885fcffc4ed7721367a27b58f3a251aa24ec/IMG_1662.png" />
+              <Headshot src={AboutHeadshot} />
               <div>
                 <BodyText>Hi, I'm Julia.</BodyText>
                 <BodyText>

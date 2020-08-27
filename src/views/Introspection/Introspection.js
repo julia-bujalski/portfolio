@@ -30,6 +30,7 @@ import Rage3 from '../../assets/introspection/rage3.png';
 import Tension1 from '../../assets/introspection/tension1.png';
 import Tension2 from '../../assets/introspection/tension2.png';
 import Tension3 from '../../assets/introspection/tension3.png';
+import FeaturedImageIntrospection from '../../assets/introspection/gallerybook_booklets.png';
 
 const Booklet = (props) => {
   return (
@@ -69,7 +70,7 @@ export const Introspection = () => {
                   </BodyText>
                 </ProjectText>
               </ProjectTitleWrapper>
-              <FeaturedImage src="https://freight.cargo.site/w/1260/q/94/i/b69408e5823e0446764e93caefbe15b2a00cabe474d71a8dfc4008c5f2e2efb7/booklet.png" />
+              <FeaturedImage src={FeaturedImageIntrospection} />
             </FeaturedWrapper>
             <ProjectPageWrapper>
             <ProjectSectionTitle>

@@ -20,6 +20,8 @@ import {
 import HausilyStyleGuide from '../../assets/hausily/hausily_styleguide.png';
 import HausilyStyleGuide2 from '../../assets/hausily/hausily_styleguide2.png';
 import ScreensMockup from '../../assets/hausily/hausily_screens_mockup.png';
+import DesktopMockup from '../../assets/hausily/mockup_desktop.png';
+import MobileMockup from '../../assets/hausily/mockup_mobile.png';
 
 const BlueBackground = `#d6edf7`;
 
@@ -66,8 +68,8 @@ export const Hausily = () => {
             <SubtitleText>Scroll through mock ups of the Hausily site</SubtitleText>
             <MockupWrapper backgroundColor={BlueBackground}>
               <PhotoRow>
-                <PhoneScrollMockUp row mockup="https://freight.cargo.site/w/500/q/75/i/9d7106c27f42f0216f189539d3d88a764d8d1299d9c3f69a3797e3fde552296d/Mobile_mockups.jpg" />
-                <LaptopScrollMockup mockup="https://freight.cargo.site/w/2000/q/75/i/dea183596282c676f8c5a27f2c18b10968f29d3916fbb83f868da926421f8d03/Desktop_mockupsasdfasdf.jpg" />
+                <PhoneScrollMockUp row mockup={MobileMockup} />
+                <LaptopScrollMockup mockup={DesktopMockup} />
               </PhotoRow>
             </MockupWrapper>
             <ProjectSectionTitle>Style guide</ProjectSectionTitle>

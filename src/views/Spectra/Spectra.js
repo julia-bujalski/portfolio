@@ -23,6 +23,7 @@ import LogoIllustration from '../../assets/spectra/logo_illustration.png';
 import Product1 from '../../assets/spectra/product1.png';
 import Product2 from '../../assets/spectra/product2.png';
 import Product3 from '../../assets/spectra/product3.png';
+import Banner from '../../assets/spectra/spectra_banner.png';
 
 const PeaceBackgroundColor=`#fdd7d4`;
 
@@ -48,7 +49,7 @@ export const Spectra = () => {
                   </BodyText>
                 </ProjectText>
               </ProjectTitleWrapper>
-              <FeaturedImage src="https://freight.cargo.site/w/1782/q/94/i/85e75e65bb835a0c2c708c34b22ab9b30c1048b94c3a6adc1c1d38e29e908cac/pride.jpg" width="100%" />
+              <FeaturedImage src={Banner} width="100%" />
               </FeaturedWrapper>
               <ProjectPageWrapper>
               <ProjectSectionTitle>Introduction</ProjectSectionTitle>

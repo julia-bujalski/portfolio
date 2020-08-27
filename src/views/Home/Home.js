@@ -9,6 +9,7 @@ import HausilyThumbnail from '../../assets/hausily/hausily.png';
 import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
 import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import Product2 from '../../assets/spectra/product2.png';
+import IntrospectionThumbnail from '../../assets/introspection/gallerybook_booklets.png';
 
 import { ProjectsGrid, FurtherWorkLink } from './Home.styles';
 import {
@@ -43,7 +44,7 @@ const FeaturedWork = () => {
         />
         <ProjectPreview 
           projectPath="/introspection"
-          thumbnail="https://freight.cargo.site/w/1260/q/94/i/b69408e5823e0446764e93caefbe15b2a00cabe474d71a8dfc4008c5f2e2efb7/booklet.png"
+          thumbnail={IntrospectionThumbnail}
           title="Introspection"
           medium="Mixed media typographic sculpture"
         />
