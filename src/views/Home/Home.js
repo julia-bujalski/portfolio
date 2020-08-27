@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Transition, TransitionGroup } from 'react-transition-group';
-import { Link } from 'react-router-dom';
 import { ProjectPreview } from '../../components/ProjectPreview';
 import { Contact } from '../../components/Contact';
 import { HeroSlideshow } from '../../components/HeroSlideshow';
@@ -11,7 +10,7 @@ import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
 import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import Product2 from '../../assets/spectra/product2.png';
 
-import { ProjectsGrid } from './Home.styles';
+import { ProjectsGrid, FurtherWorkLink } from './Home.styles';
 import {
   SectionTitle,
   ContentWrapper,
@@ -61,9 +60,9 @@ const FeaturedWork = () => {
           medium="Branding, site, marketing, & email design"
         />
         <BodyText style={{paddingTop: `0px`, textAlign: `right`, width: `100%`}}>
-          <Link to='/misfits'>
-            Check out the rest of my work >
-          </Link>
+          <FurtherWorkLink to='/misfits'>
+            Check out the rest of my work
+          </FurtherWorkLink>
         </BodyText>
       </ProjectsGrid>
     </>

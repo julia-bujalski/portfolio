@@ -11,9 +11,29 @@ export const ProjectLink = styled(Link)`
   text-decoration: none;
   transition: 500ms ease;
   color: lightgray;
+  padding-bottom: 2.5px;
+  position: relative;
+  margin-bottom: 15px;
+
+  &::after {
+    content: '.';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0%;
+    color: transparent;
+    background: ${BLACK};
+    height: 1px;
+    transition-duration: 500ms;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
 
   &:hover {
-    transform: scale(1.025);
     color: ${BLACK};
   }
 
@@ -26,6 +46,7 @@ export const LinkWrapper = styled.div`
   display: flex;
   margin-top: 25px;
   flex-wrap: wrap;
+  line-height: 3;
 `;
 
 export const ViewMoreWrapper = styled.div`

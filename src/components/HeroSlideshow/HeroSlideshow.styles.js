@@ -81,6 +81,10 @@ export const HeroTitle = styled.h1`
   color: ${BLACK};
   font-weight: 800;
 
+  @media only screen and (max-width: 850px) {
+    font-size: 46px;
+  }
+
   @media only screen and (max-width: ${TABLET}) {
     font-size: 36px;
   }

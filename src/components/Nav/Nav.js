@@ -4,7 +4,7 @@ import {
   NavLink,
   NavLinks,
   HomeLink,
-  AnchorLink
+  AnchorLink,
 } from './Nav.styles';
 
 export const Nav = () => {

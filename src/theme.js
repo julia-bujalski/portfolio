@@ -52,7 +52,6 @@ export const BodyText = styled.div`
 
   a {
     font-weight: bold;
-    text-decoration: underline;
     color: ${BLACK};
   }
 `;

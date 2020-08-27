@@ -21,7 +21,7 @@ export const Contact = () => {
           I’m available for freelance projects! So hit me up if you want to talk design, Taylor Swift, or eat some won ton soup.
         </BodyText>
         <ContactInfo>
-          <ContactEmph>
+          <ContactEmph href="mailto:julia.bujalski@gmail.com">
             julia.bujalski@gmail.com
           </ContactEmph>
           <br />

@@ -16,10 +16,11 @@ import {
 
 
 const properties = {
-  duration: 5000,
+  duration: 4000,
   transitionDuration: 1000,
   indicators: true,
   arrows: false,
+  easing: 'ease-out'
 };
 
 export const HeroSlideshow = () => {
@@ -37,16 +38,16 @@ export const HeroSlideshow = () => {
       <div className="slide-container">
         <Slide {...properties}>
           <div className="each-slide" key="0">
-            <SlideshowImage className="lazy" src={SpectraProduct} alt="sample" />
-          </div>
-          <div className="each-slide" key="0">
             <SlideshowImage className="lazy" src={SharpieWatercolor} alt="sample" />
           </div>
-          <div className="each-slide" key="1">
-            <SlideshowImage className="lazy" src={EcstasyBulbs} alt="sample" />
+          <div className="each-slide" key="0">
+            <SlideshowImage className="lazy" src={SpectraProduct} alt="sample" />
           </div>
           <div className="each-slide" key="2">
             <SlideshowImage className="lazy" src={HausilyScreens} alt="sample" />
+          </div>
+          <div className="each-slide" key="1">
+            <SlideshowImage className="lazy" src={EcstasyBulbs} alt="sample" />
           </div>
         </Slide>
       </div>

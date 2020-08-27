@@ -1,38 +1,36 @@
 import styled from 'styled-components';
-import { TABLET } from '../../theme';
+import { TABLET, BLACK, PageWrapper } from '../../theme';
 
-import { BLACK } from '../../theme';
+const SINGLE_COLUMN = `600px`;
 
 export const Headshot = styled.img`
   width: 45%;
-  margin-left: 35px;
-  max-width: 450px;
+  margin-left: 55px;
+  max-width: 400px;
   object-fit: contain;
   object-position: top;
+  float: right;
 
   @media only screen and (max-width: ${TABLET}) {
+    margin-left: 30px;
+  }
+
+  @media only screen and (max-width: ${SINGLE_COLUMN}) {
     width: 100%;
-    max-width: unset;
-    margin-top: 50px;
-    margin-left: 0;
+    max-width: 450px;
+    float: unset;
+    margin: 50px auto 0 auto;
   }
 `;
 
 export const AboutPageHero = styled.div`
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  width: 100%;
+  padding-top: unset;
+  padding-bottom: 100px;
 
-  @media only screen and (max-width: ${TABLET}) {
-    flex-direction: column;
-  }
-`;
-
-export const AboutContent = styled.div`
-  max-width: 600px;
-
-  span {
-    font-weight: Bold;
+  @media only screen and (max-width: ${SINGLE_COLUMN}) {
+    display: flex;
+    flex-direction: column-reverse;
   }
 `;
 
@@ -43,3 +41,14 @@ export const AboutPageEmph = styled.div`
   color: ${BLACK};
   margin-top: 25px;
 `;
+
+export const AboutPageWrapper = styled(PageWrapper)`
+  padding-top: 45px;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 80%;
+
+  @media only screen and (max-width: ${TABLET}) {
+    padding-top: 45px;
+  }
+`

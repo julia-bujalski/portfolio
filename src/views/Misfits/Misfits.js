@@ -27,7 +27,7 @@ export const Misfits = () => {
           <PageTransition state={state}>
             <ProjectPageWrapper>
               <PageHeadline>
-                Further work
+                further work
               </PageHeadline>
               <BodyText style={{paddingBottom: `25px`}}>
                 Collection of logos, sketches, and other projets made along the way.

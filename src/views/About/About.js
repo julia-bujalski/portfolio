@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
 import { Transition, TransitionGroup } from 'react-transition-group';
-import { PageHeadline, BodyText, PageWrapper, PageTransition } from '../../theme';
+import { Contact } from '../../components/Contact';
+import { PageHeadline, BodyText, PageTransition } from '../../theme';
 import {
   Headshot,
   AboutPageHero,
-  AboutContent,
-  AboutPageEmph
+  AboutPageEmph,
+  AboutPageWrapper
 } from './About.styles'
 
 export const About = () => {
@@ -19,10 +20,11 @@ export const About = () => {
       {(state) => {
         return (
           <PageTransition state={state}>
-          <PageWrapper>
+          <AboutPageWrapper>
+            <PageHeadline>cheers!</PageHeadline>
             <AboutPageHero>
-              <AboutContent>
-                <PageHeadline>cheers!</PageHeadline>
+              <Headshot src="https://freight.cargo.site/w/698/q/94/i/1aefa034fe9721f660ad715df778885fcffc4ed7721367a27b58f3a251aa24ec/IMG_1662.png" />
+              <div>
                 <BodyText>Hi, I'm Julia.</BodyText>
                 <BodyText>
                   I'm a currently a <span>UI/UX Designer at Minerva Analytics</span> and a 2018 graduate of Emmanuel College with a <span>degree in Mathematics and Graphic Design.</span> 
@@ -32,11 +34,11 @@ export const About = () => {
                 </BodyText>
                 <AboutPageEmph>
                   I should insert something about how I like other things besides web design, not quite sure how to phrase it.
-                </AboutPageEmph>
-              </AboutContent>
-              <Headshot src="https://freight.cargo.site/w/698/q/94/i/1aefa034fe9721f660ad715df778885fcffc4ed7721367a27b58f3a251aa24ec/IMG_1662.png" />
+                </AboutPageEmph>  
+              </div>
             </AboutPageHero>
-          </PageWrapper>
+            <Contact />
+          </AboutPageWrapper>
           </PageTransition>
         )
       }}

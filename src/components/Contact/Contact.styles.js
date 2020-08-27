@@ -9,6 +9,27 @@ export const ContactEmph = styled.a`
   font-size: 24px;
   font-weight: 700;
   line-height: 1.75;
+  position: relative;
+  padding-bottom: 2.5px;
+  text-decoration: none;
+
+  &::after {
+    content: '.';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0%;
+    color: transparent;
+    background: ${BLACK};
+    height: 2px;
+    transition-duration: 500ms;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
 `;
 
 export const ContactInfo = styled.div`
@@ -35,6 +56,7 @@ export const ContactWrapper = styled.div`
   display: flex;
   align-items: top;
   flex-direction: row;
+  width: 100%;
 
   @media only screen and (max-width: ${CONTACT_TWO_COLUMN}) {
     flex-direction: column;
