@@ -10,6 +10,7 @@ import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
 import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import Product2 from '../../assets/spectra/product2.png';
 import IntrospectionThumbnail from '../../assets/introspection/gallerybook_booklets.png';
+import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.png';
 
 import { ProjectsGrid, FurtherWorkLink } from './Home.styles';
 import {
@@ -19,10 +20,10 @@ import {
   PageTransition
 } from '../../theme';
 
-const FeaturedWork = () => {
+export const FeaturedWork = (props) => {
   return (
     <>
-      <SectionTitle id="work">Featured Work</SectionTitle>
+      {props.allWorkPage ? '' : <SectionTitle id="work">Featured Work</SectionTitle>}
       <ProjectsGrid>
         <ProjectPreview 
             projectPath="/hausily"
@@ -57,14 +58,22 @@ const FeaturedWork = () => {
         <ProjectPreview 
           projectPath="/backthenhistory"
           thumbnail={BackThenHistoryThumbnail}
-          title="BackThenHistory"
+          title="Back Then History"
           medium="Branding, site, marketing, & email design"
         />
+        <ProjectPreview 
+          projectPath="/connections"
+          thumbnail={ConnectionsThumbnail}
+          title="Connections"
+          medium="Watercolor & illustration"
+        />
+        {props.allWorkPage ? '' :
         <BodyText style={{paddingTop: `0px`, textAlign: `right`, width: `100%`}}>
           <FurtherWorkLink to='/misfits'>
             Check out the rest of my work
           </FurtherWorkLink>
         </BodyText>
+      }
       </ProjectsGrid>
     </>
   )

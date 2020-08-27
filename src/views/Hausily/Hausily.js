@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import styled from 'styled-components';
 import { Transition, TransitionGroup } from 'react-transition-group';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import { PageHeadline, SectionTitle, BodyText, PageTransition } from '../../theme';
@@ -16,14 +17,23 @@ import {
   MockupWrapper,
   ChallengeSolutionWrapper,
   JourneyText,
+  ProjectImage,
 } from '../projectpage_theme.js';
 import HausilyStyleGuide from '../../assets/hausily/hausily_styleguide.png';
 import HausilyStyleGuide2 from '../../assets/hausily/hausily_styleguide2.png';
 import ScreensMockup from '../../assets/hausily/hausily_screens_mockup.png';
 import DesktopMockup from '../../assets/hausily/mockup_desktop.png';
 import MobileMockup from '../../assets/hausily/mockup_mobile.png';
+import Wireframes from '../../assets/hausily/wireframes.png';
 
 const BlueBackground = `#d6edf7`;
+
+const WireframeImage = styled(ProjectImage)`
+  max-height: unset;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+`;
 
 export const Hausily = () => {
   useEffect(() => {
@@ -71,6 +81,10 @@ export const Hausily = () => {
                 <PhoneScrollMockUp row mockup={MobileMockup} />
                 <LaptopScrollMockup mockup={DesktopMockup} />
               </PhotoRow>
+            </MockupWrapper>
+            <ProjectSectionTitle>Process</ProjectSectionTitle>
+            <MockupWrapper backgroundColor={BlueBackground}>
+              <WireframeImage src={Wireframes} />
             </MockupWrapper>
             <ProjectSectionTitle>Style guide</ProjectSectionTitle>
             <MockupWrapper backgroundColor={BlueBackground}>
