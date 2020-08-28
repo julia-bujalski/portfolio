@@ -5,6 +5,7 @@ import SharpieWatercolor from '../../assets/connections/sharpie_watercolor2.png'
 import EcstasyBulbs from '../../assets/introspection/ecstasy3.png';
 import HausilyScreens from '../../assets/hausily/hausily_screens_mockup.png';
 import SpectraProduct from '../../assets/spectra/product3.png';
+import Squish from '../../assets/squish_noframe.png';
 import { 
   SlideshowImage,
   HeroWrapper,
@@ -45,6 +46,9 @@ export const HeroSlideshow = () => {
           </div>
           <div className="each-slide" key="2">
             <SlideshowImage className="lazy" src={HausilyScreens} alt="sample" />
+          </div>
+          <div className="each-slide" key="1">
+            <SlideshowImage className="lazy" src={Squish} alt="sample" />
           </div>
           <div className="each-slide" key="1">
             <SlideshowImage className="lazy" src={EcstasyBulbs} alt="sample" />
