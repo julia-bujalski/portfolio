@@ -25,7 +25,7 @@ import Product2 from '../../assets/spectra/product2.png';
 import Product3 from '../../assets/spectra/product3.png';
 import Banner from '../../assets/spectra/spectra_banner.png';
 
-const PeaceBackgroundColor=`#fdd7d4`;
+const PeachBackgroundColor=`#fdd7d4`;
 
 export const Spectra = () => {
   useEffect(() => {
@@ -38,7 +38,7 @@ export const Spectra = () => {
       {(state) => {
         return (
           <PageTransition state={state}>
-            <FeaturedWrapper backgroundColor={PeaceBackgroundColor}>
+            <FeaturedWrapper backgroundColor={PeachBackgroundColor}>
               <ProjectTitleWrapper>
                 <SectionTitle>Branding & print design</SectionTitle>
                 <PageHeadline>Cogo Spectra</PageHeadline>

@@ -13,6 +13,7 @@ export const ViewMoreProjects = () => {
         <ProjectLink to="/connections">Connections</ProjectLink>
         <ProjectLink to="/hausily">Hausily</ProjectLink>
         <ProjectLink to="/introspection">Introspection</ProjectLink>
+        <ProjectLink to="/minerva">Minerva Analytics</ProjectLink>
         <ProjectLink to="/quickscope">Quickscope</ProjectLink>
         <ProjectLink to="/spectra">Spectra</ProjectLink>
         <ProjectLink to="/starlies">Starlies</ProjectLink>

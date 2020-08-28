@@ -1,11 +1,11 @@
 import React from 'react';
-import { SectionTitle, PageWrapper, BodyText, PageHeadline } from '../../theme';
+import { SectionTitle, BodyText, PageHeadline } from '../../theme';
 
 import { BackLink } from './ProjectWIP.styles';
 
 export const ProjectWIP = () => {
   return (
-    <PageWrapper>
+    <>
       <SectionTitle>
         oops!
       </SectionTitle>
@@ -19,7 +19,7 @@ export const ProjectWIP = () => {
       <BackLink to="/">
         Go back to home
       </BackLink>
-    </PageWrapper>
+    </>
   )
 }
 

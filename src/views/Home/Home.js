@@ -11,6 +11,7 @@ import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import Product2 from '../../assets/spectra/product2.png';
 import IntrospectionThumbnail from '../../assets/introspection/gallerybook_booklets.png';
 import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.png';
+import MinervaThumbnail from '../../assets/minerva/thumbnail_mockup.png';
 
 import { ProjectsGrid, FurtherWorkLink } from './Home.styles';
 import {
@@ -38,6 +39,12 @@ export const FeaturedWork = (props) => {
           medium="Branding & print design"
         />
         <ProjectPreview 
+          projectPath="/connections"
+          thumbnail={ConnectionsThumbnail}
+          title="Connections"
+          medium="Watercolor & illustration"
+        />
+        <ProjectPreview 
           projectPath="/quickscope"
           thumbnail={QuickscopeThumbnail}
           title="Quickscocpe"
@@ -62,10 +69,10 @@ export const FeaturedWork = (props) => {
           medium="Branding, site, marketing, & email design"
         />
         <ProjectPreview 
-          projectPath="/connections"
-          thumbnail={ConnectionsThumbnail}
-          title="Connections"
-          medium="Watercolor & illustration"
+          projectPath="/minerva"
+          thumbnail={MinervaThumbnail}
+          title="Minerva"
+          medium="Branding & site design exercise"
         />
         {props.allWorkPage ? '' :
         <BodyText style={{paddingTop: `0px`, textAlign: `right`, width: `100%`}}>
