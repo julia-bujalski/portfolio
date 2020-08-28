@@ -13,6 +13,7 @@ import Introspection from './views/Introspection';
 import Misfits from './views/Misfits';
 import BackThenHistory from './views/BackThenHistory';
 import Minerva from './views/Minerva';
+import Freelance from './views/Freelance';
 
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/introspection" component={Introspection} />
         <Route exact path="/backthenhistory" component={BackThenHistory} />
         <Route exact path="/minerva" component={Minerva} />
+        <Route exact path="/freelance" component={Freelance} />
         <Route exact path="/allwork" component={Misfits} />
         <Route path="/" component={Home} />
       </Switch>

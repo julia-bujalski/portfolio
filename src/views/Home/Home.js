@@ -12,6 +12,7 @@ import Product2 from '../../assets/spectra/product2.png';
 import IntrospectionThumbnail from '../../assets/introspection/gallerybook_booklets.png';
 import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.png';
 import MinervaThumbnail from '../../assets/minerva/thumbnail_mockup.png';
+import FreelanceThumbnail from '../../assets/freelance/house_watercolor.png';
 
 import { ProjectsGrid, FurtherWorkLink } from './Home.styles';
 import {
@@ -69,9 +70,15 @@ export const FeaturedWork = (props) => {
           medium="Branding, site, marketing, & email design"
         />
         <ProjectPreview 
+          projectPath="/freelance"
+          thumbnail={FreelanceThumbnail}
+          title="Freelance work"
+          medium="Watercolor"
+        />
+        <ProjectPreview 
           projectPath="/minerva"
           thumbnail={MinervaThumbnail}
-          title="Minerva"
+          title="Minereva Analytics"
           medium="Branding & site design exercise"
         />
         {props.allWorkPage ? '' :
