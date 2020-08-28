@@ -15,7 +15,7 @@ export const Nav = () => {
       </HomeLink>
       <NavLinks>
         <NavLink to="/about">about</NavLink>
-        <NavLink to="/misfits">work</NavLink>
+        <NavLink to="/allwork">work</NavLink>
         <AnchorLink href="/#contact">contact</AnchorLink>
       </NavLinks>
     </NavWrapper>

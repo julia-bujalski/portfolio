@@ -31,7 +31,7 @@ function App() {
         <Route exact path="/introspection" component={Introspection} />
         <Route exact path="/backthenhistory" component={BackThenHistory} />
         <Route exact path="/minerva" component={Minerva} />
-        <Route exact path="/misfits" component={Misfits} />
+        <Route exact path="/allwork" component={Misfits} />
         <Route path="/" component={Home} />
       </Switch>
       <Footer />

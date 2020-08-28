@@ -76,7 +76,7 @@ export const FeaturedWork = (props) => {
         />
         {props.allWorkPage ? '' :
         <BodyText style={{paddingTop: `0px`, textAlign: `right`, width: `100%`}}>
-          <FurtherWorkLink to='/misfits'>
+          <FurtherWorkLink to='/allwork'>
             Check out the rest of my work
           </FurtherWorkLink>
         </BodyText>
