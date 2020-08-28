@@ -32,7 +32,7 @@ export const HeroSlideshow = () => {
           hi! I'm julia bujalski
         </HeroTitle>
         <HeroText>
-          I'm a UI/UX Designer at Minerva Analytics something about empathy and beauty.
+          Cambridge, MA based creative currently working as a UI/UX Designer at Minerva Analytics.
         </HeroText>
       </HeroContentWrapper>
       <SlideshowWrapper>

@@ -25,7 +25,7 @@ export const Contact = () => {
             julia.bujalski@gmail.com
           </ContactEmph>
           <br />
-          <ContactEmph href="https://www.linkedin.com/in/juliabujalski/">
+          <ContactEmph href="https://www.linkedin.com/in/juliabujalski/" target="_blank">
             linkedin.
           </ContactEmph>
         </ContactInfo>

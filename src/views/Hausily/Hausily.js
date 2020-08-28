@@ -60,7 +60,7 @@ export const Hausily = () => {
             <ProjectPageWrapper>
             <ProjectSectionTitle>Introduction</ProjectSectionTitle>
             <BodyText>
-                As a designer on Core Cogo's Web Team, we work as resources for the rest of the company, including the incubating start ups that are small and do not have their own designer. I was tasked with creating the branding and site design for their early stage start up. This site's goal was to hire data-driven individuals that are interested in creating a web product in the home owner market. Visit <a href="http://www.hausily.com" target="_blank" rel="noopener noreferrer">hausily.com</a> to view the live site.
+                As a designer on Cogo's Web Team, I worked as a resource for the rest of the company, including the small incubating start ups and do not have their own designer. I was tasked with creating the branding and site design for Hausily, the early stage start up. The site's goal was to hire data-driven individuals that are interested in creating a web product in the home owner market. Visit <a href="http://www.hausily.com" target="_blank" rel="noopener noreferrer">hausily.com</a> to view the live site.
               </BodyText>
             <ProjectSectionTitle>Site design</ProjectSectionTitle>
             <ChallengeSolutionWrapper>
@@ -73,7 +73,7 @@ export const Hausily = () => {
                 <JourneyText>
                   <SectionTitle>Solution</SectionTitle>
                   <BodyText>
-                    Design a site that focuses on the exploratory aspects of start up development, user data available, and recruiting the needed talent.
+                    Design a site that focuses on the exploratory aspects of start up development, the available user data, and open positions.
                   </BodyText>
                 </JourneyText>
               </ChallengeSolutionWrapper>

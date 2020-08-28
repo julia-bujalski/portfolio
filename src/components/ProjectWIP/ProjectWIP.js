@@ -13,7 +13,7 @@ export const ProjectWIP = () => {
         You've stumbled into uncharted territory
       </PageHeadline>
       <BodyText>
-        This page is currently under construction. Check back soon for updates or each out to <strong>julia.bujalski@gmail.com</strong> for any immediate questions. Thanks for bearing with the creative vomit! 
+        This page is currently under construction. Check back soon for updates or reach out to <strong>julia.bujalski@gmail.com</strong> for any immediate questions. Thanks for bearing with the creative vomit! 
       </BodyText>
       <br />
       <BackLink to="/">

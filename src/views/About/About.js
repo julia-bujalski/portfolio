@@ -28,13 +28,13 @@ export const About = () => {
               <div>
                 <BodyText>Hi, I'm Julia.</BodyText>
                 <BodyText>
-                  I'm a currently a <span>UI/UX Designer at Minerva Analytics</span> and a 2018 graduate of Emmanuel College with a <span>degree in Mathematics and Graphic Design.</span> 
+                  I'm a 2018 graduate of Emmanuel College with a <span>degree in Mathematics and Graphic Design,</span> currently a <span>UI/UX Designer at Minerva Analytics</span>
                 </BodyText>
                 <BodyText>
-                  I started getting into web design during an internship at Cogo labs during the summer of my junior year of college. This was a great way for me to combine the art and technical sides of my brain into a constructive, professional career path. While working in web development, I've ventured into front end development - constantly interested in asking myself questions and finding the answers. I'm a bit impulsive, overly empathetic, and intense but it drives my need to solve problems and create.
+                  I started getting into web design during an internship at Cogo Labs during the summer of my junior year of college. I enjoyed finding the intersection of the artistic and technical sides of my brain towards a constructive, professional career path. While working in web development, I've ventured into email design, front end development, marketing design, and product ideation. Outside of web development, I enjoy watercolor illustration, printmaking, and am always looking to try new art mediums.
                 </BodyText>
                 <AboutPageEmph>
-                  I should insert something about how I like other things besides web design, not quite sure how to phrase it.
+                  Outside of work, you can find me hiking, cat sitting, or enjoying a glass pinot grigio in a grass field.
                 </AboutPageEmph>  
               </div>
             </AboutPageHero>

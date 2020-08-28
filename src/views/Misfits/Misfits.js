@@ -53,7 +53,6 @@ export const Misfits = () => {
                 <ProjectImageB src={HandWoodcut} />
                 <ProjectImageB src={PurpleSquish} />
               </PhotoRow>
-              <ProjectSectionTitle>Print materials</ProjectSectionTitle>
             </ProjectPageWrapper>
           </PageTransition>
           )
