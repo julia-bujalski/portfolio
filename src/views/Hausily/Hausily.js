@@ -25,14 +25,16 @@ import ScreensMockup from '../../assets/hausily/hausily_screens_mockup.png';
 import DesktopMockup from '../../assets/hausily/mockup_desktop.png';
 import MobileMockup from '../../assets/hausily/mockup_mobile.png';
 import Wireframes from '../../assets/hausily/wireframes.png';
+import SiteMap from '../../assets/hausily/site_map.png';
 
 const BlueBackground = `#d6edf7`;
 
-const WireframeImage = styled(ProjectImage)`
+const ProcessImage = styled(ProjectImage)`
   max-height: unset;
   width: 90%;
   margin: 0 auto;
   display: block;
+  padding-bottom: 30px;
 `;
 
 export const Hausily = () => {
@@ -82,16 +84,17 @@ export const Hausily = () => {
                 <LaptopScrollMockup mockup={DesktopMockup} />
               </PhotoRow>
             </MockupWrapper>
-            <ProjectSectionTitle>Process</ProjectSectionTitle>
-            <MockupWrapper backgroundColor={BlueBackground}>
-              <WireframeImage src={Wireframes} />
-            </MockupWrapper>
             <ProjectSectionTitle>Style guide</ProjectSectionTitle>
             <MockupWrapper backgroundColor={BlueBackground}>
               <PhotoRow>
                 <ProjectImageC src={HausilyStyleGuide} />
                 <ProjectImageC src={HausilyStyleGuide2} />
               </PhotoRow>
+            </MockupWrapper>
+            <ProjectSectionTitle>Process</ProjectSectionTitle>
+            <MockupWrapper backgroundColor={BlueBackground}>
+              <ProcessImage src={Wireframes} />
+              <ProcessImage src={SiteMap} />
             </MockupWrapper>
           <ViewMoreProjects />
           </ProjectPageWrapper>
