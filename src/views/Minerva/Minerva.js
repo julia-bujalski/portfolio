@@ -22,6 +22,7 @@ import { LaptopScrollMockup } from '../../components/LaptopScrollMockup';
 import SiteMap from '../../assets/minerva/minerva_site_map.png';
 import MobileMockup from '../../assets/minerva/mobile_mockup.png';
 import DesktopMockup from '../../assets/minerva/desktop_mockup.png';
+import Wireframes from '../../assets/minerva/wireframes.png';
 
 const TealBackgroundColor = `#b7f7ef`;
 
@@ -74,6 +75,10 @@ export const Minerva = () => {
                   <PhoneScrollMockUp row mockup={MobileMockup} />
                   <LaptopScrollMockup mockup={DesktopMockup} />
                 </PhotoRow>
+              </MockupWrapper>
+              <ProjectSectionTitle>Wireframes</ProjectSectionTitle>
+              <MockupWrapper backgroundColor={TealBackgroundColor}>
+                <ProcessImage src={Wireframes} />
               </MockupWrapper>
               <ViewMoreProjects />
             </ProjectPageWrapper>
