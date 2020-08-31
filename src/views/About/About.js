@@ -34,7 +34,7 @@ export const About = () => {
                   I started getting into web design during an internship at Cogo Labs during the summer of my junior year of college. I enjoyed finding the intersection of the artistic and technical sides of my brain towards a constructive, professional career path. While working in web development, I've ventured into email design, front end development, marketing design, and product ideation. Outside of web development, I enjoy watercolor illustration, printmaking, and am always looking to try new art mediums.
                 </BodyText>
                 <AboutPageEmph>
-                  Outside of work, you can find me hiking, cat sitting, or enjoying a glass pinot grigio in a grass field.
+                  Outside of work, you can find me hiking, cat sitting, or enjoying a glass of pinot grigio in a grass field.
                 </AboutPageEmph>  
               </div>
             </AboutPageHero>
