@@ -78,7 +78,7 @@ export const FeaturedWork = (props) => {
         <ProjectPreview 
           projectPath="/minerva"
           thumbnail={MinervaThumbnail}
-          title="Minereva Analytics"
+          title="Minerva Analytics"
           medium="Branding & site design exercise"
         />
         {props.allWorkPage ? '' :
