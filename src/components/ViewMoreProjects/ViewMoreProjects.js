@@ -11,6 +11,7 @@ export const ViewMoreProjects = () => {
       <LinkWrapper>
         <ProjectLink to="/backthenhistory">Back Then History</ProjectLink>
         <ProjectLink to="/connections">Connections</ProjectLink>
+        <ProjectLink to="/freelance">Freelance</ProjectLink>
         <ProjectLink to="/hausily">Hausily</ProjectLink>
         <ProjectLink to="/introspection">Introspection</ProjectLink>
         <ProjectLink to="/minerva">Minerva Analytics</ProjectLink>

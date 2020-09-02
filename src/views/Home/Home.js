@@ -73,7 +73,7 @@ export const FeaturedWork = (props) => {
           projectPath="/freelance"
           thumbnail={FreelanceThumbnail}
           title="Freelance Work"
-          medium="Mixed Medium"
+          medium="Mixed medium"
         />
         <ProjectPreview 
           projectPath="/minerva"

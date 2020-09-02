@@ -6,27 +6,25 @@ import {
   FeaturedWrapper,
   ProjectPageWrapper,
   ProjectTitleWrapper,
-  ProjectText,
   ProjectImage,
   ProjectSectionTitle,
   ChallengeSolutionWrapper,
-  JourneyText,
-  MockupWrapper,
-  SubtitleText,
-  ProjectImageC,
   ProjectImageB,
   PhotoRow,
 } from '../projectpage_theme.js';
-import { MockupSectionWrapper } from './Freelance.styles';
 import WatercolorHouse from '../../assets/freelance/house_watercolor.png';
 import HouseThumbnail1 from '../../assets/freelance/house1.png';
 import HouseThumbnail2 from '../../assets/freelance/house2.png';
 import HouseThumbnail3 from '../../assets/freelance/house3.png';
+import BrockettFarmFull from '../../assets/freelance/brockettfarm_watercolor.png';
+import FloorplansMockup from '../../assets/freelance/floorplans_mockup.png';
+import BrockettFarm1 from '../../assets/freelance/brockettfarm1.png';
+import BrockettFarm2 from '../../assets/freelance/brockettfarm2.png';
 import ResumeMockup from '../../assets/freelance/resume_mockup.png';
 
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 
-const PeriwinkleBackground = `#e8dbfb`;
+const PeriwinkleBackground = `#f0e4ff`;
 
 export const Freelance = () => {
   useEffect(() => {
@@ -63,6 +61,21 @@ export const Freelance = () => {
               <ProjectImageB src={HouseThumbnail3} />
               <ProjectImageB src={HouseThumbnail2} />
             </PhotoRow>
+            <PhotoRow>
+              <ProjectImageB src={BrockettFarm1} />
+              <ProjectImageB src={BrockettFarmFull} />
+              <ProjectImageB src={BrockettFarm2} />
+            </PhotoRow>
+            <ProjectSectionTitle>
+              Digital Floorplans for Oak Creek Apartments
+            </ProjectSectionTitle>
+            <ChallengeSolutionWrapper>
+              <BodyText>
+                I worked closely with an apartment complex to create more up to date and accurate floor plans for their units. <a href="https://oakcreekatl.com/index.php/oak-creek-floorplans">Check out their site to see the floorplans live!</a>
+              </BodyText>
+            </ChallengeSolutionWrapper>
+            <ProjectImage src={FloorplansMockup} />
+            <ViewMoreProjects />
           </ProjectPageWrapper>
           </PageTransition>
           )

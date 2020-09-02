@@ -2,11 +2,11 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import SharpieWatercolor from '../../assets/connections/sharpie_watercolor2.png';
-import EcstasyBulbs from '../../assets/introspection/ecstasy3.png';
 import HausilyScreens from '../../assets/hausily/hausily_screens_mockup.png';
 import MinervaScreens from '../../assets/minerva/screens_mockup.png';
 import SpectraProduct from '../../assets/spectra/product3.png';
 import Squish from '../../assets/squish_noframe.png';
+import HouseWatercolor from '../../assets/freelance/house_watercolor.png';
 import { 
   SlideshowImage,
   HeroWrapper,
@@ -18,7 +18,7 @@ import {
 
 
 const properties = {
-  duration: 4000,
+  duration: 5000,
   transitionDuration: 1000,
   indicators: true,
   arrows: false,
@@ -45,6 +45,9 @@ export const HeroSlideshow = () => {
           <div className="each-slide" key="2">
             <SlideshowImage className="lazy" src={MinervaScreens} alt="Minerva site screen design" />
           </div>
+                    <div className="each-slide" key="1">
+            <SlideshowImage className="lazy" src={HouseWatercolor} alt="Framed watercolor painting of a house" />
+          </div>
           <div className="each-slide" key="0">
             <SlideshowImage className="lazy" src={SpectraProduct} alt="Spectra info cards and stickers" />
           </div>
@@ -53,9 +56,6 @@ export const HeroSlideshow = () => {
           </div>
           <div className="each-slide" key="2">
             <SlideshowImage className="lazy" src={HausilyScreens} alt="Hausily site screen design" />
-          </div>
-          <div className="each-slide" key="1">
-            <SlideshowImage className="lazy" src={EcstasyBulbs} alt="Ecstasy lightbulb typography sculpture" />
           </div>
         </Slide>
       </div>

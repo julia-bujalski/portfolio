@@ -12,6 +12,7 @@ import {
   MockupWrapper,
   ProjectImage,
   PhotoRow,
+  SubtitleText
 } from '../projectpage_theme.js';
 import MinervaScreens from '../../assets/minerva/screens_mockup.png';
 
@@ -70,6 +71,7 @@ export const Minerva = () => {
                 <ProcessImage src={SiteMap} />
               </MockupWrapper>
               <ProjectSectionTitle>Site design</ProjectSectionTitle>
+              <SubtitleText>Scroll through mock ups of the Minerva Branding Exercise </SubtitleText>
               <MockupWrapper backgroundColor={TealBackgroundColor}>
                 <PhotoRow>
                   <PhoneScrollMockUp row mockup={MobileMockup} />
