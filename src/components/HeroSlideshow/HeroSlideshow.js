@@ -39,14 +39,11 @@ export const HeroSlideshow = () => {
       <SlideshowWrapper>
       <div className="slide-container">
         <Slide {...properties}>
-          <div className="each-slide" key="0">
-            <SlideshowImage className="lazy" src={SharpieWatercolor} alt="Sharpie and watercolor illustration" />
-          </div>
           <div className="each-slide" key="2">
             <SlideshowImage className="lazy" src={MinervaScreens} alt="Minerva site screen design" />
           </div>
-                    <div className="each-slide" key="1">
-            <SlideshowImage className="lazy" src={HouseWatercolor} alt="Framed watercolor painting of a house" />
+          <div className="each-slide" key="0">
+            <SlideshowImage className="lazy" src={SharpieWatercolor} alt="Sharpie and watercolor illustration" />
           </div>
           <div className="each-slide" key="0">
             <SlideshowImage className="lazy" src={SpectraProduct} alt="Spectra info cards and stickers" />
@@ -56,6 +53,9 @@ export const HeroSlideshow = () => {
           </div>
           <div className="each-slide" key="2">
             <SlideshowImage className="lazy" src={HausilyScreens} alt="Hausily site screen design" />
+          </div>
+          <div className="each-slide" key="1">
+            <SlideshowImage className="lazy" src={HouseWatercolor} alt="Framed watercolor painting of a house" />
           </div>
         </Slide>
       </div>
