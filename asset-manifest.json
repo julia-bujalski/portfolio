@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.9077a0a5.chunk.css",
-    "main.js": "/static/js/main.cf8ef9a3.chunk.js",
-    "main.js.map": "/static/js/main.cf8ef9a3.chunk.js.map",
+    "main.js": "/static/js/main.6e1f9d02.chunk.js",
+    "main.js.map": "/static/js/main.6e1f9d02.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.69507427.chunk.css": "/static/css/2.69507427.chunk.css",
-    "static/js/2.cdf4fc5e.chunk.js": "/static/js/2.cdf4fc5e.chunk.js",
-    "static/js/2.cdf4fc5e.chunk.js.map": "/static/js/2.cdf4fc5e.chunk.js.map",
+    "static/js/2.21c183fe.chunk.js": "/static/js/2.21c183fe.chunk.js",
+    "static/js/2.21c183fe.chunk.js.map": "/static/js/2.21c183fe.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.de08373386f2f116cb5d73c89a71491c.js": "/precache-manifest.de08373386f2f116cb5d73c89a71491c.js",
+    "precache-manifest.8e33c96ef7dc1246121544ff2ba63c99.js": "/precache-manifest.8e33c96ef7dc1246121544ff2ba63c99.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69507427.chunk.css.map": "/static/css/2.69507427.chunk.css.map",
     "static/css/main.9077a0a5.chunk.css.map": "/static/css/main.9077a0a5.chunk.css.map",
-    "static/js/2.cdf4fc5e.chunk.js.LICENSE.txt": "/static/js/2.cdf4fc5e.chunk.js.LICENSE.txt",
+    "static/js/2.21c183fe.chunk.js.LICENSE.txt": "/static/js/2.21c183fe.chunk.js.LICENSE.txt",
     "static/media/about_photo.png": "/static/media/about_photo.9e3b1bea.png",
     "static/media/berkshire_project_logo.png": "/static/media/berkshire_project_logo.97fb8617.png",
     "static/media/booklets.png": "/static/media/booklets.5d565588.png",
@@ -31,6 +31,8 @@
     "static/media/ecstasy1.png": "/static/media/ecstasy1.98c9c1c0.png",
     "static/media/ecstasy2.png": "/static/media/ecstasy2.2bab6a2e.png",
     "static/media/ecstasy3.png": "/static/media/ecstasy3.a815f444.png",
+    "static/media/email_control.png": "/static/media/email_control.259c8119.png",
+    "static/media/email_variation.png": "/static/media/email_variation.a8d98818.png",
     "static/media/eye_lino.png": "/static/media/eye_lino.66170d21.png",
     "static/media/face_litho.png": "/static/media/face_litho.f0ee54e9.png",
     "static/media/floorplans_mockup.png": "/static/media/floorplans_mockup.9e829245.png",
@@ -83,7 +85,10 @@
     "static/media/sharpie_watercolor2.png": "/static/media/sharpie_watercolor2.d2f8f1c2.png",
     "static/media/sharpie_watercolor3.png": "/static/media/sharpie_watercolor3.c338b8d9.png",
     "static/media/signspecific_ad.png": "/static/media/signspecific_ad.b2d77d36.png",
+    "static/media/signupmodal_control.png": "/static/media/signupmodal_control.4aed27ea.png",
+    "static/media/signupmodal_variation.png": "/static/media/signupmodal_variation.3612d0cf.png",
     "static/media/site_map.png": "/static/media/site_map.fe6d3a8f.png",
+    "static/media/sitemap.png": "/static/media/sitemap.8f35cfc1.png",
     "static/media/spectra_banner.png": "/static/media/spectra_banner.19fbcbb0.png",
     "static/media/spectra_donation.png": "/static/media/spectra_donation.22ef53a2.png",
     "static/media/spectra_hat.png": "/static/media/spectra_hat.b8f10d8e.png",
@@ -103,8 +108,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.69507427.chunk.css",
-    "static/js/2.cdf4fc5e.chunk.js",
+    "static/js/2.21c183fe.chunk.js",
     "static/css/main.9077a0a5.chunk.css",
-    "static/js/main.cf8ef9a3.chunk.js"
+    "static/js/main.6e1f9d02.chunk.js"
   ]
 }
