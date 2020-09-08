@@ -18,3 +18,23 @@ export const NavMockupImageRight = styled(NavMockupImageLeft)`
     width: 100%;
   }
 `;
+
+export const ConfirmationFunnelWrapper = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  @media only screen and (max-width: ${MOBILE}) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+export const SignUpModalMockup = styled.img`
+  max-width: 300px;
+  width: 45%;
+
+  @media only screen and (max-width: ${MOBILE}) {
+    width: 90%;
+  }
+`;
