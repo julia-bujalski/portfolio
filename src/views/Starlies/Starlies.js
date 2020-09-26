@@ -94,7 +94,7 @@ export const Starlies = () => {
               <JourneyText>
                 <SectionTitle>Challenge</SectionTitle>
                 <BodyText>
-                  How can we get users to stay on site for longer than the, on avergae, 65 seconds it takes for them to read their horoscope? How can we increase organic traffic?
+                  How can we get users to stay on site for longer than the, on average, 65 seconds it takes for them to read their horoscope? How can we increase organic traffic?
                 </BodyText>
               </JourneyText>
               <JourneyText>
@@ -141,7 +141,7 @@ export const Starlies = () => {
             </MockupWrapper>
             <SectionTitle>Confirmation email</SectionTitle>
             <BodyText>
-              The variation leg of this test had a similar approach as the sign up modal variation - reduce the amount of noise both in the copy and visually to clearly tell the user what is needed to be done. We used confirmation rate as our success metric and monitored week 0 to week 1 user retention. The variation leg ended up having an 8% higher confirmation rate, showing how the small changes can make a large impact in user behavior.
+              The variation leg of this test had a similar approach as the sign up modal variation - reduce the amount of noise both in the copy and visually to clearly tell the user what is needed to be done. We used confirmation rate as our success metric and monitored week 0 to week 1 user retention. <strong>The variation leg ended up having an 8% higher confirmation rate,</strong> showing how the small changes can make a large impact in user behavior.
             </BodyText>
             <MockupWrapper backgroundColor={YellowBackground}>
               <ConfirmationFunnelWrapper>

@@ -60,14 +60,14 @@ export const Hausily = () => {
             <ProjectPageWrapper>
             <ProjectSectionTitle>Introduction</ProjectSectionTitle>
             <BodyText>
-                As a designer on Cogo's Web Team, I worked as a resource for the rest of the company, including the small incubating start ups and do not have their own designer. I was tasked with creating the branding and site design for Hausily, the early stage start up. The site's goal was to hire data-driven individuals that are interested in creating a web product in the home owner market. Visit <a href="http://www.hausily.com" target="_blank" rel="noopener noreferrer">hausily.com</a> to view the live site.
+                As a designer on Cogo's Web Team, I worked as a resource for the rest of the company, including the small incubating start ups that do not have their own designer. I was tasked with creating the branding and site design for Hausily, the early stage start up. The site's goal was to hire data-driven individuals that are interested in creating a web product in the home owner market. Visit <a href="http://www.hausily.com" target="_blank" rel="noopener noreferrer">hausily.com</a> to view the live site.
               </BodyText>
-            <ProjectSectionTitle>Site design</ProjectSectionTitle>
+            <ProjectSectionTitle>Process</ProjectSectionTitle>
             <ChallengeSolutionWrapper>
                 <JourneyText>
                   <SectionTitle>Challenge</SectionTitle>
                   <BodyText>
-                    Hausily is an early stage start up with not a clear product plan but needs to recruit valuable analytics and engineering talent to join their team.
+                    Hausily is an early stage start up with a broad product plan that needs to recruit valuable analytics and engineering talent to join their team.
                   </BodyText>
                 </JourneyText>
                 <JourneyText>
@@ -77,12 +77,9 @@ export const Hausily = () => {
                   </BodyText>
                 </JourneyText>
               </ChallengeSolutionWrapper>
-            <SubtitleText>Scroll through mock ups of the Hausily site</SubtitleText>
-            <MockupWrapper backgroundColor={BlueBackground}>
-              <PhotoRow>
-                <PhoneScrollMockUp row mockup={MobileMockup} />
-                <LaptopScrollMockup mockup={DesktopMockup} />
-              </PhotoRow>
+              <MockupWrapper backgroundColor={BlueBackground}>
+              <ProcessImage src={Wireframes} />
+              <ProcessImage src={SiteMap} />
             </MockupWrapper>
             <ProjectSectionTitle>Style guide</ProjectSectionTitle>
             <MockupWrapper backgroundColor={BlueBackground}>
@@ -91,10 +88,13 @@ export const Hausily = () => {
                 <ProjectImageC src={HausilyStyleGuide2} />
               </PhotoRow>
             </MockupWrapper>
-            <ProjectSectionTitle>Process</ProjectSectionTitle>
+            <ProjectSectionTitle>Final Site Designs </ProjectSectionTitle>
+            <SubtitleText>Scroll through mock ups of the Hausily site</SubtitleText>
             <MockupWrapper backgroundColor={BlueBackground}>
-              <ProcessImage src={Wireframes} />
-              <ProcessImage src={SiteMap} />
+              <PhotoRow>
+                <PhoneScrollMockUp row mockup={MobileMockup} />
+                <LaptopScrollMockup mockup={DesktopMockup} />
+              </PhotoRow>
             </MockupWrapper>
           <ViewMoreProjects />
           </ProjectPageWrapper>

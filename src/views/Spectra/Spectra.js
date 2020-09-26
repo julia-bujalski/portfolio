@@ -53,7 +53,7 @@ export const Spectra = () => {
               </FeaturedWrapper>
               <ProjectPageWrapper>
               <ProjectSectionTitle>Introduction</ProjectSectionTitle>
-              <BodyText>In July of 2018, Cogo Spectra established an LGBTQ+ affinity group with the goal of creating a welcoming environment for the LGBTQ+ community and allies. I created the branding, marketing materials for events, and materials for when we marched in Boston Pride, June 2019.</BodyText>
+              <BodyText>In July of 2018, Cogo Spectra established an LGBTQ+ affinity group with the goal of creating a welcoming environment for the LGBTQ+ community and allies. I created the branding, marketing materials for events, and materials for when we marched in Boston Pride.</BodyText>
               <ProjectSectionTitle>Branding</ProjectSectionTitle>
               <ChallengeSolutionWrapper>
                 <JourneyText>

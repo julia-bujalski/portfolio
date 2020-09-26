@@ -61,14 +61,21 @@ export const Minerva = () => {
             <ProjectPageWrapper>
               <ProjectSectionTitle>Introduction</ProjectSectionTitle>
               <BodyText>
-                Minerva Analytics is a tech start up finding it's space in the media sphere. As an analytics based company, the mission has evolved greatly since it's conception to connect with the media space and appeal to all of it's audiences - investors, prospective employees, and users of their products. Their <a href="https://minervaanalytics.co">site</a> and brand was create closely to the conception of the company and doesn't efficiently illustrate their processes or connect with their intended audiences. With this exercise, I've attempted to add a modern touch to the visuals representing the brand and give more insight into the company's functions.
+                Minerva Analytics is a tech start up finding it's space in the media sphere. As an analytics based company, the mission has evolved greatly since it's conception to connect with the media space and appeal to all of its audiences - investors, prospective employees, and users of their products. Their <a href="https://minervaanalytics.co">site</a> and brand was create closely to the conception of the company and doesn't efficiently illustrate their processes or connect with their intended audiences. With this exercise, I've added a modern touch to the visuals representing the brand and give more insight into the company's functions.
               </BodyText>
               <ProjectSectionTitle>Process</ProjectSectionTitle>
               <BodyText>
-                When considering the entire brand and site, it was important to see who would be entering the site, from where, and what the end goal would be. For some, the end goal would just be to digest the information and leave with a solid understanding of Minerva Analytics. For others, it was to get them to apply for a job. The challenge was how do you appeal to both types of audiences? 
+                When considering the entire brand and site, it was important to see who would be entering the site, from where, and what the end goal would be. For some, the end goal would just be to digest the information and leave with a solid understanding of Minerva Analytics. For some, it would be to get them to invest in Minerva. For others, it was to get them to apply for a job. The challenge lies in how do you appeal to both types of audiences? 
               </BodyText>
               <MockupWrapper backgroundColor={TealBackgroundColor}>
                 <ProcessImage src={SiteMap} />
+              </MockupWrapper>
+              <BodyText>
+                To address this challenge, I thought about the aspects of the single page site that could appeal to the specific goals that each audience has. I created a team and culture section to humanize the employees and connect  with prospective employees. To appeal to both prospective employees and possible investors, I included high level statistics and succinct descriptions of Minerva's mission to show the impact that the company has on their markets and what their goals are.
+              </BodyText>
+              <ProjectSectionTitle>Wireframes</ProjectSectionTitle>
+              <MockupWrapper backgroundColor={TealBackgroundColor}>
+                <ProcessImage src={Wireframes} />
               </MockupWrapper>
               <ProjectSectionTitle>Site design</ProjectSectionTitle>
               <SubtitleText>Scroll through mock ups of the Minerva Branding Exercise </SubtitleText>
@@ -77,10 +84,6 @@ export const Minerva = () => {
                   <PhoneScrollMockUp row mockup={MobileMockup} />
                   <LaptopScrollMockup mockup={DesktopMockup} />
                 </PhotoRow>
-              </MockupWrapper>
-              <ProjectSectionTitle>Wireframes</ProjectSectionTitle>
-              <MockupWrapper backgroundColor={TealBackgroundColor}>
-                <ProcessImage src={Wireframes} />
               </MockupWrapper>
               <ViewMoreProjects />
             </ProjectPageWrapper>

@@ -32,7 +32,7 @@ export const Contact = () => {
       </InfoWrapper>
       <ResumeWrapper>
         <ResumeText>
-          Click here to view my resume
+          Resume
         </ResumeText>
         <ResumeLink href={Resume} target="_blank">
           <ResumePreview src={Resume} />

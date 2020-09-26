@@ -69,7 +69,7 @@ export const BackThenHistory = () => {
               <JourneyText>
                 <SectionTitle>Solution</SectionTitle>
                 <BodyText>
-                  Pull branding inspiration from other web products in the history market while creating a fresh, memorable vibe. Focus on the general idea of history with small glimpses into the product description and tagline but still general for the ability to pivot if product failure.
+                  Pull branding inspiration from other web products in the history market while creating a fresh, memorable experience. Focus on the general idea of history with small glimpses into the product description and tagline but still general for the ability to pivot if product failure.
                 </BodyText>
               </JourneyText>
             </ChallengeSolutionWrapper>
