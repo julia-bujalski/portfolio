@@ -42,10 +42,10 @@ export const BackThenHistory = () => {
             <ProjectTitleWrapper>
               <SectionTitle>Branding, site, marketing, & email design</SectionTitle>
               <PageHeadline>Back Then History</PageHeadline>
-              <BodyText>Minerva Analytics <br />August 2020</BodyText>
+              <BodyText>Minerva Analytics</BodyText>
               <ProjectText>
                 <BodyText>
-                  An unusual history newsletter test site.
+                  An unusual history newsletter test site
                 </BodyText>
               </ProjectText>
             </ProjectTitleWrapper>

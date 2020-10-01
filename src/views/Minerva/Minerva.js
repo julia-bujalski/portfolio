@@ -49,10 +49,10 @@ export const Minerva = () => {
               <ProjectTitleWrapper>
                 <SectionTitle>Branding & site design</SectionTitle>
                 <PageHeadline>Minerva Analytics</PageHeadline>
-                <BodyText>Personal project <br />July 2020 - September 2020</BodyText>
+                <BodyText>Personal project</BodyText>
                 <ProjectText>
                   <BodyText>
-                    The Minerva Analytics brand redesign exercise.
+                    The Minerva Analytics brand redesign exercise
                   </BodyText>
                 </ProjectText>
               </ProjectTitleWrapper>

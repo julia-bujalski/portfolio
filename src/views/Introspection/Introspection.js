@@ -63,7 +63,7 @@ export const Introspection = () => {
               <ProjectTitleWrapper>
                 <SectionTitle>Mixed media typography</SectionTitle>
                 <PageHeadline>Introspection</PageHeadline>
-                <BodyText>Emmanuel College Senior Thesis <br /> Sept 2017 - May 2018</BodyText>
+                <BodyText>Emmanuel College Senior Thesis</BodyText>
                 <ProjectText>
                   <BodyText>
                     A visual exploration in the communication of emotional experiences through common materials and experimental typography.

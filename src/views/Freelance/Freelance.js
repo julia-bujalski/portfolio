@@ -41,8 +41,8 @@ export const Freelance = () => {
               <ProjectTitleWrapper>
                 <SectionTitle>Mixed Media</SectionTitle>
                 <PageHeadline>Freelance Work</PageHeadline>
-                <BodyText>Self Employed <br /> Jan 2019 - Present</BodyText>
-                <BodyText>Mediums include watercolor and digital floorplans.</BodyText>
+                <BodyText>Self Employed</BodyText>
+                <BodyText>Mediums include watercolor and digital floorplans</BodyText>
                 <BodyText>I'm always interested in exploring new freelance projects! Shoot me an email at julia.bujalski@gmail.com to connect.</BodyText>
               </ProjectTitleWrapper>
               <FeaturedImage src={ResumeMockup} />

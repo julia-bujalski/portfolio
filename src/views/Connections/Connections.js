@@ -32,7 +32,7 @@ export const Connections = () => {
               <ProjectTitleWrapper>
                 <SectionTitle>Illustration</SectionTitle>
                 <PageHeadline>Connections</PageHeadline>
-                <BodyText>Personal project <br /> April 2020 - Present</BodyText>
+                <BodyText>Personal project</BodyText>
                 <ProjectText>
                   <BodyText>
                     While in quarantine, I began using art and illustration to explore the connections that I have with myself, with other people, and with the world. These pieces consider feelings, emotions, and overall connection to the world around me.

@@ -51,10 +51,10 @@ export const Starlies = () => {
               <ProjectTitleWrapper>
                 <SectionTitle>Product, marketing, and UI/UX design</SectionTitle>
                 <PageHeadline>Starlies</PageHeadline>
-                <BodyText>Minerva Analytics <br /> January 2020 - Present</BodyText>
+                <BodyText>Minerva Analytics</BodyText>
                 <ProjectText>
                   <BodyText>
-                    A horoscope and astrology website.
+                    A horoscope and astrology website
                   </BodyText>
                 </ProjectText>
               </ProjectTitleWrapper>

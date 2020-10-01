@@ -87,7 +87,16 @@ export const Quickscope = () => {
               <MockupWrapper backgroundColor={GreenBackground}>
                 <PhoneScrollMockUp mockup={NewsletterMockUp} />
               </MockupWrapper>
+              <ProjectSectionTitle>
+                Outcomes
+              </ProjectSectionTitle>
+              <BodyText>
+                With this test, we saw a <strong>68% increase in week over week retention</strong>. As an early newsletter, these retained users are essential for understanding user goals and how we can better help them reach these goals. In addition to these metrics, this email redesign created a more standardized design system for ease of adding more sections and a more cohesive brand overall. 
+              </BodyText>
               <ProjectSectionTitle>Ad campaigns</ProjectSectionTitle>
+              <BodyText>
+                In addition to working on the newsletter, I've worked closely with the marketing team to create Facebook marketing campaigns to drive traffic to the site and continue to gain sign ups.
+              </BodyText>
               <PhotoRow>
                 <ProjectImageB src={QuickscopeArticleA} />
                 <ProjectImageB src={QuickscopeArticleB} />

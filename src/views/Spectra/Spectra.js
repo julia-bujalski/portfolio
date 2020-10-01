@@ -42,10 +42,10 @@ export const Spectra = () => {
               <ProjectTitleWrapper>
                 <SectionTitle>Branding & print design</SectionTitle>
                 <PageHeadline>Cogo Spectra</PageHeadline>
-                <BodyText>Cogo Labs <br />January 2019 - Present</BodyText>
+                <BodyText>Cogo Labs</BodyText>
                 <ProjectText>
                   <BodyText>
-                    The Cogo Labs LGBTQ affinity group.
+                    The Cogo Labs LGBTQ affinity group
                   </BodyText>
                 </ProjectText>
               </ProjectTitleWrapper>
