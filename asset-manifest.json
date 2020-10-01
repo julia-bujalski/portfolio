@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.9077a0a5.chunk.css",
-    "main.js": "/static/js/main.17508da6.chunk.js",
-    "main.js.map": "/static/js/main.17508da6.chunk.js.map",
+    "main.js": "/static/js/main.5a9f5cdc.chunk.js",
+    "main.js.map": "/static/js/main.5a9f5cdc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.69507427.chunk.css": "/static/css/2.69507427.chunk.css",
-    "static/js/2.4a133505.chunk.js": "/static/js/2.4a133505.chunk.js",
-    "static/js/2.4a133505.chunk.js.map": "/static/js/2.4a133505.chunk.js.map",
+    "static/js/2.15efbfed.chunk.js": "/static/js/2.15efbfed.chunk.js",
+    "static/js/2.15efbfed.chunk.js.map": "/static/js/2.15efbfed.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.479af764fa65ead67b0f2521a7e16f4f.js": "/precache-manifest.479af764fa65ead67b0f2521a7e16f4f.js",
+    "precache-manifest.73b514e11f82cab3f2f56f0edc4ff9e6.js": "/precache-manifest.73b514e11f82cab3f2f56f0edc4ff9e6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69507427.chunk.css.map": "/static/css/2.69507427.chunk.css.map",
     "static/css/main.9077a0a5.chunk.css.map": "/static/css/main.9077a0a5.chunk.css.map",
-    "static/js/2.4a133505.chunk.js.LICENSE.txt": "/static/js/2.4a133505.chunk.js.LICENSE.txt",
+    "static/js/2.15efbfed.chunk.js.LICENSE.txt": "/static/js/2.15efbfed.chunk.js.LICENSE.txt",
     "static/media/about_photo.png": "/static/media/about_photo.9e3b1bea.png",
     "static/media/berkshire_project_logo.png": "/static/media/berkshire_project_logo.97fb8617.png",
     "static/media/booklets.png": "/static/media/booklets.5d565588.png",
@@ -22,6 +22,8 @@
     "static/media/brockettfarm_watercolor.png": "/static/media/brockettfarm_watercolor.6b3e9b22.png",
     "static/media/bth.png": "/static/media/bth.fc6c2e58.png",
     "static/media/charts_fb.png": "/static/media/charts_fb.088259b6.png",
+    "static/media/cogo_logo.png": "/static/media/cogo_logo.b51bacf7.png",
+    "static/media/cogo_website.png": "/static/media/cogo_website.c490ceb2.png",
     "static/media/comfort1.png": "/static/media/comfort1.207796d3.png",
     "static/media/comfort2.png": "/static/media/comfort2.40a81c67.png",
     "static/media/comfort3.png": "/static/media/comfort3.41bbf8cf.png",
@@ -52,7 +54,8 @@
     "static/media/house3.png": "/static/media/house3.1bd62a02.png",
     "static/media/house_watercolor.png": "/static/media/house_watercolor.4c36d027.png",
     "static/media/logo_illustration.png": "/static/media/logo_illustration.4eb486ce.png",
-    "static/media/logo_process.png": "/static/media/logo_process.76f7c506.png",
+    "static/media/logo_inspiration.png": "/static/media/logo_inspiration.1c378112.png",
+    "static/media/logo_process.png": "/static/media/logo_process.a223382a.png",
     "static/media/logo_wordmark.png": "/static/media/logo_wordmark.262cf501.png",
     "static/media/mobile_mockup.png": "/static/media/mobile_mockup.cb43280d.png",
     "static/media/mockup.png": "/static/media/mockup.66718843.png",
@@ -62,6 +65,7 @@
     "static/media/moon_quote.png": "/static/media/moon_quote.63f2b21f.png",
     "static/media/navigation_desktop.png": "/static/media/navigation_desktop.86042ea8.png",
     "static/media/navigation_mobile.png": "/static/media/navigation_mobile.fe47773e.png",
+    "static/media/newsletter_process.png": "/static/media/newsletter_process.040f9ca5.png",
     "static/media/objects_fb.png": "/static/media/objects_fb.c2321c10.png",
     "static/media/onthisday_fb.png": "/static/media/onthisday_fb.eaecaa31.png",
     "static/media/product1.png": "/static/media/product1.d13d2f8d.png",
@@ -109,8 +113,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.69507427.chunk.css",
-    "static/js/2.4a133505.chunk.js",
+    "static/js/2.15efbfed.chunk.js",
     "static/css/main.9077a0a5.chunk.css",
-    "static/js/main.17508da6.chunk.js"
+    "static/js/main.5a9f5cdc.chunk.js"
   ]
 }
