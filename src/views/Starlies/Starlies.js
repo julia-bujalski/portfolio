@@ -163,7 +163,7 @@ export const Starlies = () => {
             <MockupWrapper backgroundColor={YellowBackground}>
               <PhoneScrollMockUp mockup={NewsletterMockUp} />
             </MockupWrapper>
-          <ViewMoreProjects />
+          <ViewMoreProjects UI />
         </ProjectPageWrapper>
       </PageTransition>
       )

@@ -85,7 +85,7 @@ export const Minerva = () => {
                   <LaptopScrollMockup mockup={DesktopMockup} />
                 </PhotoRow>
               </MockupWrapper>
-              <ViewMoreProjects />
+              <ViewMoreProjects UI />
             </ProjectPageWrapper>
           </PageTransition>
         )

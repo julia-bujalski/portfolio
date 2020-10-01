@@ -119,7 +119,7 @@ export const BackThenHistory = () => {
                 <ProjectImageC src={OnThisDayFacebook} />
               </FacebookPhotoRow>
             </MockupWrapper>
-            <ViewMoreProjects />
+            <ViewMoreProjects UI />
           </ProjectPageWrapper>
           </PageTransition>
           )

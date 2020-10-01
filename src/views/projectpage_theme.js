@@ -27,7 +27,7 @@ export const FeaturedWrapper = styled.div`
 
 export const ProjectPageWrapper = styled(PageWrapper)`
   width: 80%;
-  max-width: 1000px;
+  max-width: 900px;
   padding-top: unset;
 
   @media only screen and (max-width: ${TABLET}) {
@@ -90,7 +90,7 @@ export const PhotoRow = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  padding-top: 15px;
+  padding: 25px 0px;
 
   @media only screen and (max-width: ${MOBILE}) {
     flex-direction: column;
@@ -159,4 +159,8 @@ export const JourneyText = styled.div`
   @media (max-width: ${MOBILE}) {
     width: 100%;
   }
+`;
+
+export const FullSizedProjectImage = styled.img`
+  width: 100%;
 `;

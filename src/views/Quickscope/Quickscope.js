@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import styled from 'styled-components';
 import { Transition, TransitionGroup } from 'react-transition-group';
 import { PageHeadline, SectionTitle, BodyText, PageTransition } from '../../theme';
 import {
@@ -13,6 +14,7 @@ import {
   MockupWrapper,
   ChallengeSolutionWrapper,
   JourneyText,
+  FullSizedProjectImage
 } from '../projectpage_theme.js';
 import QuickscopeArticleA from '../../assets/quickscope/quickscope_articleA.png';
 import QuickscopeArticleB from '../../assets/quickscope/quickscope_articleB.png';
@@ -21,8 +23,12 @@ import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import NewsletterMockUp from '../../assets/mockup.png';
 import { PhoneScrollMockUp } from '../../components/PhoneScrollMockUp';
 import ScreensMockup from '../../assets/quickscope/quickscope_screens_mockup.png';
+import NewsletterProcess from '../../assets/quickscope/newsletter_process.png';
 
 const GreenBackground = `#D5FCE2`;
+const ResponsiveGif = styled.img`
+  margin: 0 auto;
+`;
 
 export const Quickscope = () => {
   useEffect(() => {
@@ -39,17 +45,16 @@ export const Quickscope = () => {
               <ProjectTitleWrapper>
                 <SectionTitle>Email design & front end development</SectionTitle>
                 <PageHeadline>Quickscope</PageHeadline>
-                <BodyText>Minerva Analytics <br /> January 2020 - Present</BodyText>
-                <BodyText>A daily gaming newsletter.</BodyText>
+                <BodyText>Minerva Analytics</BodyText>
+                <BodyText>A daily gaming newsletter</BodyText>
               </ProjectTitleWrapper>
               <FeaturedImage src={ScreensMockup} />
               </FeaturedWrapper>
             <ProjectPageWrapper>
               <ProjectSectionTitle>Introduction</ProjectSectionTitle>
               <BodyText>
-                    I supported Quickscope, the daily video gaming newsletter, as a designer at Minerva Analytics. I created the email design, social graphics, and helped support development of the site with ReactJS styled components. Check out the live site at <a href="https://thequickscope.com" target="_blank" rel="noopener noreferrer">thequickscope.com</a>
-                  </BodyText>
-              <ProjectSectionTitle>Newsletter design</ProjectSectionTitle>
+                I supported Quickscope, the daily video gaming newsletter, as a designer at Minerva Analytics. I created the email design, social graphics, and helped support development of the site with ReactJS styled components. Check out the live site at <a href="https://thequickscope.com" target="_blank" rel="noopener noreferrer">thequickscope.com</a>
+              </BodyText>
               <ChallengeSolutionWrapper>
                 <JourneyText>
                   <SectionTitle>Challenge</SectionTitle>
@@ -60,10 +65,24 @@ export const Quickscope = () => {
                 <JourneyText>
                   <SectionTitle>Solution</SectionTitle>
                   <BodyText>
-                    Restructure the newsletter to go in order of interest based on user surveys and reduce decorative visual elements to help users digest their daily gaming news more easily and efficiently.
+                    Restructure the newsletter order based on user data and reduce decorative visual elements to help users digest their daily gaming news more efficiently.
                   </BodyText>
                 </JourneyText>
               </ChallengeSolutionWrapper>
+              <ProjectSectionTitle>Newsletter Design Process</ProjectSectionTitle>
+              <BodyText>
+                  Below, you'll see the process from previous newsletter, whiteboarding, to final mock ups. With this brainstorming and design, I focused greatly on text hierarchy and a clean, consistent color scheme. These design decisions were used to make the newsletter feel cohesive and more professional. We also added the category tags, such as "REVIEW" or "UPDATE", to increase the skimmability of the newsletter. This was a goal from users based on surveys and was something lacking in our old design. We also wanted to add a personalized aspect to the newsletter. We have writers in house creating these descriptions everyday and we want to make that known! To do this, we added a sign off section to connect deeper with the readers of Quickscope.
+                </BodyText>
+              <PhotoRow backgroundColor={GreenBackground}>
+                <FullSizedProjectImage src={NewsletterProcess} />
+              </PhotoRow>
+              <BodyText>
+                The readers of quickscope are about 35% desktop and 75% mobile. The old design was addressed with a mobile first approach <i>but</i> was not that readable on desktop. Because of this, I prioritized responsivity when coding the new email design. These emails are sent using in house infastructure so I coded this using raw HTML. <a href="https://medium.com/@thequickscope/welcome-to-quickscope-2-0-f964d75009da" target="_blank" rel="noopener noreferrer">Click here to read more about the launch of the new newsletter and the collaboration that went into it.</a>
+              </BodyText>
+              <PhotoRow>
+                <ResponsiveGif src="https://miro.medium.com/max/1200/1*ihXYZC0axCjZKiocLHIHsQ.gif" />
+              </PhotoRow>
+              <ProjectSectionTitle>Final Newsletter Design</ProjectSectionTitle>
               <SubtitleText>Scroll through an issue of <strong>Quickscope</strong></SubtitleText>
               <MockupWrapper backgroundColor={GreenBackground}>
                 <PhoneScrollMockUp mockup={NewsletterMockUp} />
@@ -74,7 +93,7 @@ export const Quickscope = () => {
                 <ProjectImageB src={QuickscopeArticleB} />
                 <ProjectImageB src={QuickscopeFacebook} />
               </PhotoRow>
-            <ViewMoreProjects />
+            <ViewMoreProjects UI />
           </ProjectPageWrapper>
           </PageTransition>
           )
