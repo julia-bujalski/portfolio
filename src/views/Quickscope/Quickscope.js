@@ -28,6 +28,7 @@ import NewsletterProcess from '../../assets/quickscope/newsletter_process.png';
 const GreenBackground = `#D5FCE2`;
 const ResponsiveGif = styled.img`
   margin: 0 auto;
+  width: 100%;
 `;
 
 export const Quickscope = () => {
