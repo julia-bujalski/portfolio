@@ -90,7 +90,7 @@ export const Spectra = () => {
                 <ProjectImageC src={CogoWebsite} />
               </PhotoRow>
               <BodyText>
-                After significant preliminary research, I went through a number of iteraitons. During this, I met with members of spectra about 3 times to ensure that I was representing everyone in the group and doing so in an appropriate and respectful manner.
+                After significant preliminary research, I went through a number of iteraitons. I followed the same font choice and lock up as the Cogo Labs logo and drew inspiration from the LGBTQ brands from my research. During this time, I met with members of spectra about 3 times to ensure that I was representing everyone in the group and doing so in an appropriate and respectful manner.
               </BodyText>
               <PhotoRow>
                 <FullSizedProjectImage src={LogoProcess} />
