@@ -6,6 +6,7 @@ export const SlideshowImage = styled.img`
   width: 100%;
   object-fit: cover;
   opacity: 1;
+  background-color: #f8f8f8;
 
   @media only screen and (max-width: ${TABLET}) {
     height: 35vh;
