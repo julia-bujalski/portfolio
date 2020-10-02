@@ -14,7 +14,14 @@ import HandWoodcut from '../../assets/misfits/hand_woodcut.png';
 import HandFeetLino from '../../assets/misfits/handfeet_lino.png';
 import PurpleSquish from '../../assets/misfits/purple_squish.png';
 import BerkshireProject from '../../assets/misfits/berkshire_project_logo.png';
-import { FeaturedWork } from '../Home/Home';
+
+import { ProjectPreview } from '../../components/ProjectPreview';
+import MinervaThumbnail from '../../assets/minerva/thumbnail_mockup.png';
+import StarliesThumbnail from '../../assets/starlies/starlies.png';
+import HausilyThumbnail from '../../assets/hausily/hausily.png';
+import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
+import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
+import { ProjectsGrid } from '../Home/Home.styles';
 
 export const Misfits = () => {
   useEffect(() => {
@@ -31,10 +38,44 @@ export const Misfits = () => {
               <PageHeadline>
                 all work
               </PageHeadline>
-              <BodyText style={{paddingBottom: `25px`}}>
+              <BodyText>
                 Collection of logos, sketches, and other projets made along the way.
               </BodyText>
-              <FeaturedWork allWorkPage />
+              <ProjectSectionTitle style={{paddingTop: `40px`}}>
+                UI/UX Projects
+              </ProjectSectionTitle>
+              <ProjectsGrid>
+                <ProjectPreview 
+                  projectPath="/hausily"
+                  thumbnail={HausilyThumbnail}
+                  title="Hausily"
+                  medium="Branding & UI/UX design"
+                />
+                <ProjectPreview 
+                  projectPath="/quickscope"
+                  thumbnail={QuickscopeThumbnail}
+                  title="Quickscocpe"
+                  medium="Email design & front end development"
+                />
+                <ProjectPreview 
+                  projectPath="/starlies"
+                  thumbnail={StarliesThumbnail}
+                  title="Starlies"
+                  medium="Product, marketing, & UX design"
+                />
+                <ProjectPreview 
+                  projectPath="/backthenhistory"
+                  thumbnail={BackThenHistoryThumbnail}
+                  title="Back Then History"
+                  medium="Branding, site, marketing, & email design"
+                />
+                <ProjectPreview 
+                  projectPath="/minerva"
+                  thumbnail={MinervaThumbnail}
+                  title="Minerva Analytics"
+                  medium="Branding & site design exercise"
+                />
+              </ProjectsGrid>
               <ProjectSectionTitle>Logos</ProjectSectionTitle>
               <PhotoRow>
                 <ProjectImageB src="https://media.git.cogolo.net/user/430/files/25433e80-beb6-11e9-9855-08af6f18e344" />
