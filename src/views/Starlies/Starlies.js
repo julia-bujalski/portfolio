@@ -63,10 +63,42 @@ export const Starlies = () => {
             <ProjectPageWrapper>
             <ProjectSectionTitle>Introduction</ProjectSectionTitle>
             <BodyText>
-              I worked on the Starlies product in varying degrees during my time at Minerva Analytics. The brand was created by another designer at the company and I supported the development through on site feature design and development, email design & code, social graphics, and user testing amounting to one of the most successful products under in Minerva's media portfolio. The site experience and daily newsletter connects you with horoscopes and other astrological content such as birth charts, celebrity quotes, and moon phases. Check out the live site at <a href="https://www.starlies.com" target="_blank" rel="noopener noreferrer">starlies.com</a>.
+              I was brought onto the Starlies team when it was a successful, simple site that hosted daily horoscopes and delivered a daily horoscope newsletter. The underlying thread of our efforts was to increase our userbase and revenue through supplementary astrology content and optimizing the site experience. Check out the live site at <a href="https://www.starlies.com" target="_blank" rel="noopener noreferrer">starlies.com</a>.
             </BodyText>
+            <ChallengeSolutionWrapper>
+              <JourneyText>
+                <SectionTitle>Challenge</SectionTitle>
+                <BodyText>
+                  How do you ramp up a site that already has a consistent, trustworthy user base and stable revenue and no obvious areas for growth? 
+                </BodyText>
+              </JourneyText>
+              <JourneyText>
+                <SectionTitle>Solution</SectionTitle>
+                <BodyText>
+                  Conduct user testing to gauge the users interest and aggresively test the current product to optimize the user experience while driving traffic through paid ad campaigns. 
+                </BodyText>
+              </JourneyText>
+            </ChallengeSolutionWrapper>
             <ProjectSectionTitle>Sitemap</ProjectSectionTitle>
+            <BodyText>
+              Initially when we started trying to build out Starlies, we were treating the supplementary information as separate features. After noticing this disconnect, we focused greately on site maps and the user's flow through the site rather just the users interactions within a single feature.  
+            </BodyText>
+            <PhotoRow>
               <ProjectImage src={SiteMap} />
+            </PhotoRow>
+            <ProjectSectionTitle>Confirmation Email AB Testing</ProjectSectionTitle>
+            <BodyText>
+              When combing through the user experience, we noticed a relatively low confirmation rate. We value double opt in users so increasing this confirmation rate would be instrumental to growing the product and product revenue. Below, you'll see the (then) current confirmation email on the left and the variation leg of the test on the right. The design approach waas the reduce the amount of noise in both copy and visual elements to clearly tell the user what is needed to be done.
+              </BodyText>
+              <BodyText>
+              We used the confirmation rate as our success metric and closely monitored week 0 to week 1 user retention for any obscure drops or changes. I design and coded this email sa well as worked closely with analysts in the set up and monitoring of this test. <strong>In the end, the variation leg had an 8% higher confirmation rate</strong> showing how small design changes and email code changes can have a large impact in user behvaior and email deliverability. 
+            </BodyText>
+            <MockupWrapper backgroundColor={YellowBackground}>
+              <ConfirmationFunnelWrapper>
+                <ProjectImageB src={EmailControl} />
+                <ProjectImageB src={EmailVariation} />
+              </ConfirmationFunnelWrapper>
+            </MockupWrapper>
             <ProjectSectionTitle>Collapsable navigation</ProjectSectionTitle>
             <ChallengeSolutionWrapper>
               <JourneyText>
@@ -100,7 +132,7 @@ export const Starlies = () => {
               <JourneyText>
                 <SectionTitle>Solution</SectionTitle>
                 <BodyText>
-                  Add a feature that encourages user interaction beyond readingg text. Tap into keyword rich features and with the help of SEM analysts.
+                  Add a feature that encourages user interaction beyond reading text. Tap into keyword rich features and with the help of SEM analysts.
                 </BodyText>
               </JourneyText>
             </ChallengeSolutionWrapper>
@@ -111,44 +143,6 @@ export const Starlies = () => {
             </MockupWrapper>
             <BodyText>This feature was added to Starlies in July 2020 with the goal of increasing time on site and daily active users. I was responsible for the design and development of this feature including structure and styling of the page and calling the API. <a href="https://www.starlies.com/compatibility-calculator" target="_blank" rel="noopener noreferrer"> Click the mock up to visit the site and determine your compatibility! </a>
             </BodyText>
-            <ProjectSectionTitle>Confirmation funnel testing</ProjectSectionTitle>
-            <BodyText>
-              With this effort, I worked closely with analysts and product managers to create intentional languages changes and tests so that we could improve these metrics. These tests were all AB tests with allocating 50% of traffic to the control and 50% to the variation leg.
-            </BodyText>
-            <ChallengeSolutionWrapper>
-              <JourneyText>
-                <SectionTitle>Challenge</SectionTitle>
-                <BodyText>
-                  How do we increase user sign up and confirmation rate so that we are gathering more valuable users through our paid traffic channels?
-                </BodyText>
-              </JourneyText>
-              <JourneyText>
-                <SectionTitle>Solution</SectionTitle>
-                <BodyText>
-                  Test language and visuals within the first two stages of the confirmation funnel - sign up modal and confirmation email - to create meaningful initial reactions so that the users feel connected to Starlies.
-                </BodyText>
-              </JourneyText>
-            </ChallengeSolutionWrapper>
-            <SectionTitle>Sign up modal</SectionTitle>
-            <BodyText>
-              The goal with the variation here, seen on the right, was to remove excess information and draw the users eye directly down towards the input fields. We used user sign ups as our success metric nad continued to monitor confirmation rate.
-            </BodyText>
-            <MockupWrapper backgroundColor={YellowBackground}>
-              <ConfirmationFunnelWrapper>
-                <SignUpModalMockup src={SignUpModalControl} />
-                <SignUpModalMockup src={SignUpModalVariation} />
-              </ConfirmationFunnelWrapper>
-            </MockupWrapper>
-            <SectionTitle>Confirmation email</SectionTitle>
-            <BodyText>
-              The variation leg of this test had a similar approach as the sign up modal variation - reduce the amount of noise both in the copy and visually to clearly tell the user what is needed to be done. We used confirmation rate as our success metric and monitored week 0 to week 1 user retention. <strong>The variation leg ended up having an 8% higher confirmation rate,</strong> showing how the small changes can make a large impact in user behavior.
-            </BodyText>
-            <MockupWrapper backgroundColor={YellowBackground}>
-              <ConfirmationFunnelWrapper>
-                <ProjectImageB src={EmailControl} />
-                <ProjectImageB src={EmailVariation} />
-              </ConfirmationFunnelWrapper>
-            </MockupWrapper>
             <ProjectSectionTitle>Ad campaigns </ProjectSectionTitle>
             <BodyText>
               These ads, among numerous others, were created when working with marketing analysts for both paid and unpaid social efforts. They were used to promote features, test out new content types like quotes, and targeting efforts.

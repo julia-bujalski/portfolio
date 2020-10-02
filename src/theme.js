@@ -45,7 +45,7 @@ export const BodyText = styled.div`
   color: ${BLACK};
   font-family: 'Open Sans';
   font-weight: Light;
-  letter-spacing: .75px;
+  letter-spacing: .65px;
   line-height: 1.75;
   padding-top: 10px;
   text-align: left;
