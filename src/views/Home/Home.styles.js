@@ -4,10 +4,10 @@ import { BLACK } from '../../theme';
 
 export const ProjectsGrid = styled.div`
   display: flex;
-  margin: 0px auto 50px auto;
+  margin: 0px auto 0px auto;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 15px;
 
   @media screen and (max-width: 620px) {
     display: block;

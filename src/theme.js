@@ -75,7 +75,7 @@ export const PageHeadline = styled.div`
 `;
 
 export const PageTransition = styled.div`
-  transition: 800ms ease;
+  transition: 1500ms ease;
   opacity: ${({ state }) => (state === `entered` ? 1 : 0)};
   transform: translateY(${({ state }) => (state === `entered` ? -5 : 0)}px);
 `;

@@ -8,14 +8,16 @@ import {
   ProjectTitleWrapper,
   ProjectText,
   PhotoRow,
-  ProjectImageB,
   ProjectImageC,
   ProjectSectionTitle,
   ChallengeSolutionWrapper,
   JourneyText,
-  FullSizedProjectImage
+  FullSizedProjectImage,
+  SubtitleText
 } from '../projectpage_theme.js';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
+import ImageZoom from '../../components/ImageZoom';
+
 import DonationGraphic from '../../assets/spectra/spectra_donation.png';
 import NetworkingGraphic from '../../assets/spectra/spectra_networking.png';
 import SpectraHat from '../../assets/spectra/spectra_hat.png';
@@ -106,16 +108,18 @@ export const Spectra = () => {
                 These two graphics live separately depending on the product and purpose. The illustration on the left plays off of the <a href="https://www.cogolabs.com">Cogo Labs</a> branding with the rocket while using the LGBTQ flag to emphasize how we are powered by the beautiful, diverse community. I used the progressive Pride flag with the arrow in it to "reclaim the movement from the sole space of cisgender white gay men who’ve historically run LGBT organizations and who've garnered much of the attention around issues facing the community". The colors in the arrow represent the trans and asexual individuals that were previously left out of the color scheme. The word mark uses the same colors to evoke the LGBTQ flag but is decorated with deconstructed gender symbols to celebrate gender identities as well as sexual orientations.
               </BodyText>
               <ProjectSectionTitle>Recruiting materials </ProjectSectionTitle>
+              <SubtitleText>Click image to zoom in</SubtitleText>
               <PhotoRow>
-                <ProjectImageB src={Product1} />
-                <ProjectImageB src={Product2} />
-                <ProjectImageB src={Product3} />
+                <ImageZoom src={Product1} />
+                <ImageZoom src={Product2} />
+                <ImageZoom src={Product3} />
               </PhotoRow>
               <ProjectSectionTitle>Additional marketing materials</ProjectSectionTitle>
+              <SubtitleText>Click image to zoom in</SubtitleText>
               <PhotoRow>
-                <ProjectImageB src={DonationGraphic} />
-                <ProjectImageB src={NetworkingGraphic} />
-                <ProjectImageB src={SpectraHat} />
+                <ImageZoom src={DonationGraphic} />
+                <ImageZoom src={NetworkingGraphic} />
+                <ImageZoom src={SpectraHat} />
               </PhotoRow>
             <ViewMoreProjects />
           </ProjectPageWrapper>

@@ -99,7 +99,7 @@ export const PhotoRow = styled.div`
 
 
 export const ProjectSectionTitle = styled.div`
-  padding: 75px 0px 10px 0px;
+  padding: 50px 0px 10px 0px;
   font-size: 24px;
   font-family: 'Playfair Display', sans-serif;
   font-weight: 700;
@@ -164,3 +164,4 @@ export const JourneyText = styled.div`
 export const FullSizedProjectImage = styled.img`
   width: 100%;
 `;
+

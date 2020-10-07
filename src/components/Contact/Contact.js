@@ -6,7 +6,6 @@ import {
   ContactInfo,
   ContactEmph,
   ResumeWrapper,
-  ResumeText,
   ResumeLink,
   ResumePreview,
   InfoWrapper,
@@ -31,9 +30,6 @@ export const Contact = () => {
         </ContactInfo>
       </InfoWrapper>
       <ResumeWrapper>
-        <ResumeText>
-          Resume
-        </ResumeText>
         <ResumeLink href={Resume} target="_blank">
           <ResumePreview src={Resume} />
         </ResumeLink>

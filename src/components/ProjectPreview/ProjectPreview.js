@@ -10,8 +10,8 @@ import {
 
 export const ProjectPreview = (props) => {
   return (
-    <PreviewWrapper to={props.projectPath}>
-      <Thumbnail src={props.thumbnail} />
+    <PreviewWrapper to={props.projectPath} placeholder={props.placeholder}>
+      {props.thumbnail ? <Thumbnail src={props.thumbnail} /> : null}
       <Overlay>
         <PreviewText>
           <Title>{props.title}</Title>

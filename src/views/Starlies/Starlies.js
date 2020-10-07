@@ -16,7 +16,7 @@ import {
   JourneyText,
   ProjectImage,
 } from '../projectpage_theme.js';
-import { NavMockupImageLeft, NavMockupImageRight, SignUpModalMockup, ConfirmationFunnelWrapper } from './Starlies.styles.js';
+import { NavMockupImageLeft, NavMockupImageRight, ConfirmationFunnelWrapper } from './Starlies.styles.js';
 import CompatibilityCalculatorPromo from '../../assets/starlies/compcalc_promo.png';
 import CompatibilityCalculatorMockup from '../../assets/starlies/compatibility_calculator.png';
 import MoonQuote from '../../assets/starlies/moon_quote.png';
@@ -26,8 +26,6 @@ import ScreensMockup from '../../assets/starlies/starlies_screens_mockup.png';
 import NavigationMobile from '../../assets/starlies/navigation_mobile.png';
 import NavigationDesktop from '../../assets/starlies/navigation_desktop.png';
 import SiteMap from '../../assets/starlies/sitemap.png';
-import SignUpModalControl from '../../assets/starlies/signupmodal_control.png';
-import SignUpModalVariation from '../../assets/starlies/signupmodal_variation.png';
 import EmailControl from '../../assets/starlies/email_control.png';
 import EmailVariation from '../../assets/starlies/email_variation.png';
 
@@ -157,6 +155,10 @@ export const Starlies = () => {
             <MockupWrapper backgroundColor={YellowBackground}>
               <PhoneScrollMockUp mockup={NewsletterMockUp} />
             </MockupWrapper>
+            <ProjectSectionTitle>Outcomes</ProjectSectionTitle>
+            <BodyText>
+              While working on Starlies, I was able to work very closely with engineers and analysts to enhance try and enhance this project. This gave me a deeper look into the foundation of product testing and front end development. I was able to build skills to stronger testing, such as understanding our success metric and testing strategy before designing and following results that were statistically significant. I was also able to enhance my ReactJS experience. Prior to this project, I had worked lightly in React but with Starlies, I was given the opportunity to code entire features and experiment with Redux. In the end, my work on Starlies has increased an <strong>80% increase in weekly revenue</strong> and a <strong>150% increase in weekly retained first party users</strong>. 
+            </BodyText>
           <ViewMoreProjects UI />
         </ProjectPageWrapper>
       </PageTransition>

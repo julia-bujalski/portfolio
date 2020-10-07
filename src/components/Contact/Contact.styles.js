@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { BLACK, BodyText } from '../../theme';
+import { BLACK } from '../../theme';
 
 const CONTACT_TWO_COLUMN = `800px`;
 
@@ -73,12 +73,6 @@ export const ResumeWrapper = styled.div`
   @media only screen and (max-width: ${CONTACT_TWO_COLUMN}) {
     margin-left: 0px;
   }
-`;
-
-export const ResumeText = styled(BodyText)`
-  text-align: center;
-  font-size: 14px;
-  padding-bottom: 15px;
 `;
 
 export const ResumeLink = styled.a`

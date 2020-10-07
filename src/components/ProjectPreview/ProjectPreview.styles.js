@@ -26,6 +26,14 @@ export const PreviewWrapper = styled(Link)`
     transform: scale (1.3);
   }
 
+  @media only screen and (max-width: 850px) {
+    width: 48%;
+  }
+
+  @media only screen and (max-width: 850px) {
+    ${(props) => (props.placeholder ? `display: none` : null)};
+  }
+
   @media screen and (max-width: 620px) {
     margin: 15px;
   }
