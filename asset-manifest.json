@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.7fde6c2e.chunk.css",
-    "main.js": "/static/js/main.197862a0.chunk.js",
-    "main.js.map": "/static/js/main.197862a0.chunk.js.map",
+    "main.js": "/static/js/main.f4a43bf1.chunk.js",
+    "main.js.map": "/static/js/main.f4a43bf1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.69507427.chunk.css": "/static/css/2.69507427.chunk.css",
-    "static/js/2.e59f594a.chunk.js": "/static/js/2.e59f594a.chunk.js",
-    "static/js/2.e59f594a.chunk.js.map": "/static/js/2.e59f594a.chunk.js.map",
+    "static/js/2.a0849a64.chunk.js": "/static/js/2.a0849a64.chunk.js",
+    "static/js/2.a0849a64.chunk.js.map": "/static/js/2.a0849a64.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8097f61e4c95d05c1361a9b75f6d7d03.js": "/precache-manifest.8097f61e4c95d05c1361a9b75f6d7d03.js",
+    "precache-manifest.e7b87f853c78d92c165b555cd7501bb1.js": "/precache-manifest.e7b87f853c78d92c165b555cd7501bb1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69507427.chunk.css.map": "/static/css/2.69507427.chunk.css.map",
     "static/css/main.7fde6c2e.chunk.css.map": "/static/css/main.7fde6c2e.chunk.css.map",
-    "static/js/2.e59f594a.chunk.js.LICENSE.txt": "/static/js/2.e59f594a.chunk.js.LICENSE.txt",
+    "static/js/2.a0849a64.chunk.js.LICENSE.txt": "/static/js/2.a0849a64.chunk.js.LICENSE.txt",
     "static/media/about_photo.png": "/static/media/about_photo.9e3b1bea.png",
     "static/media/berkshire_project_logo.png": "/static/media/berkshire_project_logo.97fb8617.png",
     "static/media/booklets.png": "/static/media/booklets.5d565588.png",
+    "static/media/brand_brainstorm.png": "/static/media/brand_brainstorm.bb6c753a.png",
     "static/media/brockettfarm1.png": "/static/media/brockettfarm1.10d8b201.png",
     "static/media/brockettfarm2.png": "/static/media/brockettfarm2.eb5a4b61.png",
     "static/media/brockettfarm_watercolor.png": "/static/media/brockettfarm_watercolor.6b3e9b22.png",
@@ -37,6 +38,7 @@
     "static/media/email_variation.png": "/static/media/email_variation.a8d98818.png",
     "static/media/eye_lino.png": "/static/media/eye_lino.66170d21.png",
     "static/media/face_litho.png": "/static/media/face_litho.f0ee54e9.png",
+    "static/media/final_branding.png": "/static/media/final_branding.ee765dac.png",
     "static/media/floorplans_mockup.png": "/static/media/floorplans_mockup.9e829245.png",
     "static/media/gallerybook.png": "/static/media/gallerybook.a2422fce.png",
     "static/media/gallerybook_booklets.png": "/static/media/gallerybook_booklets.6cecd56a.png",
@@ -54,6 +56,7 @@
     "static/media/house3.png": "/static/media/house3.1bd62a02.png",
     "static/media/house_watercolor.png": "/static/media/house_watercolor.4c36d027.png",
     "static/media/landingpage.png": "/static/media/landingpage.84334143.png",
+    "static/media/logo_brainstorm.png": "/static/media/logo_brainstorm.9076c3c1.png",
     "static/media/logo_illustration.png": "/static/media/logo_illustration.4eb486ce.png",
     "static/media/logo_inspiration.png": "/static/media/logo_inspiration.1c378112.png",
     "static/media/logo_process.png": "/static/media/logo_process.a223382a.png",
@@ -113,8 +116,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.69507427.chunk.css",
-    "static/js/2.e59f594a.chunk.js",
+    "static/js/2.a0849a64.chunk.js",
     "static/css/main.7fde6c2e.chunk.css",
-    "static/js/main.197862a0.chunk.js"
+    "static/js/main.f4a43bf1.chunk.js"
   ]
 }
