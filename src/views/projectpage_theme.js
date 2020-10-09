@@ -165,3 +165,23 @@ export const FullSizedProjectImage = styled.img`
   width: 100%;
 `;
 
+export const Columns3 = `
+  width: 30%; 
+
+  @media only screen and (max-width: 768px) {
+    width: 45%;
+  }
+
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+`;
+
+export const Columns2 = `
+  width: 45%;
+
+  @media only screen and (max-width: ${MOBILE}) {
+    width: 100%;
+  }
+`;
+

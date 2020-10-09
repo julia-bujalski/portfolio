@@ -8,18 +8,18 @@ import {
   ProjectPageWrapper,
   ProjectTitleWrapper,
   PhotoRow,
-  ProjectImageB,
   ProjectSectionTitle,
   SubtitleText,
   MockupWrapper,
   ChallengeSolutionWrapper,
   JourneyText,
-  FullSizedProjectImage
+  Columns3,
 } from '../projectpage_theme.js';
 import QuickscopeArticleA from '../../assets/quickscope/quickscope_articleA.png';
 import QuickscopeArticleB from '../../assets/quickscope/quickscope_articleB.png';
 import QuickscopeFacebook from '../../assets/quickscope/quickscope_facebook.png';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
+import ImageZoom from '../../components/ImageZoom';
 import NewsletterMockUp from '../../assets/mockup.png';
 import { PhoneScrollMockUp } from '../../components/PhoneScrollMockUp';
 import ScreensMockup from '../../assets/quickscope/quickscope_screens_mockup.png';
@@ -75,7 +75,7 @@ export const Quickscope = () => {
                   Below, you'll see the process from previous newsletter, whiteboarding, to final mock ups. With this brainstorming and design, I focused greatly on text hierarchy and a clean, consistent color scheme. These design decisions were used to make the newsletter feel cohesive and more professional. We also added the category tags, such as "REVIEW" or "UPDATE", to increase the skimmability of the newsletter. This was a goal from users based on surveys and was something lacking in our old design. We also wanted to add a personalized aspect to the newsletter. We have writers in house creating these descriptions everyday and we want to make that known! To do this, we added a sign off section to connect deeper with the readers of Quickscope.
                 </BodyText>
               <PhotoRow backgroundColor={GreenBackground}>
-                <FullSizedProjectImage src={NewsletterProcess} />
+                <ImageZoom src={NewsletterProcess} />
               </PhotoRow>
               <BodyText>
                 The readers of quickscope are about 35% desktop and 75% mobile. The old design was addressed with a mobile first approach <i>but</i> was not that readable on desktop. Because of this, I prioritized responsivity when coding the new email design. These emails are sent using in house infastructure so I coded this using raw HTML. <a href="https://medium.com/@thequickscope/welcome-to-quickscope-2-0-f964d75009da" target="_blank" rel="noopener noreferrer">Click here to read more about the launch of the new newsletter and the collaboration that went into it.</a>
@@ -99,9 +99,9 @@ export const Quickscope = () => {
                 In addition to working on the newsletter, I've worked closely with the marketing team to create Facebook marketing campaigns to drive traffic to the site and continue to gain sign ups.
               </BodyText>
               <PhotoRow>
-                <ProjectImageB src={QuickscopeArticleA} />
-                <ProjectImageB src={QuickscopeArticleB} />
-                <ProjectImageB src={QuickscopeFacebook} />
+                <ImageZoom columns={Columns3} src={QuickscopeArticleA} />
+                <ImageZoom columns={Columns3} src={QuickscopeArticleB} />
+                <ImageZoom columns={Columns3} src={QuickscopeFacebook} />
               </PhotoRow>
             <ViewMoreProjects UI />
           </ProjectPageWrapper>

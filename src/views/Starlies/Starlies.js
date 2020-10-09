@@ -8,14 +8,14 @@ import {
   ProjectTitleWrapper,
   ProjectText,
   PhotoRow,
-  ProjectImageB,
-  ProjectImageC,
   ProjectSectionTitle,
   SubtitleText,
   MockupWrapper,
   ChallengeSolutionWrapper,
   JourneyText,
   ProjectImage,
+  Columns2,
+  Columns3,
 } from '../projectpage_theme.js';
 import { NavMockupImageLeft, NavMockupImageRight, ConfirmationFunnelWrapper } from './Starlies.styles.js';
 import CompatibilityCalculatorPromo from '../../assets/starlies/compcalc_promo.png';
@@ -34,6 +34,7 @@ import SignUpModal from '../../assets/starlies/signup_modal.png';
 
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import { PhoneScrollMockUp } from '../../components/PhoneScrollMockUp';
+import ImageZoom from '../../components/ImageZoom';
 
 const YellowBackground="#FFF7BF";
 
@@ -93,8 +94,8 @@ export const Starlies = () => {
               </BodyText>
             <MockupWrapper backgroundColor={YellowBackground}>
               <ConfirmationFunnelWrapper>
-                <ProjectImageB src={EmailControl} />
-                <ProjectImageB src={EmailVariation} />
+                <ImageZoom columns={Columns3} src={EmailControl} />
+                <ImageZoom columns={Columns3} src={EmailVariation} />
               </ConfirmationFunnelWrapper>
             </MockupWrapper>
             <BodyText>
@@ -105,8 +106,8 @@ export const Starlies = () => {
               At the time, Starlies was gaining most of it's visitors and sign ups through facebook campaigns that sent users to an <a href="https://www.starlies.com/#signup" target="_blank" rel="noopener noreferrer">immediate sign up wall</a>. The goal of this test was to understand how user behavior would change if we sent them to a <a href="https://www.starlies.com/signup" target="_blank" rel="noopener noreferrer">landing page</a>.
             </BodyText>
             <PhotoRow>
-              <ProjectImageC src={SignUpModal} />
-              <ProjectImageC src={LandingPage} />
+              <ImageZoom columns={Columns2} src={SignUpModal} />
+              <ImageZoom columns={Columns2} src={LandingPage} />
             </PhotoRow>
             <BodyText>
               The goal was to keep the language similar - the text in the modal is included in the landing page - but the landing page focuses on showcasing the value add of Starlies. Visually, I used the yellow as an accent color instead of a background color to let the text and product mock up draw the user in. This marketing test ran for a week and we used sign ups per ad clicks as the success metric. The landing page produced <strong>1.6% more sign ups</strong> and a <strong>$0.12 lower customer acquisition cost</strong>. 
@@ -160,9 +161,9 @@ export const Starlies = () => {
               These ads, among numerous others, were created when working with marketing analysts for both paid and unpaid social efforts. They were used to promote features, test out new content types like quotes, and targeting efforts.
             </BodyText>
             <PhotoRow>
-              <ProjectImageB src={CompatibilityCalculatorPromo} />
-              <ProjectImageB src={MoonQuote} />
-              <ProjectImageB src={SignSpecificAd} />
+              <ImageZoom columns={Columns3} src={CompatibilityCalculatorPromo} />
+              <ImageZoom columns={Columns3} src={MoonQuote} />
+              <ImageZoom columns={Columns3} src={SignSpecificAd} />
             </PhotoRow>
             <ProjectSectionTitle>Newsletter mockup</ProjectSectionTitle>
             <SubtitleText>Scroll through an edition of <strong>Starlies</strong></SubtitleText>

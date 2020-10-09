@@ -9,8 +9,9 @@ import {
   ProjectImage,
   ProjectSectionTitle,
   ChallengeSolutionWrapper,
-  ProjectImageB,
   PhotoRow,
+  Columns3,
+  SubtitleText,
 } from '../projectpage_theme.js';
 import WatercolorHouse from '../../assets/freelance/house_watercolor.png';
 import HouseThumbnail1 from '../../assets/freelance/house1.png';
@@ -23,6 +24,7 @@ import BrockettFarm2 from '../../assets/freelance/brockettfarm2.png';
 import ResumeMockup from '../../assets/freelance/resume_mockup.png';
 
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
+import ImageZoom from '../../components/ImageZoom';
 
 const PeriwinkleBackground = `#f0e4ff`;
 
@@ -49,23 +51,24 @@ export const Freelance = () => {
             </FeaturedWrapper>
           <ProjectPageWrapper>
             <ProjectSectionTitle>
-              Watercolor Real Estate
+              Watercolor real estate
             </ProjectSectionTitle>
+            <SubtitleText>Click image to zoom in</SubtitleText>
             <ChallengeSolutionWrapper>
             <BodyText>
               These pieces were created for a local real estate company. After completing a sale, these pieces were given as gifts to remember their home.
             </BodyText>
             </ChallengeSolutionWrapper>
-            <ProjectImage src={WatercolorHouse} />
+            <ImageZoom src={WatercolorHouse} />
             <PhotoRow>
-              <ProjectImageB src={HouseThumbnail1} />
-              <ProjectImageB src={HouseThumbnail3} />
-              <ProjectImageB src={HouseThumbnail2} />
+              <ImageZoom columns={Columns3} src={HouseThumbnail1} />
+              <ImageZoom columns={Columns3} src={HouseThumbnail3} />
+              <ImageZoom columns={Columns3} src={HouseThumbnail2} />
             </PhotoRow>
             <PhotoRow>
-              <ProjectImageB src={BrockettFarm1} />
-              <ProjectImageB src={BrockettFarmFull} />
-              <ProjectImageB src={BrockettFarm2} />
+              <ImageZoom columns={Columns3} src={BrockettFarm1} />
+              <ImageZoom columns={Columns3} src={BrockettFarmFull} />
+              <ImageZoom columns={Columns3} src={BrockettFarm2} />
             </PhotoRow>
             <ProjectSectionTitle>
               Digital Floorplans for Oak Creek Apartments

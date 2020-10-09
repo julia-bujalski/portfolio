@@ -5,20 +5,20 @@ import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import { PageHeadline, SectionTitle, BodyText, PageTransition } from '../../theme';
 import { PhoneScrollMockUp } from '../../components/PhoneScrollMockUp';
 import { LaptopScrollMockup } from '../../components/LaptopScrollMockup';
+import ImageZoom from '../../components/ImageZoom';
 import {
   FeaturedImage,
   FeaturedWrapper,
   ProjectPageWrapper,
   ProjectTitleWrapper,
   PhotoRow,
-  ProjectImageC,
   ProjectSectionTitle,
   SubtitleText,
   MockupWrapper,
   ChallengeSolutionWrapper,
   JourneyText,
   ProjectImage,
-  FullSizedProjectImage
+  Columns2
 } from '../projectpage_theme.js';
 import HausilyStyleGuide from '../../assets/hausily/hausily_styleguide.png';
 import HausilyStyleGuide2 from '../../assets/hausily/hausily_styleguide2.png';
@@ -69,13 +69,13 @@ export const Hausily = () => {
               With this project, I worked closely with the Hausily team to understand their needs of the logo and site before beginning. With their visuals, they wanted to stay on the profession side - Hausily is the corporate entity not the eventual homeowner product. They wanted a house as the icon to be very obvious and looked towards the Toast branding as inspiration. With these goals, I brainstormed home themes and visuals, tuning into works like habitat, household, abode, base, and house. With this process, I ended up pitching multiple logos to the team, check out part of my process below or <a href="https://drive.google.com/file/d/1OHyDLwyJL9qJt_5wI67z5-cAODO8Q4o3/view?usp=sharing" target="_blank" rel="noopener noreferrer">click here to view the final logo presentation given to the Hausily Team. <br /></a>
             </BodyText>
             <PhotoRow>
-              <FullSizedProjectImage src={LogoProcess} />
+              <ImageZoom src={LogoProcess} />
             </PhotoRow>
             <ProjectSectionTitle>Final Style Guide</ProjectSectionTitle>
             <MockupWrapper backgroundColor={BlueBackground}>
               <PhotoRow>
-                <ProjectImageC src={HausilyStyleGuide} />
-                <ProjectImageC src={HausilyStyleGuide2} />
+                <ImageZoom columns={Columns2} src={HausilyStyleGuide} />
+                <ImageZoom columns={Columns2} src={HausilyStyleGuide2} />
               </PhotoRow>
             </MockupWrapper>
             <ProjectSectionTitle>Site Design Process</ProjectSectionTitle>

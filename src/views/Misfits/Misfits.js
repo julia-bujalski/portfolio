@@ -5,7 +5,8 @@ import {
   PhotoRow,
   ProjectSectionTitle,
   ProjectPageWrapper,
-  SubtitleText
+  SubtitleText,
+  Columns3
 } from '../projectpage_theme.js';
 import ScribblesFramed from '../../assets/scribbles_framed.png';
 import EyeStretch from '../../assets/misfits/eye_lino.png';
@@ -102,22 +103,22 @@ export const Misfits = () => {
               <ProjectSectionTitle>Logos</ProjectSectionTitle>
                 <SubtitleText>Select a logo to zoom in</SubtitleText>
               <PhotoRow>
-                <ImageZoom src="https://media.git.cogolo.net/user/430/files/25433e80-beb6-11e9-9855-08af6f18e344" />
-                <ImageZoom src="https://media.git.cogolo.net/user/430/files/1dc44880-b2ad-11e9-968e-09c766284392" />
-                <ImageZoom src="https://media.git.cogolo.net/user/430/files/b412721c-6eed-11e8-8b96-d78bd63adc14" />
-                <ImageZoom src={BerkshireProject} />
+                <ImageZoom columns={Columns3} src="https://media.git.cogolo.net/user/430/files/25433e80-beb6-11e9-9855-08af6f18e344" />
+                <ImageZoom columns={Columns3} src="https://media.git.cogolo.net/user/430/files/1dc44880-b2ad-11e9-968e-09c766284392" />
+                <ImageZoom columns={Columns3} src="https://media.git.cogolo.net/user/430/files/b412721c-6eed-11e8-8b96-d78bd63adc14" />
+                <ImageZoom columns={Columns3} src={BerkshireProject} />
               </PhotoRow>
               <ProjectSectionTitle>Studio pieces</ProjectSectionTitle>
               <SubtitleText>Select a piece to zoom in</SubtitleText>
               <PhotoRow>
-                <ImageZoom src={ScribblesFramed} />
-                <ImageZoom src={HandFeetLino} />
-                <ImageZoom src={EyeStretch} />
+                <ImageZoom columns={Columns3} src={ScribblesFramed} />
+                <ImageZoom columns={Columns3} src={HandFeetLino} />
+                <ImageZoom columns={Columns3} src={EyeStretch} />
               </PhotoRow>
               <PhotoRow>
-                <ImageZoom src={FaceLitho} />
-                <ImageZoom src={HandWoodcut} />
-                <ImageZoom src={PurpleSquish} />
+                <ImageZoom columns={Columns3} src={FaceLitho} />
+                <ImageZoom columns={Columns3} src={HandWoodcut} />
+                <ImageZoom columns={Columns3} src={PurpleSquish} />
               </PhotoRow>
             </ProjectPageWrapper>
           </PageTransition>

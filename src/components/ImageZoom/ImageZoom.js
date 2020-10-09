@@ -10,13 +10,20 @@ const ImagePreview = styled.img`
   height: 100%;
   margin-bottom: 25px;
   max-height: 80vh;
+  object-position: center;
+`;
+
+const Test = styled.div`
+  ${(props) => (props.columns) || `width: 100%`};
 `;
 
 export const ImageZoom = (props) => {
   return (
-    <Zoom>
-      <ImagePreview src={props.src} />
-    </Zoom>
+    <Test columns={props.columns}>
+      <Zoom>
+        <ImagePreview src={props.src} />
+      </Zoom>
+    </Test>
   )
 }
 

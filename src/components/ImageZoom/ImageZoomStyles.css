@@ -3,23 +3,9 @@
   position: relative;
   display: inline-flex;
   align-items: flex-start;
-  width: 30%;
 }
 [data-rmiz-wrap="hidden"] {
   visibility: hidden;
-  width: 30%;
-}
-
-@media only screen and (max-width: 768px) {
-  [data-rmiz-wrap="visible"] {
-    width: 45%;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  [data-rmiz-wrap="visible"] {
-    width: 100%;
-  }
 }
 
 [data-rmiz-overlay] {

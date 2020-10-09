@@ -13,7 +13,8 @@ import {
   ChallengeSolutionWrapper,
   JourneyText,
   FullSizedProjectImage,
-  SubtitleText
+  SubtitleText,
+  Columns3,
 } from '../projectpage_theme.js';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import ImageZoom from '../../components/ImageZoom';
@@ -110,16 +111,16 @@ export const Spectra = () => {
               <ProjectSectionTitle>Recruiting materials </ProjectSectionTitle>
               <SubtitleText>Click image to zoom in</SubtitleText>
               <PhotoRow>
-                <ImageZoom src={Product1} />
-                <ImageZoom src={Product2} />
-                <ImageZoom src={Product3} />
+                <ImageZoom columns={Columns3} src={Product1} />
+                <ImageZoom columns={Columns3} src={Product2} />
+                <ImageZoom columns={Columns3} src={Product3} />
               </PhotoRow>
               <ProjectSectionTitle>Additional marketing materials</ProjectSectionTitle>
               <SubtitleText>Click image to zoom in</SubtitleText>
               <PhotoRow>
-                <ImageZoom src={DonationGraphic} />
-                <ImageZoom src={NetworkingGraphic} />
-                <ImageZoom src={SpectraHat} />
+                <ImageZoom columns={Columns3} src={DonationGraphic} />
+                <ImageZoom columns={Columns3} src={NetworkingGraphic} />
+                <ImageZoom columns={Columns3} src={SpectraHat} />
               </PhotoRow>
             <ViewMoreProjects />
           </ProjectPageWrapper>

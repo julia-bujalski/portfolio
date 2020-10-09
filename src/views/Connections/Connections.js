@@ -9,6 +9,7 @@ import {
   ProjectText,
   PhotoRow,
   ProjectSectionTitle,
+  Columns3
 } from '../projectpage_theme.js';
 import ConnectionsFeaturedImage from '../../assets/connections/sharpie_watercolor.png';
 import SharpieFace from '../../assets/connections/sharpie_face.png';
@@ -44,9 +45,9 @@ export const Connections = () => {
             <ProjectPageWrapper>
             <ProjectSectionTitle>Illustrations</ProjectSectionTitle>
             <PhotoRow style={{paddingTop: `35px`}}>
-              <ImageZoom src={ConnectionsFeaturedImage} />
-              <ImageZoom src={SharpieFace} />
-              <ImageZoom src={ConnectionsB} />
+              <ImageZoom columns={Columns3} src={ConnectionsFeaturedImage} />
+              <ImageZoom columns={Columns3} src={SharpieFace} />
+              <ImageZoom columns={Columns3} src={ConnectionsB} />
             </PhotoRow>
             <ViewMoreProjects />
           </ProjectPageWrapper>
