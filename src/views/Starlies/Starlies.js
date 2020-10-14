@@ -101,7 +101,7 @@ export const Starlies = () => {
             <BodyText>
               We used the confirmation rate as our success metric and closely monitored week 0 to week 1 user retention for any obscure drops or changes. I design and coded this email sa well as worked closely with analysts in the set up and monitoring of this test. <strong>In the end, the variation leg had an 8% higher confirmation rate</strong> showing how small design changes and email code changes can have a large impact in user behvaior and email deliverability. 
             </BodyText>
-            <ProjectSectionTitle>Sign up flow testing</ProjectSectionTitle>
+            <ProjectSectionTitle id="landing-page">Sign up flow testing</ProjectSectionTitle>
             <BodyText>
               At the time, Starlies was gaining most of it's visitors and sign ups through facebook campaigns that sent users to an <a href="https://www.starlies.com/#signup" target="_blank" rel="noopener noreferrer">immediate sign up wall</a>. The goal of this test was to understand how user behavior would change if we sent them to a <a href="https://www.starlies.com/signup" target="_blank" rel="noopener noreferrer">landing page</a>.
             </BodyText>
