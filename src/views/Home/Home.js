@@ -13,6 +13,7 @@ import IntrospectionThumbnail from '../../assets/introspection/gallerybook_bookl
 import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.png';
 import MinervaThumbnail from '../../assets/minerva/thumbnail_mockup.png';
 import FreelanceThumbnail from '../../assets/freelance/house_watercolor.png';
+import WatercolorThumbnail from '../../assets/watercolor/watercolor_product.png';
 
 import { ProjectsGrid, FurtherWorkLink } from './Home.styles';
 import {
@@ -34,15 +35,9 @@ export const FeaturedWork = (props) => {
             medium="Branding & UI/UX design"
           />
         <ProjectPreview 
-          projectPath="/spectra"
-          thumbnail={Product2}
-          title="Cogo Spectra"
-          medium="Branding & print design"
-        />
-        <ProjectPreview 
-          projectPath="/connections"
-          thumbnail={ConnectionsThumbnail}
-          title="Connections"
+          projectPath="/watercolor"
+          thumbnail={WatercolorThumbnail}
+          title="Watercolor"
           medium="Watercolor & illustration"
         />
         <ProjectPreview 
@@ -52,16 +47,22 @@ export const FeaturedWork = (props) => {
           medium="Email design & front end development"
         />
         <ProjectPreview 
-          projectPath="/introspection"
-          thumbnail={IntrospectionThumbnail}
-          title="Introspection"
-          medium="Mixed media typographic sculpture"
+          projectPath="/spectra"
+          thumbnail={Product2}
+          title="Cogo Spectra"
+          medium="Branding & print design"
         />
         <ProjectPreview 
           projectPath="/starlies"
           thumbnail={StarliesThumbnail}
           title="Starlies"
           medium="Product, marketing, & UX design"
+        />
+        <ProjectPreview 
+          projectPath="/introspection"
+          thumbnail={IntrospectionThumbnail}
+          title="Introspection"
+          medium="Mixed media typographic sculpture"
         />
         <ProjectPreview 
           projectPath="/backthenhistory"
