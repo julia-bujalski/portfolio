@@ -14,6 +14,9 @@ import {
 import ConnectionsFeaturedImage from '../../assets/connections/sharpie_watercolor.png';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import WatercolorFeatured from '../../assets/watercolor/watercolor_product.png';
+import FlowersSparkles from '../../assets/watercolor/flowers_sparkles.png';
+import FlowersLine from '../../assets/watercolor/flowers_line.png';
+import FruitPrints from '../../assets/watercolor/multiple_fruits.png';
 import PlantsFramed from '../../assets/watercolor/plants_framed.png';
 import AbstractFramed from '../../assets/watercolor/abstract_framed.png';
 import PomegranateFramed from '../../assets/watercolor/pomegranate_framed.png';
@@ -38,14 +41,19 @@ export const Connections = () => {
                 <BodyText>Personal project</BodyText>
                 <ProjectText>
                   <BodyText>
-                    While in quarantine, I began using watercolor and pen to explor connections with people, nature, and the world around me. These aim to be expressive, simple pieces the evoke motion and joy.
+                    While in quarantine, I began using watercolor and pen to explor connections with people, nature, and the world around me. These aim to be expressive, simple pieces the evoke motion and joy. <a href="https://www.etsy.com/shop/juliabujdesigns" target="_blank">Check out my etsy shop!</a>
                   </BodyText>
                 </ProjectText>
               </ProjectTitleWrapper>
               <FeaturedImage src={WatercolorFeatured} />
             </FeaturedWrapper>
             <ProjectPageWrapper>
-            <PhotoRow style={{paddingTop: `55px`}}>
+            <PhotoRow style={{paddingTop: `85px`}}>
+              <ImageZoom columns={Columns3} src={FlowersSparkles} />
+              <ImageZoom columns={Columns3} src={FruitPrints} />
+              <ImageZoom columns={Columns3} src={FlowersLine} />
+            </PhotoRow>
+            <PhotoRow>
               <ImageZoom columns={Columns3} src={PomegranateFramed} />
               <ImageZoom columns={Columns3} src={PlantsFramed} />
               <ImageZoom columns={Columns3} src={AbstractFramed} />

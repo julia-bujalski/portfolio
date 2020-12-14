@@ -7,6 +7,7 @@ import MinervaScreens from '../../assets/minerva/screens_mockup.png';
 import SpectraProduct from '../../assets/spectra/product3.png';
 import Squish from '../../assets/squish_noframe.png';
 import HouseWatercolor from '../../assets/freelance/house_watercolor.png';
+import FruitPrints from '../../assets/watercolor/multiple_fruits.png';
 import { 
   SlideshowImage,
   HeroWrapper,
@@ -42,6 +43,12 @@ export const HeroSlideshow = () => {
           <div className="each-slide" key="2">
             <SlideshowImage className="lazy" src={MinervaScreens} alt="Minerva site screen design" />
           </div>
+          <div className="each-slide" key="1">
+            <SlideshowImage className="lazy" src={FruitPrints} alt="Framed watercolor painting of a house" />
+          </div>
+          <div className="each-slide" key="2">
+            <SlideshowImage className="lazy" src={HausilyScreens} alt="Hausily site screen design" />
+          </div>
           <div className="each-slide" key="0">
             <SlideshowImage className="lazy" src={SharpieWatercolor} alt="Sharpie and watercolor illustration" />
           </div>
@@ -50,9 +57,6 @@ export const HeroSlideshow = () => {
           </div>
           <div className="each-slide" key="1">
             <SlideshowImage className="lazy" src={Squish} alt="Digital face painting" />
-          </div>
-          <div className="each-slide" key="2">
-            <SlideshowImage className="lazy" src={HausilyScreens} alt="Hausily site screen design" />
           </div>
           <div className="each-slide" key="1">
             <SlideshowImage className="lazy" src={HouseWatercolor} alt="Framed watercolor painting of a house" />

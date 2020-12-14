@@ -14,6 +14,7 @@ import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.pn
 import MinervaThumbnail from '../../assets/minerva/thumbnail_mockup.png';
 import FreelanceThumbnail from '../../assets/freelance/house_watercolor.png';
 import WatercolorThumbnail from '../../assets/watercolor/watercolor_product.png';
+import DirtymouthThumbnail from '../../assets/dirtymouth/dirtymouth_laptop_mockup.png';
 
 import { ProjectsGrid, FurtherWorkLink } from './Home.styles';
 import {
@@ -41,10 +42,10 @@ export const FeaturedWork = (props) => {
           medium="Watercolor & illustration"
         />
         <ProjectPreview 
-          projectPath="/quickscope"
-          thumbnail={QuickscopeThumbnail}
-          title="Quickscocpe"
-          medium="Email design & front end development"
+          projectPath="/dirtymouth"
+          thumbnail={DirtymouthThumbnail}
+          title="Dirtymouth"
+          medium="Branding & UI Design"
         />
         <ProjectPreview 
           projectPath="/spectra"
@@ -71,10 +72,10 @@ export const FeaturedWork = (props) => {
           medium="Branding, site, marketing, & email design"
         />
         <ProjectPreview 
-          projectPath="/freelance"
-          thumbnail={FreelanceThumbnail}
-          title="Freelance Work"
-          medium="Mixed medium"
+          projectPath="/quickscope"
+          thumbnail={QuickscopeThumbnail}
+          title="Quickscocpe"
+          medium="Email design & front end development"
         />
         <ProjectPreview 
           projectPath="/minerva"

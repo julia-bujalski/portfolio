@@ -15,6 +15,7 @@ import BackThenHistory from './views/BackThenHistory';
 import Minerva from './views/Minerva';
 import Freelance from './views/Freelance';
 import Watercolor from './views/Watercolor';
+import Dirtymouth from './views/Dirtymouth';
 
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -36,6 +37,7 @@ function App() {
         <Route exact path="/freelance" component={Freelance} />
         <Route exact path="/watercolor" component={Watercolor} />
         <Route exact path="/allwork" component={Misfits} />
+        <Route exact path="/dirtymouth" component={Dirtymouth} />
         <Route path="/" component={Home} />
       </Switch>
       <Footer />

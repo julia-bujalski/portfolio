@@ -26,6 +26,8 @@ import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import { ProjectsGrid } from '../Home/Home.styles';
 import Product2 from '../../assets/spectra/product2.png';
 import IntrospectionThumbnail from '../../assets/introspection/gallerybook_booklets.png';
+import WatercolorThumbnail from '../../assets/watercolor/watercolor_product.png';
+import DirtymouthThumbnail from '../../assets/dirtymouth/dirtymouth_laptop_mockup.png';
 
 export const Misfits = () => {
   useEffect(() => {
@@ -49,6 +51,12 @@ export const Misfits = () => {
                 UI/UX Projects
               </ProjectSectionTitle>
               <ProjectsGrid>
+              <ProjectPreview 
+                  projectPath="/dirtymouth"
+                  thumbnail={DirtymouthThumbnail}
+                  title="Dirtymouth"
+                  medium="Branding & UI design"
+                />
                 <ProjectPreview 
                   projectPath="/hausily"
                   thumbnail={HausilyThumbnail}
@@ -87,6 +95,12 @@ export const Misfits = () => {
               <ProjectSectionTitle>Print Design</ProjectSectionTitle>
               <ProjectsGrid>
                 <ProjectPreview 
+                  projectPath="/watercolor"
+                  thumbnail={WatercolorThumbnail}
+                  title="Watercolor"
+                  medium="Watercolor & illustration"
+                />
+                <ProjectPreview 
                   projectPath="/spectra"
                   thumbnail={Product2}
                   title="Cogo Spectra"
@@ -98,7 +112,6 @@ export const Misfits = () => {
                   title="Introspection"
                   medium="Mixed media typographic sculpture"
                 />
-                <ProjectPreview placeholder />
               </ProjectsGrid>
               <ProjectSectionTitle>Logos</ProjectSectionTitle>
                 <SubtitleText>Select a logo to zoom in</SubtitleText>
