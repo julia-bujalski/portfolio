@@ -9,15 +9,12 @@ import {
   ProjectText,
   PhotoRow,
   ProjectSectionTitle,
-  Columns3,
   ChallengeSolutionWrapper,
   JourneyText,
   MockupWrapper
 } from '../projectpage_theme.js';
 import LaptopMockup from '../../assets/dirtymouth/dirtymouth_laptop_mockup.png';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
-import ConnectionsA from '../../assets/connections/sharpie_watercolor2.png';
-import ConnectionsB from '../../assets/connections/sharpie_watercolor3.png';
 import OldDesign from '../../assets/dirtymouth/old_site.png';
 import Moodboard from '../../assets/dirtymouth/moodboard.png';
 import StyleGuide from '../../assets/dirtymouth/styleguide.png';
@@ -25,6 +22,8 @@ import HomepageMockup from '../../assets/dirtymouth/homepage_mockup.png';
 
 import ImageZoom from '../../components/ImageZoom';
 import { LaptopScrollMockup } from '../../components/LaptopScrollMockup';
+
+const GreenBackground = `#F8FFCC`;
 
 export const Connections = () => {
   useEffect(() => {
@@ -37,14 +36,14 @@ export const Connections = () => {
       {(state) => {
         return (
           <PageTransition state={state}>
-            <FeaturedWrapper>
+            <FeaturedWrapper backgroundColor={GreenBackground}>
               <ProjectTitleWrapper>
                 <SectionTitle>Branding & UI design</SectionTitle>
                 <PageHeadline>Dirtymouth</PageHeadline>
                 <BodyText>Freelance project</BodyText>
                 <ProjectText>
                   <BodyText>
-                    Dirtymouth is a collegiate, saterical apparel brand created by a friend of mine. He reached out to me when they were expanding from Dartmouth based apparel to all college apparel in hopes to revamp their branding and site. <a href="https://dirtymouthapparel.com/">Click here</a> to check out their live shopify site.
+                    Dirtymouth is a collegiate, saterical apparel brand created by a friend of mine. He reached out to me when they were expanding from Dartmouth based apparel to all college apparel in hopes to revamp their branding and site. <a href="https://dirtymouthapparel.com/" rel="noopener noreferrer">Click here</a> to check out their live shopify site.
                   </BodyText>
                 </ProjectText>
               </ProjectTitleWrapper>
@@ -98,9 +97,9 @@ export const Connections = () => {
               Site design
             </ProjectSectionTitle>
             <BodyText>
-              This site is hosted using shopify so there are some developmental limitations when designing the site. When pitching this art direction and branding, I included a proof of concept for the landing page to demonstrate how this branding would translate to their site. These key concepts were noted <strong>bold neons, Old English font as a pattern to match the logo, charcoal gray to show depth and a strong neutral, collage graphics for an edge streetwear feel, and a subtle monospace font to contribute to that edge</strong>. <a href="https://dirtymouthapparel.com/" target="_blank">Check out the live site</a> to see how this translated to their shopify site.
+              This site is hosted using shopify so there are some developmental limitations when designing the site. When pitching this art direction and branding, I included a proof of concept for the landing page to demonstrate how this branding would translate to their site. These key concepts were noted <strong>bold neons, Old English font as a pattern to match the logo, charcoal gray to show depth and a strong neutral, collage graphics for an edge streetwear feel, and a subtle monospace font to contribute to that edge</strong>. <a href="https://dirtymouthapparel.com/" target="_blank" rel="noopener noreferrer">Check out the live site</a> to see how this translated to their shopify site.
             </BodyText>
-            <MockupWrapper>
+            <MockupWrapper backgroundColor={GreenBackground}>
               <PhotoRow>
                 <LaptopScrollMockup row mockup={HomepageMockup} />
               </PhotoRow>

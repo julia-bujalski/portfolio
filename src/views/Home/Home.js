@@ -10,9 +10,7 @@ import QuickscopeThumbnail from '../../assets/quickscope/quickscope_mockup.png';
 import BackThenHistoryThumbnail from '../../assets/bth/bth.png';
 import Product2 from '../../assets/spectra/product2.png';
 import IntrospectionThumbnail from '../../assets/introspection/gallerybook_booklets.png';
-import ConnectionsThumbnail from '../../assets/connections/sharpie_watercolor.png';
 import MinervaThumbnail from '../../assets/minerva/thumbnail_mockup.png';
-import FreelanceThumbnail from '../../assets/freelance/house_watercolor.png';
 import WatercolorThumbnail from '../../assets/watercolor/watercolor_product.png';
 import DirtymouthThumbnail from '../../assets/dirtymouth/dirtymouth_laptop_mockup.png';
 

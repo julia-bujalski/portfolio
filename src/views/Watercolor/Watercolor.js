@@ -8,10 +8,8 @@ import {
   ProjectTitleWrapper,
   ProjectText,
   PhotoRow,
-  ProjectSectionTitle,
   Columns3
 } from '../projectpage_theme.js';
-import ConnectionsFeaturedImage from '../../assets/connections/sharpie_watercolor.png';
 import { ViewMoreProjects } from '../../components/ViewMoreProjects';
 import WatercolorFeatured from '../../assets/watercolor/watercolor_product.png';
 import FlowersSparkles from '../../assets/watercolor/flowers_sparkles.png';
@@ -22,6 +20,8 @@ import AbstractFramed from '../../assets/watercolor/abstract_framed.png';
 import PomegranateFramed from '../../assets/watercolor/pomegranate_framed.png';
 
 import ImageZoom from '../../components/ImageZoom';
+
+const PinkBackground = `#fcecf1`;
 
 export const Connections = () => {
   useEffect(() => {
@@ -34,14 +34,14 @@ export const Connections = () => {
       {(state) => {
         return (
           <PageTransition state={state}>
-            <FeaturedWrapper>
+            <FeaturedWrapper backgroundColor={PinkBackground}>
               <ProjectTitleWrapper>
                 <SectionTitle>Illustration</SectionTitle>
                 <PageHeadline>Watercolor</PageHeadline>
                 <BodyText>Personal project</BodyText>
                 <ProjectText>
                   <BodyText>
-                    While in quarantine, I began using watercolor and pen to explor connections with people, nature, and the world around me. These aim to be expressive, simple pieces the evoke motion and joy. <a href="https://www.etsy.com/shop/juliabujdesigns" target="_blank">Check out my etsy shop!</a>
+                    While in quarantine, I began using watercolor and pen to explor connections with people, nature, and the world around me. These aim to be expressive, simple pieces the evoke motion and joy. <a href="https://www.etsy.com/shop/juliabujdesigns" target="_blank" rel="noopener noreferrer">Check out my etsy shop!</a>
                   </BodyText>
                 </ProjectText>
               </ProjectTitleWrapper>
